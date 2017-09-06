@@ -178,6 +178,18 @@ Has nothing to do with Perl. Rather, with George Perlin and Perlin noise. A coup
 Some experimentation with my fun new model of movement. Terminal velocity isn't directly enforced, but a drag coefficient is - acceleration due to gravity is constant, but the velocity decays exponentially, making it naturally reach a limit/peter out.
 ## [kaleidoscope](https://github.com/elterminad0r/kaleidoscope)
 Kaleidoscope-inspired pretty processing thing. Shapes are not allowed to collide. Generates sides using arctangent interpolation, and does a nice rolling effect to both save framerate and show off Python generators to all the java-processers.
+
+Here is a screenshot of the rolling setup in progress:
+
+![screenshot](https://github.com/elterminad0r/kaleidoscope/blob/master/partial.png)
+
+And here is a finished kaleidoscope:
+
+![screenshot](https://github.com/elterminad0r/kaleidoscope/blob/master/full.png)
+
+And here is a larger kaleidoscope which is easier to see:
+
+![screenshot](https://github.com/elterminad0r/kaleidoscope/blob/master/big.png)
 ## [lightning](https://github.com/elterminad0r/lightning)
 Attempt at simulating a lightning-like figure (Lichtenberg figure). Works by keeping a field of potential electrons and randomly expanding into one.
 ## [bfs\_koch](https://github.com/elterminad0r/bfs_koch)
@@ -196,6 +208,8 @@ Here are some screenshots:
 ![Screenshot](https://github.com/elterminad0r/rubiks_cube/blob/master/solved_ss.png "Solved state")
 ![Screenshot](https://github.com/elterminad0r/rubiks_cube/blob/master/scrambled_ss.png "Scrambled state")
 ## [ship\_game](https://github.com/elterminad0r/ship_game)
-One of the earlier Python-processing projects. A ship using drag coefficients, and a half-baked autopilot. Pretty options for exhaust fumes are available.
+One of the earlier Python-processing projects. A ship using drag coefficients, and a half-baked autopilot. It has features for random walking using Perlin noise, and for trying to get to a destination (the mouse). Pretty options for exhaust fumes are available. Here is a sample screenshot, using confetti exhaust, with the help of the perlin autopilot:
+
+![screenshot](https://github.com/elterminad0r/ship_game/blob/master/screenshot.png)
 ## [wind\_fans](https://github.com/elterminad0r/wind_fans)
 Simulates nutella-style turbines being blown by the mouse. Can be a little intensive.
