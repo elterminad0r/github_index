@@ -127,8 +127,27 @@ Both of these were narrowly obtained before my laptop melted
 # Mandelbrot and julia sets
 ## [julia](https://github.com/elterminad0r/julia)
 Julia set visualisation next to mandelbrot set, illustrating what a julia set is (kind of) and more so its correspondance with the mandelbrot set.
+
+As a Julia set takes a complex number as input, the mouse coordinates can serve as input. When this is put together with the mandelbrot set, something interesting happens.. You can easily find "interesting" Julia sets - move the mouse along the border of the Mandelbrot set.
+
+Here are just a couple of examples:
+
+![screenshot](https://github.com/elterminad0r/julia/blob/master/screenshots/julia1.png)
+![screenshot](https://github.com/elterminad0r/julia/blob/master/screenshots/julia2.png)
+![screenshot](https://github.com/elterminad0r/julia/blob/master/screenshots/julia3.png)
+![screenshot](https://github.com/elterminad0r/julia/blob/master/screenshots/julia4.png)
 ## [mandelbrot](https://github.com/elterminad0r/mandelbrot)
-Mandelbrot explorer in java-processing. Not very OO. Written when I wasn't very accustomed to java or processing, but works well enough. It can be a little intensive if not approached carefully.
+This is a program in java-processing that renders the mandelbrot set. This set is defined as the set of the complex numbers, c such that there is no divergence when 0 is iterated under f(z) = z^2 + c The program works by simply iterating and observing if this number becomes large.  The speed of divergence is then used to give colourings.  The parameters kept track of are - x, y, scale, iteration cap, multibrot value (alternative exponent for z), width and height. See [usage.md](https://github.com/elterminad0r/mandelbrot/blob/master/usage.md) for info about the usage of the sketch.
+
+It supports some mildly sophisticated serialisation - in string format. Any rendering can be described in a couple of terms (x, y, scale, width height, multibrot) which can be quite compactly encoded. This is then stored as the **filename** of any image you save from the sketch. What a stroke of genius.
+
+Here are three randomly chosen screenshots from my travels:
+
+![screenshot](https://github.com/elterminad0r/mandelbrot/blob/master/screenshots/mandel1.png)
+![screenshot](https://github.com/elterminad0r/mandelbrot/blob/master/screenshots/mandel2.png)
+![screenshot](https://github.com/elterminad0r/mandelbrot/blob/master/screenshots/mandel3.png)
+
+[Here](https://drive.google.com/drive/folders/0B3EHq-o9udUMQ2pyZlJKQWZlcDA?usp=sharing) is my full collection of higher quality serialisations for ayone interested.
 # Python-processing projects
 ## [asteroids](https://github.com/elterminad0r/asteroids)
 Asteroids orbiting a planet in 3d processing. Again, familiarisation. The asteroids are, of course, rainbow-coloured.
