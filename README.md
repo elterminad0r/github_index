@@ -91,13 +91,23 @@ Custom turtle implementation in Processing, used to have multiple turtles follow
 A kind of inefficient zooming sierpinski triangle
 ## Implementations of games in Processing
 ### [platformer](https://github.com/elterminad0r/platformer)
-An extremely bare-bones platformer in processing - both in content and implementation.
+An extremely bare-bones platformer in processing - both in content and implementation. Its collision detection, after much work, seems to be pretty flawless. It should be relatively easy to add more platorms. Here is what it looks like - be warned that I'm a prolific graphic designer:
+
+![screenshot](https://github.com/elterminad0r/platformer/blob/master/screenshot.png)
+
+The upright rectangle is the protagonist, and the sideways rectangles are platforms. If Thomas was alone can do it, so can I.
 ### [snake](https://github.com/elterminad0r/snake)
-The game Snake in Processing. Not a particularly clear implementation.
+The game Snake in Processing. Not a particularly clear implementation. The snake is rainbow coloured. There is a known bug with the score-text, but I'm not feeling motivated enough to fix it. It also features some very well hidden cheat codes. It looks like this:
+
+![screenshot](https://github.com/elterminad0r/snake/blob/master/screenshot.png)
 ### [spaceinvaders](https://github.com/elterminad0r/spaceinvaders)
-Kind of old implementation of Space Invaders I did in processing. It serves as a great showcase of my mastery of graphic design.
+Kind of old implementation of Space Invaders I did in processing. It serves as a great showcase of my mastery of graphic design. In fact, I'm starting to worry I've peaked too early in my career:
+
+![screenshot](https://github.com/elterminad0r/spaceinvaders/blob/master/screenshot.png)
 ### [tetris](https://github.com/elterminad0r/tetris)
-Old implementation of Tetris in processing.
+Old implementation of Tetris in processing. At last, a game with graphics I can understand. The pieces and their rotations are all hardcoded. This suffers from the same bug as my snake game. Here's my attempt at playing it while taking a screenshot:
+
+![screenshot](https://github.com/elterminad0r/tetris/blob/master/screenshot.png)
 ## projects on "chaos" demonstrations
 ### [sierp\_demo](https://github.com/elterminad0r/sierp_demo)
 processing implementation of the "chaos game", with a couple of interactive features
@@ -117,6 +127,23 @@ A program to interactively explore the moire interference effect on grids, using
     use i to serialise with image and postscript file - this hasn't been tested much, use at own risk
 
 note that a very large portion of the code for this sketch is .java. This is because this allows me to circumvent all of Processing's preprocessing, and I can use more of Java pure OOP functionality like static fields and methods
+
+It is probably one of the best things I've written. It's very flexible in what you can do, in terms of moving and resizing, overlaying different grids, removing bits of UI, finer precision with keyboard, etc. Most constants are entirely customizable (see the two constants pages). Here I've pulled the full list of all the grids it supports:
+
+      new SquareGrid(), 
+      new ConcentricGrid(), 
+      new TriangleRadial(), 
+      new HexagonalGrid(), 
+      new TriangleGrid(), 
+      new StarGrid(), 
+      new OctGrid(), 
+      new SquareStarGrid(), 
+      new SquareOffsetGrid(), 
+      new CrossGrid(), 
+      new CircleGrid(), 
+      new CircleStarGrid(), 
+      new LineGrid(), 
+      new RadialGrid()
 
 Here are some screenshots of what you might begin to do with it, with the "UI" preserved:
 
