@@ -2,7 +2,7 @@
 A bit of a meta-project on creating a nicer index of my github repositories. Partially motivated because I'm too greedy to do with only 6 pinned repositories. It's just about stable enough to function. It features several sub-utilities I chain together, including directory-searching and API-json reading. It files my projects under subcategories, and concatenates together readmes under a category heading.
 ## My Postscript Repository
 ### [Postscript](https://github.com/elterminad0r/Postscript)
-Some of my postscript projects - some early, some less so. `zut` means pile of rubbish. There's lots to do with polysymmetry and fractals, and then some other stuff. A pretty small sample:
+Some of my postscript projects - some early, some less so. `zut` means pile of rubbish. There's lots to do with polysymmetry and fractals, and then some other stuff. Here are a couple of my favourites:
 
 ![screenshot](https://github.com/elterminad0r/Postscript/blob/master/svgs/penrose.svg)
 ![screenshot](https://github.com/elterminad0r/Postscript/blob/master/svgs/ster.svg)
@@ -33,8 +33,18 @@ A work in progress - hoping to end up building a kind of nice yahtzee framework 
 ### [backtobasics](https://github.com/elterminad0r/backtobasics)
 Some Python basics should any of my one audience members wish to refer to them.
 ## java-processing projects
+### [alphabet](https://github.com/elterminad0r/alphabet)
+Shading the screen using letters of the alphabet in Processing. All printable ascii keys on the keyboard are accessible from the keyboard. Some special keys (space, enter) are used for acceleration. ASCII value scales with the x value. Here are some screenshots:
+
+![screenshot](https://github.com/elterminad0r/alphabet/blob/master/screenshots/alph1.png)
+
+And after a couple of years of typing:
+
+![screenshot](https://github.com/elterminad0r/alphabet/blob/master/screenshots/alph2.png)
 ### [balls](https://github.com/elterminad0r/balls)
-Simple, slightly buggy implementation of balls that can bounce off both each other and walls.
+Simple, slightly buggy implementation of balls that can bounce off both each other and walls. It ends up looking pretty dynamic. It uses an equation for circle collision from wikipedia. The problem is that sometimes a ball will clip into another ball and start a weird orbit/mating dance. Especially happens when there's disparity between ball radii. It looks like this:
+
+![screenshot](https://github.com/elterminad0r/balls/blob/master/screenshot.png)
 ### [cars](https://github.com/elterminad0r/cars)
 Early experimenting in OOP in java-processing
 ### [circles](https://github.com/elterminad0r/circles)
@@ -46,7 +56,11 @@ Conway's game of life, with colourisation related to recent activity. It's prett
 
 ![screenshot](https://github.com/elterminad0r/colourconway/blob/master/screenshot.png)
 ### [mazes](https://github.com/elterminad0r/mazes)
-Maze generation algorithms in Processing, featuring solutions and slower, frame-by-frame generation.
+Maze generation algorithms in Processing, by random walking and "knocking down" walls, and backtracking when cornered. All cells are guaranteed to be reachable, so any combination of cells can be taken as start-end (top-left bottom-right, for example). Features solutions and slower, frame-by-frame generation. Here it is in action:
+
+![screenshot](https://github.com/elterminad0r/mazes/blob/master/screenshots/nopath.png)
+![screenshot](https://github.com/elterminad0r/mazes/blob/master/screenshots/path.png)
+![screenshot](https://github.com/elterminad0r/mazes/blob/master/screenshots/slo.png)
 ### [pendulums](https://github.com/elterminad0r/pendulums)
 A little more experimentation with Java OO in processing. Uses the simple model of pendulums to produce a slow interference effect. Here's a static screenshot:
 
@@ -80,8 +94,9 @@ Simple OO to display a kind of weird soup-like substance with some mildly halluc
 
 ![screenshot](https://github.com/elterminad0r/regen_soup/blob/master/screenshot.png)
 ### [shading](https://github.com/elterminad0r/shading)
+Processing "rainbow shading" by many random diagonal lines, colour shifting according to x position. It looks like this:
 
-Processing fuzzy rainbow
+![screenshot](https://github.com/elterminad0r/shading/blob/master/screenshot.png)
 ### [snowflakes](https://github.com/elterminad0r/snowflakes)
 From a Christmas CS lesson once upon a time - snowflakes simulated by ascii characters. It looks like this:
 

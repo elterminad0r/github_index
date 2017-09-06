@@ -15,6 +15,7 @@
 /home/izaak/programmeren/python/backtobasics/	backtobasics	https://github.com/elterminad0r/backtobasics	Python basics
 
 # java-processing projects
+/home/izaak/programmeren/processing/alphabet/	alphabet	https://github.com/elterminad0r/alphabet	 Alphabet shading in processing
 /home/izaak/programmeren/processing/balls/	balls	https://github.com/elterminad0r/balls	bouncing balls in processing
 /home/izaak/programmeren/processing/cars/	cars	https://github.com/elterminad0r/cars	OOP flying boxes
 /home/izaak/programmeren/processing/circles/	circles	https://github.com/elterminad0r/circles	Lightweight visual effect
