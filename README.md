@@ -9,6 +9,7 @@ Some of my postscript projects - some early, some less so. `zut` means pile of r
 ![screenshot](https://github.com/elterminad0r/Postscript/blob/master/svgs/minkowski.svg)
 ![screenshot](https://github.com/elterminad0r/Postscript/blob/master/svgs/plusFractal.svg)
 ![screenshot](https://github.com/elterminad0r/Postscript/blob/master/svgs/pythagorasTree.svg)
+![screenshot](https://github.com/elterminad0r/Postscript/blob/master/svgs/star2.svg)
 ## Miscellaneous Python projects
 ### [Sudoku](https://github.com/elterminad0r/sudoku)
 A (brute-force) sudoku solver in Python.
@@ -37,13 +38,21 @@ Simple, slightly buggy implementation of balls that can bounce off both each oth
 ### [cars](https://github.com/elterminad0r/cars)
 Early experimenting in OOP in java-processing
 ### [circles](https://github.com/elterminad0r/circles)
-Neat little effect in processing - radius increases the closer to the mouse.
+Neat little effect in processing an grid of circles, where radius increases the closer to the mouse. Produces quite a simple yet satisfying effect - example:
+
+![screenshot](https://github.com/elterminad0r/circles/blob/master/screenshot.png)
 ### [colourconway](https://github.com/elterminad0r/colourconway)
-Conway's game of life, with colourisation related to recent activity. It's pretty but the code is a godawful mess I might try to wade into one day.
+Conway's game of life, with colourisation related to recent activity. It's pretty but the code is a godawful mess I might try to wade into one day. Here it is in action:
+
+![screenshot](https://github.com/elterminad0r/colourconway/blob/master/screenshot.png)
 ### [mazes](https://github.com/elterminad0r/mazes)
 Maze generation algorithms in Processing, featuring solutions and slower, frame-by-frame generation.
 ### [pendulums](https://github.com/elterminad0r/pendulums)
-A little more experimentation with Java OO in processing. Uses the simple model of pendulums to produce a slow interference effect.
+A little more experimentation with Java OO in processing. Uses the simple model of pendulums to produce a slow interference effect. Here's a static screenshot:
+
+![screenshot](https://github.com/elterminad0r/pendulums/blob/master/screenshot.png)
+
+It doesn't quite deliver the effect of them in motion, but you can see the interference/general idea.
 ### [pixel\_sorting](https://github.com/elterminad0r/pixel_sorting)
 Sorting rows of pixels in an image by brightness, in Processing. Most of the work was done by Daniel Shiffman.
 
@@ -67,7 +76,9 @@ Here is a screenshot:
 
 ![Screenshot](https://github.com/elterminad0r/rainbow_lines/blob/master/screenshot.png)
 ### [regen\_soup](https://github.com/elterminad0r/regen_soup)
-Simple OO to display a kind of weird soup-like substance with some mildly hallucinogenic rainbows. It doesn't use drawing primitives to draw the rainbows as Processing doesn't support any kind of gradient, so it actually directly modifies the pixel array.
+Simple OO to display a kind of weird soup-like substance with some mildly hallucinogenic rainbows. It doesn't use drawing primitives to draw the rainbows as Processing doesn't support any kind of gradient, so it actually directly modifies the pixel array. It looks like this:
+
+![screenshot](https://github.com/elterminad0r/regen_soup/blob/master/screenshot.png)
 ### [shading](https://github.com/elterminad0r/shading)
 
 Processing fuzzy rainbow
