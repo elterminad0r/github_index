@@ -12,7 +12,6 @@
 /home/izaak/programmeren/yahtzee/	yahtzee	https://github.com/elterminad0r/yahtzee	Hopefully some functioning yahtzee models eventually..
 
 # java-processing projects
-/home/izaak/programmeren/processing/asteroids/	asteroids	https://github.com/elterminad0r/asteroids	3d asteroids belt
 /home/izaak/programmeren/processing/balls/	balls	https://github.com/elterminad0r/balls	bouncing balls in processing
 /home/izaak/programmeren/processing/cars/	cars	https://github.com/elterminad0r/cars	OOP flying boxes
 /home/izaak/programmeren/processing/circles/	circles	https://github.com/elterminad0r/circles	Lightweight visual effect
@@ -48,6 +47,7 @@
 /home/izaak/programmeren/processing/mandelbrot/	mandelbrot	https://github.com/elterminad0r/mandelbrot	mandelbrot explorer
 
 # Python-processing projects
+/home/izaak/programmeren/processing/asteroids/	asteroids	https://github.com/elterminad0r/asteroids	3d asteroids belt
 /home/izaak/programmeren/processing/collatz_tree/	collatz_tree	https://github.com/elterminad0r/collatz_tree	Tree constructed from collatz paths
 /home/izaak/programmeren/processing/bounce_3d/	bounce_3d	https://github.com/elterminad0r/bounce_3d	3d bouncing balls
 /home/izaak/programmeren/processing/bubbles/	bubbles	https://github.com/elterminad0r/bubbles	bubble screensaver

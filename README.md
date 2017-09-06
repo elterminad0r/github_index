@@ -29,8 +29,6 @@ Some projects on "the cookie game" in Python. Includes an automatic opponent and
 
 A work in progress - hoping to end up building a kind of nice yahtzee framework and then try to implement some different yahtzee playing algorithms (maybe monte carlo, neural network, etc)
 # java-processing projects
-## [asteroids](https://github.com/elterminad0r/asteroids)
-Asteroids orbiting a planet in 3d processing. Again, familiarisation. The asteroids are, of course, rainbow-coloured.
 ## [balls](https://github.com/elterminad0r/balls)
 Simple, slightly buggy implementation of balls that can bounce off both each other and walls.
 ## [cars](https://github.com/elterminad0r/cars)
@@ -45,6 +43,18 @@ Maze generation algorithms in Processing, featuring solutions and slower, frame-
 A little more experimentation with Java OO in processing. Uses the simple model of pendulums to produce a slow interference effect.
 ## [pixel\_sorting](https://github.com/elterminad0r/pixel_sorting)
 Sorting rows of pixels in an image by brightness, in Processing. Most of the work was done by Daniel Shiffman.
+
+With this as input:
+
+![input sunflower](https://github.com/elterminad0r/pixel_sorting/blob/master/data/sunflower.jpg)
+
+It can produce this:
+
+![output](https://github.com/elterminad0r/pixel_sorting/blob/master/sorted.jpg)
+
+While it's running, it looks like this:
+
+![screenshot](https://github.com/elterminad0r/pixel_sorting/blob/master/intermediary.png)
 ## [pythanimated](https://github.com/elterminad0r/pythanimated)
 Very simple code to eternally animate the angle of a Pythagoras Tree.
 ## [rainbow\_lines](https://github.com/elterminad0r/rainbow_lines)
@@ -59,14 +69,24 @@ Simple OO to display a kind of weird soup-like substance with some mildly halluc
 
 Processing fuzzy rainbow
 ## [snowflakes](https://github.com/elterminad0r/snowflakes)
-From a Christmas CS lesson once upon a time - snowflakes simulated by ascii characters.
+From a Christmas CS lesson once upon a time - snowflakes simulated by ascii characters. It looks like this:
+
+![screenshot](https://github.com/elterminad0r/snowflakes/blob/master/screenshot.png)
 ## [square\_filling\_circle](https://github.com/elterminad0r/square_filling_circle)
-Squares that fill up the area of a circle, inspired by the classic pi paradox.
+Squares that fill up the area of a circle, inspired by the classic pi paradox (as the total area of the squares approaches the area of the circle, then surely the perimeter does so too, which would lead to pi=4). It uses a real beauty of an equation worked through by hand to find the intersection of a line with gradient 1 and a circle arc - 
+
+    intercept = 0.5 * (sqrt(-a * a + 2 * a * (b + c - d) - b * b - 2 * b * c + 2 * b * d - c * c + 2 * c * d - d * d + 2 * r * r) + a + b + c - d) - c;
+
+Here is a screenshot of it in action:
+
+![screenshot](https://github.com/elterminad0r/square_filling_circle/blob/master/screenshot.png)
 ## [UI\_demo](https://github.com/elterminad0r/UI_demo)
 
 A simpler implementation/demonstration of my UI elements in Processing, later to be used more in `moire_draggable`.
 ## [turtles](https://github.com/elterminad0r/turtles)
-Custom turtle implementation in Processing, used to have multiple turtles follow the same instructions (from keyboard) for symmetric kinda pretty rainbow patterns.
+Custom turtle implementation in Processing, used to have multiple turtles follow the same instructions (from keyboard) for symmetric kinda pretty rainbow patterns. Here is what it looks like:
+
+![screenshot](https://github.com/elterminad0r/turtles/blob/master/screenshot.png)
 ## [s\_zoom](https://github.com/elterminad0r/s_zoom)
 A kind of inefficient zooming sierpinski triangle
 # Implementations of games in Processing
@@ -97,12 +117,21 @@ A program to interactively explore the moire interference effect on grids, using
     use i to serialise with image and postscript file - this hasn't been tested much, use at own risk
 
 note that a very large portion of the code for this sketch is .java. This is because this allows me to circumvent all of Processing's preprocessing, and I can use more of Java pure OOP functionality like static fields and methods
+
+Here are some screenshots of what you might begin to do with it, with the "UI" preserved:
+
+![screenshot](https://github.com/elterminad0r/moire_draggable/blob/master/screenshots/hex.png)
+![screenshot](https://github.com/elterminad0r/moire_draggable/blob/master/screenshots/radial.png)
+
+Both of these were narrowly obtained before my laptop melted
 # Mandelbrot and julia sets
 ## [julia](https://github.com/elterminad0r/julia)
 Julia set visualisation next to mandelbrot set, illustrating what a julia set is (kind of) and more so its correspondance with the mandelbrot set.
 ## [mandelbrot](https://github.com/elterminad0r/mandelbrot)
 Mandelbrot explorer in java-processing. Not very OO. Written when I wasn't very accustomed to java or processing, but works well enough. It can be a little intensive if not approached carefully.
 # Python-processing projects
+## [asteroids](https://github.com/elterminad0r/asteroids)
+Asteroids orbiting a planet in 3d processing. Again, familiarisation. The asteroids are, of course, rainbow-coloured.
 ## [collatz\_tree](https://github.com/elterminad0r/collatz_tree)
 Inspired by the Collatz conjecture. From the conjecture, one might be able to build a tree with root node 1 where all numbers feed back to 1, and any path down the tree is a Collatz path. Featuring a command-line script to generate (and draw a very pretty unicode picture of) a collatz tree, and a Processing file that draws an even prettier tree, where a `3n + 1` step goes left, and an `n / 2` step goes right, featuring some rainbow HSB colouring. If the Collatz conjecture is disproven, this program might not work.
 
@@ -139,6 +168,10 @@ And this is a sample of `CollatzTree.py`, to a depth of 20 with one extra space 
 Very simple (ghostly) bouncing balls using Processing's 3d engine. Starting to familiarise.
 ## [bubbles](https://github.com/elterminad0r/bubbles)
 Neon kinda bubbles that merge into one another. Makes for a kind of intereseting screensaver. There are a number of parameters - they're currently set to a pretty stable state. Decrease loss / increase some defaults for more action.
+
+Here is a screenshot with bubbles in neon mode, with a couple of extra mayhem bubbles added on top of defaults:
+
+![screenshot](https://github.com/elterminad0r/bubbles/blob/master/screenshot.png)
 ## [perl](https://github.com/elterminad0r/perl)
 Has nothing to do with Perl. Rather, with George Perlin and Perlin noise. A couple of small pieces of code exploring the applications of Perlin noise.
 ## [drag\_grav](https://github.com/elterminad0r/drag_grav)
