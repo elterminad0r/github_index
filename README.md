@@ -2,7 +2,13 @@
 A bit of a meta-project on creating a nicer index of my github repositories. Partially motivated because I'm too greedy to do with only 6 pinned repositories.
 # My Postscript Repository
 ## [Postscript](https://github.com/elterminad0r/Postscript)
-Some of my postscript projects - some early, some less so. `zut` means pile of rubbish.
+Some of my postscript projects - some early, some less so. `zut` means pile of rubbish. There's lots to do with polysymmetry and fractals, and then some other stuff. A pretty small sample:
+
+![screenshot](https://github.com/elterminad0r/Postscript/blob/master/svgs/penrose.svg)
+![screenshot](https://github.com/elterminad0r/Postscript/blob/master/svgs/ster.svg)
+![screenshot](https://github.com/elterminad0r/Postscript/blob/master/svgs/minkowski.svg)
+![screenshot](https://github.com/elterminad0r/Postscript/blob/master/svgs/plusFractal.svg)
+![screenshot](https://github.com/elterminad0r/Postscript/blob/master/svgs/pythagorasTree.svg)
 # Miscellaneous Python projects
 ## [Sudoku](https://github.com/elterminad0r/sudoku)
 A (brute-force) sudoku solver in Python.
@@ -43,6 +49,10 @@ Sorting rows of pixels in an image by brightness, in Processing. Most of the wor
 Very simple code to eternally animate the angle of a Pythagoras Tree.
 ## [rainbow\_lines](https://github.com/elterminad0r/rainbow_lines)
 A simpler project, doing some slightly diagonal rainbow shading on a canvas.
+
+Here is a screenshot:
+
+![Screenshot](https://github.com/elterminad0r/rainbow_lines/blob/master/screenshot.png)
 ## [regen\_soup](https://github.com/elterminad0r/regen_soup)
 Simple OO to display a kind of weird soup-like substance with some mildly hallucinogenic rainbows. It doesn't use drawing primitives to draw the rainbows as Processing doesn't support any kind of gradient, so it actually directly modifies the pixel array.
 ## [shading](https://github.com/elterminad0r/shading)
@@ -57,6 +67,8 @@ Squares that fill up the area of a circle, inspired by the classic pi paradox.
 A simpler implementation/demonstration of my UI elements in Processing, later to be used more in `moire_draggable`.
 ## [turtles](https://github.com/elterminad0r/turtles)
 Custom turtle implementation in Processing, used to have multiple turtles follow the same instructions (from keyboard) for symmetric kinda pretty rainbow patterns.
+## [s\_zoom](https://github.com/elterminad0r/s_zoom)
+A kind of inefficient zooming sierpinski triangle
 # Implementations of games in Processing
 ## [platformer](https://github.com/elterminad0r/platformer)
 An extremely bare-bones platformer in processing - both in content and implementation.
@@ -144,10 +156,13 @@ My first proper Python-processing project. It generates an arbitrary order Bezie
 ## [road\_screen](https://github.com/elterminad0r/road_screen)
 My first foray into three-dimensional graphics programming. Done with purely 2-D primitives. Distance/perspective is simulated by interpolating on anarctangent, to confine a potentially infinite range (viewer to horizon) to a bounded range.
 ## [rubiks\_cube](https://github.com/elterminad0r/rubiks_cube)
-Visual interface to my Rubik's cube model, in python-processing using 3D.
+Visual interface to my Rubik's cube model, in python-processing using P3D.
+
+Here are some screenshots:
+
+![Screenshot](https://github.com/elterminad0r/rubiks_cube/blob/master/solved_ss.png "Solved state")
+![Screenshot](https://github.com/elterminad0r/rubiks_cube/blob/master/scrambled_ss.png "Scrambled state")
 ## [ship\_game](https://github.com/elterminad0r/ship_game)
 One of the earlier Python-processing projects. A ship using drag coefficients, and a half-baked autopilot. Pretty options for exhaust fumes are available.
-## [s\_zoom](https://github.com/elterminad0r/s_zoom)
-A kind of inefficient zooming sierpinski triangle
 ## [wind\_fans](https://github.com/elterminad0r/wind_fans)
 Simulates nutella-style turbines being blown by the mouse. Can be a little intensive.
