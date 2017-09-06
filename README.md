@@ -46,7 +46,9 @@ Simple, slightly buggy implementation of balls that can bounce off both each oth
 
 ![screenshot](https://github.com/elterminad0r/balls/blob/master/screenshot.png)
 ### [cars](https://github.com/elterminad0r/cars)
-Early experimenting in OOP in java-processing
+Early experimenting in OOP in java-processing. Animates a bunch of rectangles and their attributes (colour, size, position, rotation etc). It looks like this:
+
+![screenshot](https://github.com/elterminad0r/cars/blob/master/screenshot.png)
 ### [circles](https://github.com/elterminad0r/circles)
 Neat little effect in processing an grid of circles, where radius increases the closer to the mouse. Produces quite a simple yet satisfying effect - example:
 
@@ -82,7 +84,9 @@ While it's running, it looks like this:
 
 ![screenshot](https://github.com/elterminad0r/pixel_sorting/blob/master/intermediary.png)
 ### [pythanimated](https://github.com/elterminad0r/pythanimated)
-Very simple code to eternally animate the angle of a Pythagoras Tree.
+Relatively simple code to eternally increment animate the angle of a rendered Pythagoras Tree fractal.
+
+![screenshot](https://github.com/elterminad0r/pythanimated/blob/master/screenshot.png)
 ### [rainbow\_lines](https://github.com/elterminad0r/rainbow_lines)
 A simpler project, doing some slightly diagonal rainbow shading on a canvas.
 
@@ -110,14 +114,17 @@ Here is a screenshot of it in action:
 
 ![screenshot](https://github.com/elterminad0r/square_filling_circle/blob/master/screenshot.png)
 ### [UI\_demo](https://github.com/elterminad0r/UI_demo)
+A simpler implementation/demonstration of my UI elements in Processing, later to be used more in `moire_draggable`. It does a lot of event handling and delegation through static methods to abstract that from the main pde sketch. It uses some vector arithmetic for some of the features. It looks like this:
 
-A simpler implementation/demonstration of my UI elements in Processing, later to be used more in `moire_draggable`.
+![screenshot](https://github.com/elterminad0r/UI_demo/blob/master/screenshot.png)
 ### [turtles](https://github.com/elterminad0r/turtles)
 Custom turtle implementation in Processing, used to have multiple turtles follow the same instructions (from keyboard) for symmetric kinda pretty rainbow patterns. Here is what it looks like:
 
 ![screenshot](https://github.com/elterminad0r/turtles/blob/master/screenshot.png)
 ### [s\_zoom](https://github.com/elterminad0r/s_zoom)
-A kind of inefficient zooming sierpinski triangle
+A kind of inefficient sketch that tries to emulate the effect of infinitely zooming in on the top part of a Sierpinski Triangle. It looks like this:
+
+![screenshot](https://github.com/elterminad0r/s_zoom/blob/master/screenshot.png)
 ## Implementations of games in Processing
 ### [platformer](https://github.com/elterminad0r/platformer)
 An extremely bare-bones platformer in processing - both in content and implementation. Its collision detection, after much work, seems to be pretty flawless. It should be relatively easy to add more platorms. Here is what it looks like - be warned that I'm a prolific graphic designer:
