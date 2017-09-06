@@ -1,0 +1,64 @@
+# My Postscript Repository
+/home/izaak/programmeren/Postscript/	Postscript	https://github.com/elterminad0r/Postscript	Some postscript projects, ranging back from around 2013
+
+# Miscellaneous Python projects
+/home/izaak/programmeren/sudoku/	sudoku	https://github.com/elterminad0r/sudoku	Sudoku solver in Python
+/home/izaak/programmeren/A453/	A453	https://github.com/elterminad0r/A453	Controlled assessment - historic interest
+/home/izaak/programmeren/linked_list/	linked_list	https://github.com/elterminad0r/linked_list	Recursive Python linked list
+/home/izaak/programmeren/Calcudoku/	Calcudoku	https://github.com/elterminad0r/Calcudoku	Calcudoku solver
+/home/izaak/programmeren/Cube/	Cube	https://github.com/elterminad0r/Cube	Rubik's cube model
+/home/izaak/programmeren/stackoverflow/Punnet/	Punnet	https://github.com/elterminad0r/Punnet	Punnet Square generation
+/home/izaak/programmeren/cookies/	cookies	https://github.com/elterminad0r/cookies	The "cookie game" Python project
+/home/izaak/programmeren/yahtzee/	yahtzee	https://github.com/elterminad0r/yahtzee	Hopefully some functioning yahtzee models eventually..
+
+# java-processing projects
+/home/izaak/programmeren/processing/asteroids/	asteroids	https://github.com/elterminad0r/asteroids	3d asteroids belt
+/home/izaak/programmeren/processing/balls/	balls	https://github.com/elterminad0r/balls	bouncing balls in processing
+/home/izaak/programmeren/processing/cars/	cars	https://github.com/elterminad0r/cars	OOP flying boxes
+/home/izaak/programmeren/processing/circles/	circles	https://github.com/elterminad0r/circles	Lightweight visual effect
+/home/izaak/programmeren/processing/colourconway/	colourconway	https://github.com/elterminad0r/colourconway	coloured conway's game of life in processing
+/home/izaak/programmeren/processing/mazes/	mazes	https://github.com/elterminad0r/mazes	Maze generation
+/home/izaak/programmeren/processing/pendulums/	pendulums	https://github.com/elterminad0r/pendulums	Pendulum simulation
+/home/izaak/programmeren/processing/pixel_sorting/	pixel_sorting	https://github.com/elterminad0r/pixel_sorting	Sorting pixels - inspired heavily by Daniel Shiffman
+/home/izaak/programmeren/processing/pythanimated/	pythanimated	https://github.com/elterminad0r/pythanimated	Animated Pythagoras Tree
+/home/izaak/programmeren/processing/rainbow_lines/	rainbow_lines	https://github.com/elterminad0r/rainbow_lines	Rainbow shading
+/home/izaak/programmeren/processing/regen_soup/	regen_soup	https://github.com/elterminad0r/regen_soup	Trippy rainbows
+/home/izaak/programmeren/processing/shading/	shading	https://github.com/elterminad0r/shading	Fuzzy rainbow
+/home/izaak/programmeren/processing/snowflakes/	snowflakes	https://github.com/elterminad0r/snowflakes	'Tis the season to be jolly
+/home/izaak/programmeren/processing/square_filling_circle/	square_filling_circle	https://github.com/elterminad0r/square_filling_circle	Squares filling a circle
+/home/izaak/programmeren/processing/UI_demo/	UI_demo	https://github.com/elterminad0r/UI_demo	Processing UI elements
+/home/izaak/programmeren/processing/turtles/	turtles	https://github.com/elterminad0r/turtles	Turtles in processing
+
+# Implementations of games in Processing
+/home/izaak/programmeren/processing/platformer/	platformer	https://github.com/elterminad0r/platformer	platformer in processing
+/home/izaak/programmeren/processing/snake/	snake	https://github.com/elterminad0r/snake	snake game
+/home/izaak/programmeren/processing/spaceinvaders/	spaceinvaders	https://github.com/elterminad0r/spaceinvaders	Space Invaders in processing
+/home/izaak/programmeren/processing/tetris/	tetris	https://github.com/elterminad0r/tetris	tetris in processing
+
+# projects on "chaos" demonstrations
+/home/izaak/programmeren/processing/sierp_demo/	sierp_demo	https://github.com/elterminad0r/sierp_demo	chaos game in processing
+/home/izaak/programmeren/processing/chaos_spreadsheet/	chaos_spreadsheet	https://github.com/elterminad0r/chaos_spreadsheet	logistic map in processing
+
+# massive project on moire effect
+/home/izaak/programmeren/processing/moire_draggable/	moire_draggable	https://github.com/elterminad0r/moire_draggable	moire effect explorer with UI in processing
+
+# Mandelbrot and julia sets
+/home/izaak/programmeren/processing/julia/	julia	https://github.com/elterminad0r/julia	Julia sets in processing
+/home/izaak/programmeren/processing/mandelbrot/	mandelbrot	https://github.com/elterminad0r/mandelbrot	mandelbrot explorer
+
+# Python-processing projects
+/home/izaak/programmeren/processing/collatz_tree/	collatz_tree	https://github.com/elterminad0r/collatz_tree	Tree constructed from collatz paths
+/home/izaak/programmeren/processing/bounce_3d/	bounce_3d	https://github.com/elterminad0r/bounce_3d	3d bouncing balls
+/home/izaak/programmeren/processing/bubbles/	bubbles	https://github.com/elterminad0r/bubbles	bubble screensaver
+/home/izaak/programmeren/processing/perl/	perl	https://github.com/elterminad0r/perl	PERLIN NOISE
+/home/izaak/programmeren/processing/drag_grav/	drag_grav	https://github.com/elterminad0r/drag_grav	Model of gravity + bouncy balls
+/home/izaak/programmeren/processing/kaleidoscope/	kaleidoscope	https://github.com/elterminad0r/kaleidoscope	A colourful kaleidoscope type thing
+/home/izaak/programmeren/processing/lightning/	lightning	https://github.com/elterminad0r/lightning	Lichtenberg figures
+/home/izaak/programmeren/processing/bfs_koch/	bfs_koch	https://github.com/elterminad0r/bfs_koch	breadth first koch
+/home/izaak/programmeren/processing/stepbysierp/	stepbysierp	https://github.com/elterminad0r/stepbysierp	BFS sierpinski
+/home/izaak/programmeren/processing/py_lerpbez/	py_lerpbez	https://github.com/elterminad0r/py_lerpbez	Bezier curves in python-processing
+/home/izaak/programmeren/processing/road_screen/	road_screen	https://github.com/elterminad0r/road_screen	3-D road-travelling screensaver
+/home/izaak/programmeren/processing/rubiks_cube/	rubiks_cube	https://github.com/elterminad0r/rubiks_cube	Visual rubiks cube
+/home/izaak/programmeren/processing/ship_game/	ship_game	https://github.com/elterminad0r/ship_game	Space ship in processing
+/home/izaak/programmeren/processing/s_zoom/	s_zoom	https://github.com/elterminad0r/s_zoom	Sierpinski zoom
+/home/izaak/programmeren/processing/wind_fans/	wind_fans	https://github.com/elterminad0r/wind_fans	Fans being blown
