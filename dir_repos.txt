@@ -11,6 +11,9 @@
 /home/izaak/programmeren/cookies/	cookies	https://github.com/elterminad0r/cookies	The "cookie game" Python project
 /home/izaak/programmeren/yahtzee/	yahtzee	https://github.com/elterminad0r/yahtzee	Hopefully some functioning yahtzee models eventually..
 
+# My Python basics repo:
+/home/izaak/programmeren/python/backtobasics/	backtobasics	https://github.com/elterminad0r/backtobasics	Python basics
+
 # java-processing projects
 /home/izaak/programmeren/processing/balls/	balls	https://github.com/elterminad0r/balls	bouncing balls in processing
 /home/izaak/programmeren/processing/cars/	cars	https://github.com/elterminad0r/cars	OOP flying boxes

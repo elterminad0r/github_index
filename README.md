@@ -1,4 +1,3 @@
-
 # github\_inventory
 A bit of a meta-project on creating a nicer index of my github repositories. Partially motivated because I'm too greedy to do with only 6 pinned repositories. It's just about stable enough to function. It features several sub-utilities I chain together, including directory-searching and API-json reading. It files my projects under subcategories, and concatenates together readmes under a category heading.
 ## My Postscript Repository
@@ -29,6 +28,9 @@ Some projects on "the cookie game" in Python. Includes an automatic opponent and
 ### [Yahtzee](https://github.com/elterminad0r/yahtzee)
 
 A work in progress - hoping to end up building a kind of nice yahtzee framework and then try to implement some different yahtzee playing algorithms (maybe monte carlo, neural network, etc)
+## My Python basics repo:
+### [backtobasics](https://github.com/elterminad0r/backtobasics)
+Some Python basics should any of my one audience members wish to refer to them.
 ## java-processing projects
 ### [balls](https://github.com/elterminad0r/balls)
 Simple, slightly buggy implementation of balls that can bounce off both each other and walls.
