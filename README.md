@@ -110,9 +110,25 @@ Old implementation of Tetris in processing. At last, a game with graphics I can 
 ![screenshot](https://github.com/elterminad0r/tetris/blob/master/screenshot.png)
 ## projects on "chaos" demonstrations
 ### [sierp\_demo](https://github.com/elterminad0r/sierp_demo)
-processing implementation of the "chaos game", with a couple of interactive features
+processing implementation of the "chaos game", with a couple of interactive features. The game works as follows: Take a point in the middle of a triangle. Choose a random corner. Take the point directly in between that corner and your current point. Make this your new point (remember to draw old points). This can produce some interesting results, given automation:
+
+First couple of points:
+
+![screensaver](https://github.com/elterminad0r/sierp_demo/blob/master/screenshots/early_stage.png)
+
+A few more:
+
+![screensaver](https://github.com/elterminad0r/sierp_demo/blob/master/screenshots/later.png)
+
+A **lot** more, and shrunken points:
+
+![screensaver](https://github.com/elterminad0r/sierp_demo/blob/master/screenshots/latest.png)
+
+Fancy that.
 ### [chaos\_spreadsheet](https://github.com/elterminad0r/chaos_spreadsheet)
-Illustration of the chaotic behaviour of the logistic map function (used for some interactive demoing once upon a time)
+Illustration of the chaotic behaviour of the logistic map function (used for some interactive demoing once upon a time). Acts as a programmatic, slightly enhanced version of just generating the logistic map in a spreadsheet and plotting it. Features animation and some fine control over parameters. It looks like this (but animated):
+
+![screenshot](https://github.com/elterminad0r/chaos_spreadsheet/blob/master/screenshot.png)
 ## massive project on moire effect
 ### [moire\_draggable](https://github.com/elterminad0r/moire_draggable)
 A program to interactively explore the moire interference effect on grids, using a (self implemented) visual UI with the mouse, with further features on the keyboard. Also features some serialisation (to preprocessed handwritten postscript) and an experimental Postscript compresser which works by mangling.  Experimenting with some more OOP, and pure Java integration with Processing.  probably not a good idea for people with epilepsy and the like `1234567890-=[back][tab]` to add grids mouse interface for most manipulation.  click and drag on the colourful UIElements to change grid parameters. use the green button to clone a grid, the red to remove.
@@ -166,7 +182,7 @@ Here are just a couple of examples:
 ### [mandelbrot](https://github.com/elterminad0r/mandelbrot)
 This is a program in java-processing that renders the mandelbrot set. This set is defined as the set of the complex numbers, c such that there is no divergence when 0 is iterated under f(z) = z^2 + c The program works by simply iterating and observing if this number becomes large.  The speed of divergence is then used to give colourings.  The parameters kept track of are - x, y, scale, iteration cap, multibrot value (alternative exponent for z), width and height. See [usage.md](https://github.com/elterminad0r/mandelbrot/blob/master/usage.md) for info about the usage of the sketch.
 
-It supports some mildly sophisticated serialisation - in string format. Any rendering can be described in a couple of terms (x, y, scale, width height, multibrot) which can be quite compactly encoded. This is then stored as the **filename** of any image you save from the sketch. What a stroke of genius.
+It supports some mildly sophisticated serialisation - in string format. Any rendering can be described in a couple of terms (x, y, scale, width height, multibrot) which can be quite compactly encoded. This is then stored as the **filename** of any image you save from the sketch. What a stroke of genius, never has a filename been prettier than `-16od5ok4AH4+-NlkJp9kxyI4+w8SYn6PLXC4+Tf+3+uu+Ff.tiff`.
 
 Here are three randomly chosen screenshots from my travels:
 
