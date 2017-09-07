@@ -75,7 +75,7 @@ Input works like so: each region is defined and assigned to a character, and the
     2 6 3 7 1 5 8 4 
     1 4 5 8 3 7 6 2 
 ### [A453](https://github.com/elterminad0r/A453)
-From my GCSE computing course - see [my full writeup] here. It's a **heavily** type-annotated collection of scripts in Python, which perform various forms of naive and less naive compression on text. It initially uses a very naive system of building an index of words and writing "pointers" to words in that index, where the pointers are space-separated base-10 integers in ASCII. This is of course a tremendous waste of a byte - I later go on to use variable-length prefix encodings and raw binary data-files to make some significant gains. It's nowhere near something like LZW compression in terms of speed or compressive factor, but I think that for a Python script given the initial constraints, it's not bad at all. Also features some heavy unit testing, and modularisation, and a pretty decent interface for input/output using argparse.
+From my GCSE computing course - see [my full writeup](https://github.com/elterminad0r/A453/blob/master/writeup.pdf) here. It's a **heavily** type-annotated collection of scripts in Python, which perform various forms of naive and less naive compression on text. It initially uses a very naive system of building an index of words and writing "pointers" to words in that index, where the pointers are space-separated base-10 integers in ASCII. This is of course a tremendous waste of a byte - I later go on to use variable-length prefix encodings and raw binary data-files to make some significant gains. It's nowhere near something like LZW compression in terms of speed or compressive factor, but I think that for a Python script given the initial constraints, it's not bad at all. Also features some heavy unit testing, and modularisation, and a pretty decent interface for input/output using argparse.
 
 The most simple compressive algorithm (`readable_compression.py`), given the input:
 
@@ -111,7 +111,7 @@ in binary format, and decode it (by this command).
 
     $ python lossless_compression.py --input ../text/rom_ju_intro.txt  | python lossless_decompression.py
 
-Yes, I have tested my lossless algorithm on the works of Shakespeare. It produces a lossless compressive ratio of about 70%.
+Yes, I have tested my lossless algorithm on the works of Shakespeare. It produces a lossless compressive ratio of about 40%. Its performance and memory usage complexity is poor as it has to read lots into memory to optimise the prefix encoding.
 ### [Linked lists](https://github.com/elterminad0r/linked_list)
 My Python linked list implementation. This is my expanded implementation from the HackerRank challenged. Note it's kind of half finished and untested so probably broken in all manner of fun ways. It's recursive so won't be able to handle any serious load due to Python's lack of tail call optimisation. It also overloads the `__or__` operator, which put together with recursion produces some slightly Haskell-inspired levels of conciseness:
 
