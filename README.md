@@ -10,7 +10,7 @@ Some of my Postscript (the printer language) projects - some early, some less so
 ![screenshot](https://github.com/elterminad0r/Postscript/blob/master/svgs/star2.svg)
 
 
-A few more that I really wanted to add here, but have moved to a directory of SVGs (they should be viewable in browser): [svgs](https://github.com/elterminad0r/Postscript/blob/master/svgs/)
+A few more that I really wanted to add here, but have moved to a directory of SVGs (they should be viewable in browser): [svgs](https://github.com/elterminad0r/Postscript/blob/master/svgs/). There are also `pdf` files, but they don't seem to render very well. They're there because they're a necessary intermediate stage to my SVG generation method - I first use `ps2pdf`, and then `pdf2svg`. It seems to be working quite well so it's good enough for me. I've tested that all of these work with my version of GhostScript - you should also be able to open them in Preview on MacOS or some kind of illustrator/graphics program.
 ## Miscellaneous Python projects
 ### [Sudoku](https://github.com/elterminad0r/sudoku)
 A (brute-force) sudoku solver in Python. It models a Sudoku as a list (array under the hood) of length 81. It generates a further two-dimensional array (`[81][21]`), which maps cell locations to all other cell locations that that cell can "see". An empty cell takes the conveniently unused value of 0. Input sudoku is read from stdin, and should simply consist of 81 whitespace separated digits. The program comes with an option (`-e`) to print an "empty" sudoku for ease of entering a sudoku. With this as input (`ex.txt`)::
@@ -113,16 +113,46 @@ in binary format, and decode it (by this command).
 
 Yes, I have tested my lossless algorithm on the works of Shakespeare. It produces a lossless compressive ratio of about 70%.
 ### [Linked lists](https://github.com/elterminad0r/linked_list)
-My Python linked list implementation. This is my expanded implementation from the HackerRank challenged. Note it's kind of half finished and untested so probably broken in all manner of fun ways. It's recursive so won't be able to handle any serious load due to Python's lack of tail call optimisation.
+My Python linked list implementation. This is my expanded implementation from the HackerRank challenged. Note it's kind of half finished and untested so probably broken in all manner of fun ways. It's recursive so won't be able to handle any serious load due to Python's lack of tail call optimisation. It also overloads the `__or__` operator, which put together with recursion produces some slightly Haskell-inspired levels of conciseness:
+
+```Python
+def take(head, n):
+    if n > 0:
+        if head.next:
+            return head | head.next.take(n - 1)
+        raise IndexError
+    return NULL
+```
+
+`demo.py` executes several examples (with a nice for loop and a safe application of eval). Here are a couple:
+
+    s1.head_item()                  = 57
+    s1.tail()                       = <45, 55, 58, 78, 95, 84, 43, 84, 18, 59, 8, 58, 79, 90, 33, 39, 70, 30, 67>
+    s1.last()                       = 67
+    s1.init()                       = <57, 45, 55, 58, 78, 95, 84, 43, 84, 18, 59, 8, 58, 79, 90, 33, 39, 70, 30>
+    s1.drop(11)                     = <8, 58, 79, 90, 33, 39, 70, 30, 67>
+    s1.take(15)                     = <57, 45, 55, 58, 78, 95, 84, 43, 84, 18, 59, 8, 58, 79, 90>
+    s1[14]                          = 90
+    s1.setitem(5, -1)               = <57, 45, 55, 58, 78, -1, 84, 43, 84, 18, 59, 8, 58, 79, 90, 33, 39, 70, 30, 67>
+    s1.insert_at_tail(-1)           = <57, 45, 55, 58, 78, 95, 84, 43, 84, 18, 59, 8, 58, 79, 90, 33, 39, 70, 30, 67, -1>
+    s1.insert_at_head(-1)           = <-1, 57, 45, 55, 58, 78, 95, 84, 43, 84, 18, 59, 8, 58, 79, 90, 33, 39, 70, 30, 67>
+    s1.insert_at_n(-1, 10)          = <57, 45, 55, 58, 78, 95, 84, 43, 84, 18, -1, 59, 8, 58, 79, 90, 33, 39, 70, 30, 67>
+    s1.delete_node(18)              = <57, 45, 55, 58, 78, 95, 84, 43, 84, 18, 59, 8, 58, 79, 90, 33, 39, 70, 67>
+    s1.reverse()                    = <67, 30, 70, 39, 33, 90, 79, 58, 8, 59, 18, 84, 43, 84, 95, 78, 58, 55, 45, 57>
+    s2.merge(s3)                    = <0, 1, 2, 3, 4, 5>
+
+NB it's Python 3.6, as it uses f-strings. Should be easy enough to use .format instead.
 ### [Cube](https://github.com/elterminad0r/Cube)
 My project expressing a Rubik's cube as a list of integers representing colours, and moves on the cube as permutations on the list. Uses some operator overloading for some pretty expressive syntax to build up the set of moves on the cube. The object model allows chaining and merging of permutations, allowing you to build up to something like this:
 
-    #turn the front face of the cube
-    turn_front = (turn_face(F)
-                + circular_chain([(U, [6, 5, 4]),
-                                  (R, [0, 7, 6]),
-                                  (D, [2, 1, 0]),
-                                  (L, [4, 3, 2])]))
+```Python
+#turn the front face of the cube
+turn_front = (turn_face(F)
+            + circular_chain([(U, [6, 5, 4]),
+                              (R, [0, 7, 6]),
+                              (D, [2, 1, 0]),
+                              (L, [4, 3, 2])]))
+```
 
 There are many such samples in `cube.py`. Note that no speed is lost in the abstraction - the abstracted computation is done at the start and then de-abstracted into pure permutations (lists/arrays of integers). `playground.py` allows you to do things like this:
 
@@ -148,13 +178,58 @@ For prettier visualisations, refer to my parallel [Processing project](https://g
 
 This project also explores some more group-theoretical aspects of the cube - eg how many times must a set of moves be repeated to return a cube to its original state. An interesting optimisation in this is finding "sub-cycles" in the permutation formed by the set of moves and determining the LCM of the lengths of these sub-cycles.
 ### [Punnet Squares](https://github.com/elterminad0r/Punnet)
+Some leftover code for Punnet square generation, from a stackoverflow question. The question was deleted, so I decided to see how illegible I could make my code. Was once intended to become a `code-golf` challenge, but it was too similar to another challenge. It uses some neat generator/unpacking tricks. If tokens are shortened appropriately, you can get this to be pretty short.
 
-Some leftover code for Punnet square generation, from a stackoverflow question. The question was deleted, so I decided to see how illegible I could make my code.
+`$ python code.py Xx xx`
+
+	 |X |x
+	-+---+--
+	x|Xx|xx
+	-+---+--
+	x|Xx|xx
 ### [cookies](https://github.com/elterminad0r/cookies)
-Some projects on "the cookie game" in Python. Includes an automatic opponent and some testing scripts on higher dimensions of the game.
-### [Yahtzee](https://github.com/elterminad0r/yahtzee)
+Some projects on "the cookie game" in Python. Includes an automatic opponent and some testing scripts on higher dimensions of the game. Here is a sample of `opponent.py` dealing out a thrashing (featuring a little more description of what the game is):
 
-A work in progress - hoping to end up building a kind of nice yahtzee framework and then try to implement some different yahtzee playing algorithms (maybe monte carlo, neural network, etc)
+`$ python opponent.py -j 4 8`
+
+    Automatically play the cookie game (in 2 dimensions, for now). Prepare not to
+    win. The game works like so: There are two jars. Each has some cookies. You win
+    if you take the last cookie. You can take some n cookies from any combination
+    of jars - but n for each jar. (ie for the two-jar case, you must take either
+    the same from both or any number you like from one.
+
+    jars given: (4, 8)
+    computer starts
+    computer takes 1 cookie from jar { 8 }
+    Jars are: 
+    Jar 0: 4
+    Jar 1: 7
+    Enter two jar numbers> 0 1
+    Jars are: 
+    Jar 0: 4
+    Jar 1: 6
+    computer takes 1 cookies from both jars
+    Jars are: 
+    Jar 0: 3
+    Jar 1: 5
+    Enter two jar numbers> 2 2
+    Jars are: 
+    Jar 0: 1
+    Jar 1: 3
+    computer takes 1 cookie from jar { 3 }
+    Jars are: 
+    Jar 0: 1
+    Jar 1: 2
+    Enter two jar numbers> 1 0
+    Jars are: 
+    Jar 0: 0
+    Jar 1: 2
+    computer takes 2 cookies from jar { 2 }
+    computer wins
+
+Also features a miscellaneous utility function that greps for lines containing the letters of a word, in order.
+### [Yahtzee](https://github.com/elterminad0r/yahtzee)
+A work in progress - hoping to end up building a kind of nice yahtzee framework and then try to implement some different yahtzee playing algorithms (maybe monte carlo, neural network, etc). Stemming from mid-yahtzee computing banter. It might be interesting to see the distribution of scores achieved by different algorithms, such as a greedy yahtzee-seeking algorithm, or a more measured greedy algorithm searching for intersections between dice and targets (maybe weighting by scores / ease). All sorts of fun opportunities are available - reading random integers from `/dev/urandom`, synchronizing different algorithms into one stream of dice of "game", implementing algorithms as generators that require sent variables, secure extra-algorithm move validation..
 ## rc
 ### [RC](https://github.com/elterminad0r/rc)
 A collection of copies of my rc files for easier access.
@@ -162,16 +237,18 @@ A collection of copies of my rc files for easier access.
 ### [backtobasics](https://github.com/elterminad0r/backtobasics)
 Some Python basics should any of my one audience members wish to refer to them. Features simple examples of code, with mildly explanatory comments. For example, a demonstration of a validation function that takes a parser function as an argument (using while-loops and try-except, docstring omitted):
 
-	def get_type(ty, msg):
-		 while True:
-			 try:
-				 val = ty(input(msg))
-			 #if a value error is raised, print it and carry on
-			 except ValueError as ve:
-				 print(ve)
-			 else:
-				 #if it all goes fine return the value (this breaks from the loop and function)
-				 return val
+```Python
+def get_type(ty, msg):
+     while True:
+         try:
+             val = ty(input(msg))
+         #if a value error is raised, print it and carry on
+         except ValueError as ve:
+             print(ve)
+         else:
+             #if it all goes fine return the value (this breaks from the loop and function)
+             return val
+```
 
 Veel plezier `: )`
 ## java-processing projects
