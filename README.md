@@ -91,21 +91,21 @@ Which it can then correctly decode.
 
 The more advanced `lossless_compression.py` can correctly encode something like this:
 
-  Chor. Two households, both alike in dignity,
-    In fair Verona, where we lay our scene,
-    From ancient grudge break to new mutiny,
-    Where civil blood makes civil hands unclean.
-    From forth the fatal loins of these two foes
-    A pair of star-cross'd lovers take their life;
-    Whose misadventur'd piteous overthrows
-    Doth with their death bury their parents' strife.
-    The fearful passage of their death-mark'd love,
-    And the continuance of their parents' rage,
-    Which, but their children's end, naught could remove,
-    Is now the two hours' traffic of our stage;
-    The which if you with patient ears attend,
-    What here shall miss, our toil shall strive to mend.
-                                                         [Exit.]
+      Chor. Two households, both alike in dignity,
+        In fair Verona, where we lay our scene,
+        From ancient grudge break to new mutiny,
+        Where civil blood makes civil hands unclean.
+        From forth the fatal loins of these two foes
+        A pair of star-cross'd lovers take their life;
+        Whose misadventur'd piteous overthrows
+        Doth with their death bury their parents' strife.
+        The fearful passage of their death-mark'd love,
+        And the continuance of their parents' rage,
+        Which, but their children's end, naught could remove,
+        Is now the two hours' traffic of our stage;
+        The which if you with patient ears attend,
+        What here shall miss, our toil shall strive to mend.
+                                                             [Exit.]
 
 in binary format, and decode it (by this command).
 
@@ -239,7 +239,7 @@ I use `izaak-zshrc` for my `rc` file for `zsh`, as to allow `oh-my-zsh`'s defaul
 I have two email accounts set up with `mutt`, with obscured passwords. `gmail` is aliases to load my `gmail` credentials, etc. I've emulated `muttrc` syntax with a `sh` shebang.
 ## My Python basics repo:
 ### [backtobasics](https://github.com/elterminad0r/backtobasics)
-Some Python basics should any of my one audience members wish to refer to them. Features simple examples of code, with mildly explanatory comments. For example, a demonstration of a validation function that takes a parser function as an argument (using while-loops and try-except, docstring omitted):
+Some Python basics should any of my one audience members wish to refer to them. The main goal is to provide lots of accessible examples of basic Python functionality/syntax and make a reasonably usable index of these examples. Features simple examples of code, with mildly explanatory comments. For example, a demonstration of a validation function that takes a parser function as an argument (using while-loops and try-except, docstring omitted):
 
 ```Python
 def get_type(ty, msg):
