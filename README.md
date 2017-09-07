@@ -231,8 +231,12 @@ Also features a miscellaneous utility function that greps for lines containing t
 ### [Yahtzee](https://github.com/elterminad0r/yahtzee)
 A work in progress - hoping to end up building a kind of nice yahtzee framework and then try to implement some different yahtzee playing algorithms (maybe monte carlo, neural network, etc). Stemming from mid-yahtzee computing banter. It might be interesting to see the distribution of scores achieved by different algorithms, such as a greedy yahtzee-seeking algorithm, or a more measured greedy algorithm searching for intersections between dice and targets (maybe weighting by scores / ease). All sorts of fun opportunities are available - reading random integers from `/dev/urandom`, synchronizing different algorithms into one stream of dice of "game", implementing algorithms as generators that require sent variables, secure extra-algorithm move validation..
 ## rc
-### [RC](https://github.com/elterminad0r/rc)
-A collection of copies of my rc files for easier access.
+### [rc](https://github.com/elterminad0r/rc)
+A collection of copies of my rc files for easier access. They're not particularly pretty - I haven't put much effort into them. Generally, I'm satisfied to use what works. I'm happy enough to introduce obscure aliases I'll forget though. `vimrc` contains a number of things specific to my terminal.
+
+I use `izaak-zshrc` for my `rc` file for `zsh`, as to allow `oh-my-zsh`'s default file to be preserved/keep my file safe. It contains a preposterous volume of aliases, beware.
+
+I have two email accounts set up with `mutt`, with obscured passwords. `gmail` is aliases to load my `gmail` credentials, etc. I've emulated `muttrc` syntax with a `sh` shebang.
 ## My Python basics repo:
 ### [backtobasics](https://github.com/elterminad0r/backtobasics)
 Some Python basics should any of my one audience members wish to refer to them. Features simple examples of code, with mildly explanatory comments. For example, a demonstration of a validation function that takes a parser function as an argument (using while-loops and try-except, docstring omitted):
