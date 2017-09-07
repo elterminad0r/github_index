@@ -75,11 +75,78 @@ Input works like so: each region is defined and assigned to a character, and the
     2 6 3 7 1 5 8 4 
     1 4 5 8 3 7 6 2 
 ### [A453](https://github.com/elterminad0r/A453)
-From my GCSE computing course
+From my GCSE computing course - see [my full writeup] here. It's a **heavily** type-annotated collection of scripts in Python, which perform various forms of naive and less naive compression on text. It initially uses a very naive system of building an index of words and writing "pointers" to words in that index, where the pointers are space-separated base-10 integers in ASCII. This is of course a tremendous waste of a byte - I later go on to use variable-length prefix encodings and raw binary data-files to make some significant gains. It's nowhere near something like LZW compression in terms of speed or compressive factor, but I think that for a Python script given the initial constraints, it's not bad at all. Also features some heavy unit testing, and modularisation, and a pretty decent interface for input/output using argparse.
+
+The most simple compressive algorithm (`readable_compression.py`), given the input:
+
+    ASK NOT WHAT YOUR COUNTRY CAN DO FOR YOU BUT WHAT YOU CAN DO FOR YOUR COUNTRY
+
+produces the *readable* output:
+
+    ASK NOT WHAT YOUR COUNTRY CAN DO FOR YOU BUT
+    0 1 2 3 4 5 6 7 8 9 2 8 5 6 7 3 4
+
+Which it can then correctly decode.
+
+
+The more advanced `lossless_compression.py` can correctly encode something like this:
+
+  Chor. Two households, both alike in dignity,
+    In fair Verona, where we lay our scene,
+    From ancient grudge break to new mutiny,
+    Where civil blood makes civil hands unclean.
+    From forth the fatal loins of these two foes
+    A pair of star-cross'd lovers take their life;
+    Whose misadventur'd piteous overthrows
+    Doth with their death bury their parents' strife.
+    The fearful passage of their death-mark'd love,
+    And the continuance of their parents' rage,
+    Which, but their children's end, naught could remove,
+    Is now the two hours' traffic of our stage;
+    The which if you with patient ears attend,
+    What here shall miss, our toil shall strive to mend.
+                                                         [Exit.]
+
+in binary format, and decode it (by this command).
+
+    $ python lossless_compression.py --input ../text/rom_ju_intro.txt  | python lossless_decompression.py
+
+Yes, I have tested my lossless algorithm on the works of Shakespeare. It produces a lossless compressive ratio of about 70%.
 ### [Linked lists](https://github.com/elterminad0r/linked_list)
 My Python linked list implementation. This is my expanded implementation from the HackerRank challenged. Note it's kind of half finished and untested so probably broken in all manner of fun ways. It's recursive so won't be able to handle any serious load due to Python's lack of tail call optimisation.
 ### [Cube](https://github.com/elterminad0r/Cube)
-My project expressing a Rubik's cube as a list of integers representing colours, and moves on the cube as permutations on the list. Uses some operator overloading for some pretty expressive syntax to build up the set of moves on the cube.
+My project expressing a Rubik's cube as a list of integers representing colours, and moves on the cube as permutations on the list. Uses some operator overloading for some pretty expressive syntax to build up the set of moves on the cube. The object model allows chaining and merging of permutations, allowing you to build up to something like this:
+
+    #turn the front face of the cube
+    turn_front = (turn_face(F)
+                + circular_chain([(U, [6, 5, 4]),
+                                  (R, [0, 7, 6]),
+                                  (D, [2, 1, 0]),
+                                  (L, [4, 3, 2])]))
+
+There are many such samples in `cube.py`. Note that no speed is lost in the abstraction - the abstracted computation is done at the start and then de-abstracted into pure permutations (lists/arrays of integers). `playground.py` allows you to do things like this:
+
+    enter move ([UDFBLR]'?|turn (left|right|up|down)) > U R U' L' U R U' L' U R U' L' U R U' L'
+    -------------------------
+            R B O                 W = F
+            B B B                 Y = B
+            R B B                 B = U
+                                  G = D
+     B O W  G W W  R R W          O = L
+     O O O  W W W  R R R          R = R
+     O O G  R W O  W R G
+     
+            Y G G
+            G G G
+            Y G O
+            
+            B Y Y
+            Y Y Y
+            Y Y B
+
+For prettier visualisations, refer to my parallel [Processing project](https://github.com/elterminad0r/rubiks_cube).
+
+This project also explores some more group-theoretical aspects of the cube - eg how many times must a set of moves be repeated to return a cube to its original state. An interesting optimisation in this is finding "sub-cycles" in the permutation formed by the set of moves and determining the LCM of the lengths of these sub-cycles.
 ### [Punnet Squares](https://github.com/elterminad0r/Punnet)
 
 Some leftover code for Punnet square generation, from a stackoverflow question. The question was deleted, so I decided to see how illegible I could make my code.
