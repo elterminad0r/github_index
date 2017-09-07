@@ -3,9 +3,9 @@
 
 # Miscellaneous Python projects
 /home/izaak/programmeren/sudoku/	sudoku	https://github.com/elterminad0r/sudoku	Sudoku solver in Python
+/home/izaak/programmeren/Calcudoku/	Calcudoku	https://github.com/elterminad0r/Calcudoku	Calcudoku solver
 /home/izaak/programmeren/A453/	A453	https://github.com/elterminad0r/A453	Controlled assessment - historic interest
 /home/izaak/programmeren/linked_list/	linked_list	https://github.com/elterminad0r/linked_list	Recursive Python linked list
-/home/izaak/programmeren/Calcudoku/	Calcudoku	https://github.com/elterminad0r/Calcudoku	Calcudoku solver
 /home/izaak/programmeren/Cube/	Cube	https://github.com/elterminad0r/Cube	Rubik's cube model
 /home/izaak/programmeren/stackoverflow/Punnet/	Punnet	https://github.com/elterminad0r/Punnet	Punnet Square generation
 /home/izaak/programmeren/cookies/	cookies	https://github.com/elterminad0r/cookies	The "cookie game" Python project

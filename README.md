@@ -2,23 +2,82 @@
 A bit of a meta-project on creating a nicer index of my github repositories. Partially motivated because I'm too greedy to do with only 6 pinned repositories. It's just about stable enough to function. It features several sub-utilities I chain together, including directory-searching and API-json reading. It files my projects under subcategories, and concatenates together readmes under a category heading.
 ## My Postscript Repository
 ### [Postscript](https://github.com/elterminad0r/Postscript)
-Some of my postscript projects - some early, some less so. `zut` means pile of rubbish. There's lots to do with polysymmetry and fractals, and then some other stuff. Here are a couple of my favourites:
+Some of my Postscript (the printer language) projects - some early, some less so. `zut` means pile of rubbish. There's lots to do with polysymmetry and fractals, and then some other stuff. Postscript is actually a really fun language for static graphics programming - I love its syntax, model of stack frames (you have to manually push a new local namespace dictionary to the stack). It's powerful - featuring programmatic features like for loops, while maintaining good drawing primitives and vector graphics. It's actually pretty good for fractals, but also polysymmetric tilings and more. Here are a couple of my favourites:
 
 ![screenshot](https://github.com/elterminad0r/Postscript/blob/master/svgs/penrose.svg)
 ![screenshot](https://github.com/elterminad0r/Postscript/blob/master/svgs/ster.svg)
 ![screenshot](https://github.com/elterminad0r/Postscript/blob/master/svgs/minkowski.svg)
-![screenshot](https://github.com/elterminad0r/Postscript/blob/master/svgs/plusFractal.svg)
-![screenshot](https://github.com/elterminad0r/Postscript/blob/master/svgs/pythagorasTree.svg)
 ![screenshot](https://github.com/elterminad0r/Postscript/blob/master/svgs/star2.svg)
+
+
+A few more that I really wanted to add here, but have moved to a directory of SVGs (they should be viewable in browser): [svgs](https://github.com/elterminad0r/Postscript/blob/master/svgs/)
 ## Miscellaneous Python projects
 ### [Sudoku](https://github.com/elterminad0r/sudoku)
-A (brute-force) sudoku solver in Python.
+A (brute-force) sudoku solver in Python. It models a Sudoku as a list (array under the hood) of length 81. It generates a further two-dimensional array (`[81][21]`), which maps cell locations to all other cell locations that that cell can "see". An empty cell takes the conveniently unused value of 0. Input sudoku is read from stdin, and should simply consist of 81 whitespace separated digits. The program comes with an option (`-e`) to print an "empty" sudoku for ease of entering a sudoku. With this as input (`ex.txt`)::
+
+    0 0 0  2 6 0  7 0 1
+    6 8 0  0 7 0  0 9 0  
+    0 9 0  0 0 4  5 0 0  
+
+    8 2 0  1 0 0  0 4 0  
+    0 0 4  6 0 2  9 0 0  
+    0 5 0  0 0 3  0 2 8
+
+    0 0 9  3 0 0  0 7 4
+    0 4 0  0 5 0  0 3 6
+    7 0 3  0 1 8  0 0 0  
+
+Done with this command:
+
+    $ time cat ex.txt | python solve.py 
+
+Produces, in a very respectable time-frame:
+
+    4 3 5  2 6 9  7 8 1  
+    6 8 2  5 7 1  4 9 3  
+    1 9 7  8 3 4  5 6 2  
+
+    8 2 6  1 9 5  3 4 7  
+    3 7 4  6 8 2  9 1 5  
+    9 5 1  7 4 3  6 2 8  
+
+    5 1 9  3 2 6  8 7 4  
+    2 4 8  9 5 7  1 3 6  
+    7 6 3  4 1 8  2 5 9  
+
+
+    cat ex.txt  0.00s user 0.00s system 0% cpu 0.003 total
+    python3 solve.py  0.04s user 0.00s system 90% cpu 0.044 total
+
+Of course, it's a stupid solver so if you give it a problem engineered to work against it the universe will probably collapse before it's finished.
+### [Calcudoku](https://github.com/elterminad0r/Calcudoku)
+A simple brute force solver for an 8\*8 'calcudoku'. A `Calcudoku` is given a number of *regions*, with *targets* and *operations*. A region is a set of adjacent cells (although the program could handle non-adjacent cells), where they are given an operation and a target. The Target is an integer which must be reached by combining the integers in the cells using the operation, ie:
+
+    target = 6
+
+operation | explanation
+--- | ---
++ | The numbers should add up to 6.
+- | The largest number subtract *all* the rest of the numbers should be 6.
+* | The product of the numbers should be 6.
+/ | The largest number divided by *all* the rest of the numbers should be 6.
+
+These regions are modelled in a pretty nicely structured OO model.
+
+Input works like so: each region is defined and assigned to a character, and then a grid of characters is provided. You can refer to [ex.txt](https://github.com/elterminad0r/Calcudoku/blob/master/ex.txt) for a fully specified input file. Using it as input, with `cat ex.txt | python interf.py`, this output is produced:
+
+    8 5 7 1 4 2 3 6 
+    7 3 4 5 6 1 2 8 
+    4 7 2 3 8 6 1 5 
+    3 1 8 6 2 4 5 7 
+    5 8 6 2 7 3 4 1 
+    6 2 1 4 5 8 7 3 
+    2 6 3 7 1 5 8 4 
+    1 4 5 8 3 7 6 2 
 ### [A453](https://github.com/elterminad0r/A453)
 From my GCSE computing course
 ### [Linked lists](https://github.com/elterminad0r/linked_list)
 My Python linked list implementation. This is my expanded implementation from the HackerRank challenged. Note it's kind of half finished and untested so probably broken in all manner of fun ways. It's recursive so won't be able to handle any serious load due to Python's lack of tail call optimisation.
-### [Calcudoku](https://github.com/elterminad0r/Calcudoku)
-A simple brute force solver for an 8\*8 'calcudoku'.
 ### [Cube](https://github.com/elterminad0r/Cube)
 My project expressing a Rubik's cube as a list of integers representing colours, and moves on the cube as permutations on the list. Uses some operator overloading for some pretty expressive syntax to build up the set of moves on the cube.
 ### [Punnet Squares](https://github.com/elterminad0r/Punnet)
@@ -34,7 +93,20 @@ A work in progress - hoping to end up building a kind of nice yahtzee framework 
 A collection of copies of my rc files for easier access.
 ## My Python basics repo:
 ### [backtobasics](https://github.com/elterminad0r/backtobasics)
-Some Python basics should any of my one audience members wish to refer to them.
+Some Python basics should any of my one audience members wish to refer to them. Features simple examples of code, with mildly explanatory comments. For example, a demonstration of a validation function that takes a parser function as an argument (using while-loops and try-except, docstring omitted):
+
+	def get_type(ty, msg):
+		 while True:
+			 try:
+				 val = ty(input(msg))
+			 #if a value error is raised, print it and carry on
+			 except ValueError as ve:
+				 print(ve)
+			 else:
+				 #if it all goes fine return the value (this breaks from the loop and function)
+				 return val
+
+Veel plezier `: )`
 ## java-processing projects
 ### [alphabet](https://github.com/elterminad0r/alphabet)
 Shading the screen using letters of the alphabet in Processing. All printable ascii keys on the keyboard are accessible from the keyboard. Some special keys (space, enter) are used for acceleration. ASCII value scales with the x value. Here are some screenshots:
