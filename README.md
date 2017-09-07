@@ -29,6 +29,9 @@ Some projects on "the cookie game" in Python. Includes an automatic opponent and
 ### [Yahtzee](https://github.com/elterminad0r/yahtzee)
 
 A work in progress - hoping to end up building a kind of nice yahtzee framework and then try to implement some different yahtzee playing algorithms (maybe monte carlo, neural network, etc)
+## rc
+### [RC](https://github.com/elterminad0r/rc)
+A collection of copies of my rc files for easier access.
 ## My Python basics repo:
 ### [backtobasics](https://github.com/elterminad0r/backtobasics)
 Some Python basics should any of my one audience members wish to refer to them.
