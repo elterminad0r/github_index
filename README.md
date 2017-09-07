@@ -552,7 +552,7 @@ Breadth first Koch snowflake, similar to the sierpinski triangle. It looks like 
 
 It's a bit off as I've turned off smoothing, but overall I prefer it this way.
 ### [stepbysierp](https://github.com/elterminad0r/stepbysierp)
-A breadth-first Sierpinski triangle, using generators. It looks like this:
+A breadth-first Sierpinski triangle, using generators. It has been optimised a lot so that each stack frame needs only track coordinates, and crucially they share triangle dimension information. Originally, whenever a new depth was reached, the program stuttered as it had to create an exponential number of new generators with new calculations. It looks like this:
 
 ![screenshot](https://github.com/elterminad0r/stepbysierp/blob/master/screenshot.png)
 ### [py\_lerpbez](https://github.com/elterminad0r/py_lerpbez)
