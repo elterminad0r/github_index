@@ -111,7 +111,7 @@ in binary format, and decode it (by this command).
 
     $ python lossless_compression.py --input ../text/rom_ju_intro.txt  | python lossless_decompression.py
 
-Yes, I have tested my lossless algorithm on the works of Shakespeare. It produces a lossless compressive ratio of about 40%. Its performance and memory usage complexity is poor as it has to read lots into memory to optimise the prefix encoding.
+Yes, I have tested my lossless algorithm on the works of Shakespeare. It produces a lossless compressive ratio of about 39% (and a lossy compression ratio of 28%). Its performance and memory usage complexity is poor as it has to read lots into memory to optimise the prefix encoding.
 ### [Linked lists](https://github.com/elterminad0r/linked_list)
 My Python linked list implementation. This is my expanded implementation from the HackerRank challenged. Note it's kind of half finished and untested so probably broken in all manner of fun ways. It's recursive so won't be able to handle any serious load due to Python's lack of tail call optimisation. It also overloads the `__or__` operator, which put together with recursion produces some slightly Haskell-inspired levels of conciseness:
 
