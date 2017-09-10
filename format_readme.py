@@ -13,14 +13,14 @@ for line in sys.stdin:
     if line.strip():
         if line.startswith("#"):
             out.append("#{}".format(line))
-            toc.append("1. [{}](#{})\n".format(line[2:-1], line[2:-1].lower().replace(" ", "-")))
+            toc.append("- [{}](#{})\n".format(line[2:-1], line[2:-1].lower().replace(" ", "-")))
         else:
             rep_dir, rep_name, rep_url, rep_desc = line.strip().split("\t")
             with open(rep_dir + "README.md", "r") as rep_file:
                 for r_line in rep_file:
                     if r_line.startswith("#"):
                         out.append("### [{}]({})\n".format(r_line[2:-1], rep_url))
-                        toc.append("    1. [{}](#{})\n".format(r_line[2:-1], r_line[2:-1].lower().replace(" ", "-")))
+                        toc.append("    - [{}](#{})\n".format(r_line[2:-1], r_line[2:-1].lower().replace(" ", "-")))
                     else:
                         out.append(r_line)
 
