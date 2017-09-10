@@ -7,7 +7,7 @@ import sys
 sys.stdout.write(__doc__)
 
 out = []
-toc = []
+toc = ["## Table of Contents\n"]
 
 for line in sys.stdin:
     if line.strip():

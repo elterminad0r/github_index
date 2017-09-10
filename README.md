@@ -1,5 +1,6 @@
 # github\_inventory
 A bit of a meta-project on creating a nicer index of my github repositories. Partially motivated because I'm too greedy to do with only 6 pinned repositories. It's just about stable enough to function. It features several sub-utilities I chain together, including directory-searching and API-json reading. It files my projects under subcategories, and concatenates together readmes under a category heading.
+## Table of Contents
 1. [My Postscript Repository](#my-postscript-repository)
     1. [Postscript](#postscript)
 1. [Miscellaneous Python projects](#miscellaneous-python-projects)
@@ -16,7 +17,7 @@ A bit of a meta-project on creating a nicer index of my github repositories. Par
     1. [hangman](#hangman)
 1. [rc](#rc)
     1. [rc](#rc)
-1. [My Python basics repo:](#my-python-basics-repo:)
+1. [My Python basics repo](#my-python-basics-repo)
     1. [backtobasics](#backtobasics)
 1. [java-processing projects](#java-processing-projects)
     1. [alphabet](#alphabet)
@@ -395,7 +396,7 @@ A collection of copies of my rc files for easier access. They're not particularl
 I use `izaak-zshrc` for my `rc` file for `zsh`, as to allow `oh-my-zsh`'s default file to be preserved/keep my file safe. It contains a preposterous volume of aliases, beware.
 
 I have two email accounts set up with `mutt`, with obscured passwords. `gmail` is aliases to load my `gmail` credentials, etc. I've emulated `muttrc` syntax with a `sh` shebang.
-## My Python basics repo:
+## My Python basics repo
 ### [backtobasics](https://github.com/elterminad0r/backtobasics)
 Some Python basics should any of my one audience members wish to refer to them. The main goal is to provide lots of accessible examples of basic Python functionality/syntax and make a reasonably usable index of these examples. Features simple examples of code, with mildly explanatory comments. For example, a demonstration of a validation function that takes a parser function as an argument (using while-loops and try-except, docstring omitted):
 
