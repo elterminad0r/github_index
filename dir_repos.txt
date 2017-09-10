@@ -10,6 +10,7 @@
 /home/izaak/programmeren/stackoverflow/Punnet/	Punnet	https://github.com/elterminad0r/Punnet	Punnet Square generation
 /home/izaak/programmeren/cookies/	cookies	https://github.com/elterminad0r/cookies	The "cookie game" Python project
 /home/izaak/programmeren/yahtzee/	yahtzee	https://github.com/elterminad0r/yahtzee	Hopefully some functioning yahtzee models eventually..
+/home/izaak/programmeren/queens/	queens	https://github.com/elterminad0r/queens	N-queens in Python
 
 # rc
 /home/izaak/programmeren/rc/	rc	https://github.com/elterminad0r/rc	 A collection of my rc files

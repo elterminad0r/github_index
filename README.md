@@ -230,6 +230,45 @@ Some projects on "the cookie game" in Python. Includes an automatic opponent and
 Also features a miscellaneous utility function that greps for lines containing the letters of a word, in order.
 ### [Yahtzee](https://github.com/elterminad0r/yahtzee)
 A work in progress - hoping to end up building a kind of nice yahtzee framework and then try to implement some different yahtzee playing algorithms (maybe monte carlo, neural network, etc). Stemming from mid-yahtzee computing banter. It might be interesting to see the distribution of scores achieved by different algorithms, such as a greedy yahtzee-seeking algorithm, or a more measured greedy algorithm searching for intersections between dice and targets (maybe weighting by scores / ease). All sorts of fun opportunities are available - reading random integers from `/dev/urandom`, synchronizing different algorithms into one stream of dice of "game", implementing algorithms as generators that require sent variables, secure extra-algorithm move validation..
+### [queens](https://github.com/elterminad0r/queens)
+The n-queens problem in Python. A command-line script to generate all solutions to the problem for an n\*n chessboard (the problem being to fit n queens on this board such that no queen can target another). It uses the relatively naive backtracking technique. It stores queens as a list of length `n`, where each element is the `y`-coordinate of a queen (or `None`) if the queen doesn't exist.
+
+The default case is 8\*8 - so calling with `$ python queens.py` results in something like this:
+
+    Board 0:
+    Q _ _ _ _ _ _ _
+    _ _ _ _ Q _ _ _
+    _ _ _ _ _ _ _ Q
+    _ _ _ _ _ Q _ _
+    _ _ Q _ _ _ _ _
+    _ _ _ _ _ _ Q _
+    _ Q _ _ _ _ _ _
+    _ _ _ Q _ _ _ _
+    Board 1:
+    Q _ _ _ _ _ _ _
+    _ _ _ _ _ Q _ _
+    _ _ _ _ _ _ _ Q
+    _ _ Q _ _ _ _ _
+    _ _ _ _ _ _ Q _
+    _ _ _ Q _ _ _ _
+    _ Q _ _ _ _ _ _
+    _ _ _ _ Q _ _ _
+
+    ...
+
+    Board 91:
+    _ _ _ _ _ _ _ Q
+    _ _ _ Q _ _ _ _
+    Q _ _ _ _ _ _ _
+    _ _ Q _ _ _ _ _
+    _ _ _ _ _ Q _ _
+    _ Q _ _ _ _ _ _
+    _ _ _ _ _ _ Q _
+    _ _ _ _ Q _ _ _
+
+It works for any board dimension - eg `$ python -n 13`.
+
+It features a little optimisation - minimising dual computation and reconstruction of objects - `positions` in `_n_queens` is always the same list, and its length is never changed.
 ## rc
 ### [rc](https://github.com/elterminad0r/rc)
 A collection of copies of my rc files for easier access. They're not particularly pretty - I haven't put much effort into them. Generally, I'm satisfied to use what works. I'm happy enough to introduce obscure aliases I'll forget though. `vimrc` contains a number of things specific to my terminal.
