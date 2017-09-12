@@ -12,6 +12,7 @@
 /home/izaak/programmeren/yahtzee/	yahtzee	https://github.com/elterminad0r/yahtzee	Hopefully some functioning yahtzee models eventually..
 /home/izaak/programmeren/queens/	queens	https://github.com/elterminad0r/queens	N-queens in Python
 /home/izaak/programmeren/hangman/	queens	https://github.com/elterminad0r/hangman	Hangman in Python (integrated with Turtle)
+/home/izaak/programmeren/points/	queens	https://github.com/elterminad0r/points	 Polynomial fitting in Python
 
 # rc
 /home/izaak/programmeren/rc/	rc	https://github.com/elterminad0r/rc	 A collection of my rc files

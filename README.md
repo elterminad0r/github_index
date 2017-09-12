@@ -1,5 +1,5 @@
 # github\_inventory
-A bit of a meta-project on creating a nicer index of my github repositories. Partially motivated because I'm too greedy to do with only 6 pinned repositories. It's just about stable enough to function (on my personal convention for my repositories). It features several sub-utilities I chain together, including directory-searching and API-json reading. It files my projects under subcategories, and concatenates together readmes under a category heading. It was also about familiarising myself with Markdown (generating headers, normalising header names in links to contents, tables etc)
+A bit of a meta-project on creating a nicer index of my github repositories. Partially motivated because I'm too greedy to do with only 6 pinned repositories. It's just about stable enough to function (on my personal convention for my repositories). It features several sub-utilities I chain together, including directory-searching and API-json reading. It files my projects under subcategories, and concatenates together readmes under a category heading. It was also about familiarising myself with Markdown (generating headers, normalising header names in links to contents, tables etc). It features just about the right combination of absolute and relative links that the readme source is in-place stable.
 ## Table of Contents
 - [My Postscript Repository](#my-postscript-repository)
     - [Postscript](#postscript)
@@ -14,6 +14,7 @@ A bit of a meta-project on creating a nicer index of my github repositories. Par
     - [Yahtzee](#yahtzee)
     - [queens](#queens)
     - [hangman](#hangman)
+    - [points](#points)
 - [rc](#rc)
     - [rc](#rc)
 - [My Python basics repo](#my-python-basics-repo)
@@ -211,12 +212,12 @@ NB it's Python 3.6, as it uses f-strings. Should be easy enough to use .format i
 My project expressing a Rubik's cube as a list of integers representing colours, and moves on the cube as permutations on the list. Uses some operator overloading for some pretty expressive syntax to build up the set of moves on the cube. The object model allows chaining and merging of permutations, allowing you to build up to something like this:
 
 ```Python
-    # turn the front face of the cube
-    turn_front = (turn_face(F)
-                + circular_chain([(U, [6, 5, 4]),
-                                  (R, [0, 7, 6]),
-                                  (D, [2, 1, 0]),
-                                  (L, [4, 3, 2])]))
+ # turn the front face of the cube
+ turn_front = (turn_face(F)
+             + circular_chain([(U, [6, 5, 4]),
+                               (R, [0, 7, 6]),
+                               (D, [2, 1, 0]),
+                               (L, [4, 3, 2])]))
 ```
 
 There are many such samples in `cube.py`. Note that no speed is lost in the abstraction - the abstracted computation is done at the start and then de-abstracted into pure permutations (lists/arrays of integers). `playground.py` allows you to do things like this:
@@ -388,6 +389,8 @@ A bit of a legacy project on Hangman. It's an implementation of hangman, where t
 After several more failures, the screen will turn red and look like this (NB this has been building up in steps like a proper hangman game):
 
 ![screenshot](https://github.com/elterminad0r/hangman/blob/master/fail.png)
+### [points](https://github.com/elterminad0r/points)
+My first serious, non-trivial, non-tutorial suggested Python project was `points.py`. This repository features several evolutions of the project as I grew more experienced with Python - `IV` is still in development. The gist of the program is to take a set of coordinates, and fit a polynomial in `x` to them *exactly*. This is guaratneed to be possible if no coordinates share an x-coordinate. It is done by substituting each coordinate into the general equation for a polynomial of degree (`num of points - 1`), which results in a solvable system of simultaneous equations, which the program then solves with varying levels of elegance.
 ## rc
 ### [rc](https://github.com/elterminad0r/rc)
 A collection of copies of my rc files for easier access. They're not particularly pretty - I haven't put much effort into them. Generally, I'm satisfied to use what works. I'm happy enough to introduce obscure aliases I'll forget though. `vimrc` contains a number of things specific to my terminal.
