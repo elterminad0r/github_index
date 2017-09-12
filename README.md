@@ -15,6 +15,7 @@ A bit of a meta-project on creating a nicer index of my github repositories. Par
     - [queens](#queens)
     - [hangman](#hangman)
     - [points](#points)
+    - [DNA](#dna)
 - [rc](#rc)
     - [rc](#rc)
 - [My Python basics repo](#my-python-basics-repo)
@@ -141,7 +142,7 @@ Input works like so: each region is defined and assigned to a character, and the
     2 6 3 7 1 5 8 4 
     1 4 5 8 3 7 6 2 
 ### [A453](https://github.com/elterminad0r/A453)
-From my GCSE computing course - see [my full writeup](https://github.com/elterminad0r/A453/blob/master/writeup.pdf) (be warned - it's big. I'd recommend downloading it rather than viewing it inline - I've crashed a couple of browser sessions by trying the latter). It's a **heavily** type-annotated collection of scripts in Python, which perform various forms of naive and less naive compression on text. It initially uses a very naive system of building an index of words and writing "pointers" to words in that index, where the pointers are space-separated base-10 integers in ASCII. This is of course a tremendous waste of a byte - I later go on to use variable-length prefix encodings and raw binary data-files to make some significant gains. It's nowhere near something like LZW compression in terms of speed or compressive factor, but I think that for a Python script given the initial constraints, it's not bad at all. Also features some heavy unit testing, and modularisation, and a pretty decent interface for input/output using argparse.
+From my GCSE computing course - see [my full writeup](https://github.com/elterminad0r/A453/blob/master/writeup.pdf) (be warned - it's big. I'd recommend downloading it rather than viewing it inline - I've crashed a couple of browser sessions by trying the latter). It's a **heavily** type-annotated collection of scripts in Python, which perform various forms of naive and less naive compression on text. It initially uses a very naive system of building an index of words and writing "pointers" to words in that index, where the pointers are space-separated base-10 integers in ASCII. This is of course a tremendous waste of a byte - I later go on to use variable-length prefix encodings and raw binary data-files to make some significant gains. It's nowhere near something like LZW compression in terms of speed or compressive factor, but I think that for a Python script given the initial constraints, it's not bad at all. Also features some heavy unit testing, and modularisation, and a pretty decent interface for input/output using argparse. It also features an implementation of LZW in the same framework, used as reference (it's faster and produces more compresssion :( ). This repository features several utilities for abstract dealing with binary misaligned data - they're not particularly optimised, but they're pretty elegant. BinaryWriter and BinaryReader classes are used to buffer byte input and act like iterables.
 
 The most simple compressive algorithm (`readable_compression.py`), given the input:
 
@@ -153,7 +154,6 @@ produces the *readable* output:
     0 1 2 3 4 5 6 7 8 9 2 8 5 6 7 3 4
 
 Which it can then correctly decode.
-
 
 The more advanced `lossless_compression.py` can correctly encode something like this:
 
@@ -178,6 +178,15 @@ in binary format, and decode it (by this command).
     $ python lossless_compression.py --input ../text/rom_ju_intro.txt  | python lossless_decompression.py
 
 Yes, I have tested my lossless algorithm on the works of Shakespeare. It produces a lossless compressive ratio of about 39% (and a lossy compression ratio of 28%). Its performance and memory usage complexity is poor as it has to read lots into memory to optimise the prefix encoding.
+
+Here are some tests on compressive ratios:
+
+    $ wc -c  ../text/shakespeare.txt 
+    5458199 ../text/shakespeare.txt
+    $ cat ../text/shakespeare.txt | python lzw_compression.py | wc -c
+    1933187
+    $ cat ../text/shakespeare.txt | python lossless_compression.py | wc -c 
+    2150980
 ### [Linked lists](https://github.com/elterminad0r/linked_list)
 My Python linked list implementation. This is my expanded implementation from the HackerRank challenged. Note it's kind of half finished and untested so probably broken in all manner of fun ways. It's recursive so won't be able to handle any serious load due to Python's lack of tail call optimisation. It also overloads the `__or__` operator, which put together with recursion produces some slightly Haskell-inspired levels of conciseness:
 
@@ -391,6 +400,12 @@ After several more failures, the screen will turn red and look like this (NB thi
 ![screenshot](https://github.com/elterminad0r/hangman/blob/master/fail.png)
 ### [points](https://github.com/elterminad0r/points)
 My first serious, non-trivial, non-tutorial suggested Python project was `points.py`. This repository features several evolutions of the project as I grew more experienced with Python - `IV` is still in development. The gist of the program is to take a set of coordinates, and fit a polynomial in `x` to them *exactly*. This is guaratneed to be possible if no coordinates share an x-coordinate. It is done by substituting each coordinate into the general equation for a polynomial of degree (`num of points - 1`), which results in a solvable system of simultaneous equations, which the program then solves with varying levels of elegance.
+### [DNA](https://github.com/elterminad0r/DNA)
+My various projects from my brief work experience at the Wellcome Trust Sanger Institute, where I did a project on error-correction in DNA strings. Features various approaches, including Hadamard codes moved forcibly to base-4, and a base-4 adaptation of the Hamming code, where parity is extended into value-mod-4.
+
+It also has some simple Python CGI scripts implementing some of the found approaches in a very simplistic web interface.
+
+[Here](https://github.com/elterminad0r/DNA/blob/master/presentation.pdf) is the accompanying presentation I made for the end of my stay.
 ## rc
 ### [rc](https://github.com/elterminad0r/rc)
 A collection of copies of my rc files for easier access. They're not particularly pretty - I haven't put much effort into them. Generally, I'm satisfied to use what works. I'm happy enough to introduce obscure aliases I'll forget though. `vimrc` contains a number of things specific to my terminal.

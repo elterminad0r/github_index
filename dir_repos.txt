@@ -11,8 +11,9 @@
 /home/izaak/programmeren/cookies/	cookies	https://github.com/elterminad0r/cookies	The "cookie game" Python project
 /home/izaak/programmeren/yahtzee/	yahtzee	https://github.com/elterminad0r/yahtzee	Hopefully some functioning yahtzee models eventually..
 /home/izaak/programmeren/queens/	queens	https://github.com/elterminad0r/queens	N-queens in Python
-/home/izaak/programmeren/hangman/	queens	https://github.com/elterminad0r/hangman	Hangman in Python (integrated with Turtle)
-/home/izaak/programmeren/points/	queens	https://github.com/elterminad0r/points	 Polynomial fitting in Python
+/home/izaak/programmeren/hangman/	hangman	https://github.com/elterminad0r/hangman	Hangman in Python (integrated with Turtle)
+/home/izaak/programmeren/points/	points	https://github.com/elterminad0r/points	 Polynomial fitting in Python
+/home/izaak/programmeren/DNA/	DNA	https://github.com/elterminad0r/DNA	 Error-correcting DNA barcodes in Python
 
 # rc
 /home/izaak/programmeren/rc/	rc	https://github.com/elterminad0r/rc	 A collection of my rc files
