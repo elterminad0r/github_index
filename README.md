@@ -16,6 +16,7 @@ A bit of a meta-project on creating a nicer index of my github repositories. Par
     - [hangman](#hangman)
     - [points](#points)
     - [DNA](#dna)
+    - [sorting](#sorting)
 - [rc](#rc)
     - [rc](#rc)
 - [My Python basics repo](#my-python-basics-repo)
@@ -406,6 +407,8 @@ My various projects from my brief work experience at the Wellcome Trust Sanger I
 It also has some simple Python CGI scripts implementing some of the found approaches in a very simplistic web interface.
 
 [Here](https://github.com/elterminad0r/DNA/blob/master/presentation.pdf) is the accompanying presentation I made for the end of my stay.
+### [sorting](https://github.com/elterminad0r/sorting)
+My collection of Python sorting algorithms from once upon a time. Investigation into efficent sorting of integers in the end, which doesn't require comparisons. It's on the to-do list to redo/clean this all up one day.
 ## rc
 ### [rc](https://github.com/elterminad0r/rc)
 A collection of copies of my rc files for easier access. They're not particularly pretty - I haven't put much effort into them. Generally, I'm satisfied to use what works. I'm happy enough to introduce obscure aliases I'll forget though. `vimrc` contains a number of things specific to my terminal.

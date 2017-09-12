@@ -14,6 +14,7 @@
 /home/izaak/programmeren/hangman/	hangman	https://github.com/elterminad0r/hangman	Hangman in Python (integrated with Turtle)
 /home/izaak/programmeren/points/	points	https://github.com/elterminad0r/points	 Polynomial fitting in Python
 /home/izaak/programmeren/DNA/	DNA	https://github.com/elterminad0r/DNA	 Error-correcting DNA barcodes in Python
+/home/izaak/programmeren/sorting/	sorting	https://github.com/elterminad0r/sorting	 Messy sorting algorithms in Python
 
 # rc
 /home/izaak/programmeren/rc/	rc	https://github.com/elterminad0r/rc	 A collection of my rc files
