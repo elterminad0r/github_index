@@ -17,7 +17,7 @@ A bit of a meta-project on creating a nicer index of my github repositories. Par
     - [points](#toc-points)
     - [DNA](#toc-dna)
     - [sorting](#toc-sorting)
-- [rc](#toc-rc)
+- [My RC files](#toc-my-rc-files)
     - [rc](#toc-rc)
 - [My Python basics repo](#toc-my-python-basics-repo)
     - [backtobasics](#toc-backtobasics)
@@ -409,7 +409,7 @@ It also has some simple Python CGI scripts implementing some of the found approa
 [Here](https://github.com/elterminad0r/DNA/blob/master/presentation.pdf) is the accompanying presentation I made for the end of my stay.
 ### [\[toc\]](#table-of-contents) [sorting](https://github.com/elterminad0r/sorting)
 My collection of Python sorting algorithms from once upon a time. Investigation into efficent sorting of integers in the end, which doesn't require comparisons. It's on the to-do list to redo/clean this all up one day.
-# [\[toc\]](#table-of-contents) rc
+# [\[toc\]](#table-of-contents) My RC files
 ### [\[toc\]](#table-of-contents) [rc](https://github.com/elterminad0r/rc)
 A collection of copies of my rc files for easier access. They're not particularly pretty - I haven't put much effort into them. Generally, I'm satisfied to use what works. I'm happy enough to introduce obscure aliases I'll forget though. `vimrc` contains a number of things specific to my terminal.
 
