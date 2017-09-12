@@ -1,5 +1,5 @@
 # github\_inventory
-A bit of a meta-project on creating a nicer index of my github repositories. Partially motivated because I'm too greedy to do with only 6 pinned repositories. It's just about stable enough to function (on my personal convention for my repositories). It features several sub-utilities I chain together, including directory-searching and API-json reading. It files my projects under subcategories, and concatenates together readmes under a category heading. It was also about familiarising myself with Markdown (generating headers, normalising header names in links to contents, tables etc). It features just about the right combination of absolute and relative links that the readme source is in-place stable.
+A bit of a meta-project on creating a nicer index of my github repositories. Partially motivated because I'm too greedy to do with only 6 pinned repositories. It's just about stable enough to function (on my personal convention for my repositories). It features several sub-utilities I chain together, including directory-searching and API-json reading. It files my projects under subcategories, and concatenates together readmes under a category heading. It was also about familiarising myself with Markdown (generating headers, normalising header names in links to contents, tables etc). It features just about the right combination of absolute and relative links that the readme source is in-place stable. Now featuring disgusting links at the start of each header to jump back to the table of contents - I'm not a web designer leave me alone.
 ## Table of Contents
 - [My Postscript Repository](#toc-my-postscript-repository)
     - [Postscript](#toc-postscript)
@@ -407,6 +407,8 @@ My various projects from my brief work experience at the Wellcome Trust Sanger I
 It also has some simple Python CGI scripts implementing some of the found approaches in a very simplistic web interface.
 
 [Here](https://github.com/elterminad0r/DNA/blob/master/presentation.pdf) is the accompanying presentation I made for the end of my stay.
+
+It's somewhere around the middle of my well-populated to-do list to revisit this and clean it up.
 ### [\[toc\]](#table-of-contents) [sorting](https://github.com/elterminad0r/sorting)
 My collection of Python sorting algorithms from once upon a time. Investigation into efficent sorting of integers in the end, which doesn't require comparisons. It's on the to-do list to redo/clean this all up one day.
 # [\[toc\]](#table-of-contents) My RC files
