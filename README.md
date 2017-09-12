@@ -1,75 +1,75 @@
 # github\_inventory
 A bit of a meta-project on creating a nicer index of my github repositories. Partially motivated because I'm too greedy to do with only 6 pinned repositories. It's just about stable enough to function (on my personal convention for my repositories). It features several sub-utilities I chain together, including directory-searching and API-json reading. It files my projects under subcategories, and concatenates together readmes under a category heading. It was also about familiarising myself with Markdown (generating headers, normalising header names in links to contents, tables etc). It features just about the right combination of absolute and relative links that the readme source is in-place stable.
 ## Table of Contents
-- [My Postscript Repository](#my-postscript-repository)
-    - [Postscript](#postscript)
-- [Miscellaneous Python projects](#miscellaneous-python-projects)
-    - [Sudoku](#sudoku)
-    - [Calcudoku](#calcudoku)
-    - [A453](#a453)
-    - [Linked lists](#linked-lists)
-    - [Cube](#cube)
-    - [Punnet Squares](#punnet-squares)
-    - [cookies](#cookies)
-    - [Yahtzee](#yahtzee)
-    - [queens](#queens)
-    - [hangman](#hangman)
-    - [points](#points)
-    - [DNA](#dna)
-    - [sorting](#sorting)
-- [rc](#rc)
-    - [rc](#rc)
-- [My Python basics repo](#my-python-basics-repo)
-    - [backtobasics](#backtobasics)
-- [java-processing projects](#java-processing-projects)
-    - [alphabet](#alphabet)
-    - [balls](#balls)
-    - [cars](#cars)
-    - [circles](#circles)
-    - [colourconway](#colourconway)
-    - [mazes](#mazes)
-    - [pendulums](#pendulums)
-    - [pixel\_sorting](#pixel\_sorting)
-    - [pythanimated](#pythanimated)
-    - [rainbow\_lines](#rainbow\_lines)
-    - [regen\_soup](#regen\_soup)
-    - [shading](#shading)
-    - [snowflakes](#snowflakes)
-    - [square\_filling\_circle](#square\_filling\_circle)
-    - [UI\_demo](#ui\_demo)
-    - [turtles](#turtles)
-    - [s\_zoom](#s\_zoom)
-- [Implementations of games in Processing](#implementations-of-games-in-processing)
-    - [platformer](#platformer)
-    - [snake](#snake)
-    - [spaceinvaders](#spaceinvaders)
-    - [tetris](#tetris)
-- [projects on "chaos" demonstrations](#projects-on-"chaos"-demonstrations)
-    - [sierp\_demo](#sierp\_demo)
-    - [chaos\_spreadsheet](#chaos\_spreadsheet)
-- [massive project on moire effect](#massive-project-on-moire-effect)
-    - [moire\_draggable](#moire\_draggable)
-- [Mandelbrot and julia sets](#mandelbrot-and-julia-sets)
-    - [julia](#julia)
-    - [mandelbrot](#mandelbrot)
-- [Python-processing projects](#python-processing-projects)
-    - [asteroids](#asteroids)
-    - [collatz\_tree](#collatz\_tree)
-    - [bounce\_3d](#bounce\_3d)
-    - [bubbles](#bubbles)
-    - [perl](#perl)
-    - [drag\_grav](#drag\_grav)
-    - [kaleidoscope](#kaleidoscope)
-    - [lightning](#lightning)
-    - [bfs\_koch](#bfs\_koch)
-    - [stepbysierp](#stepbysierp)
-    - [py\_lerpbez](#py\_lerpbez)
-    - [road\_screen](#road\_screen)
-    - [rubiks\_cube](#rubiks\_cube)
-    - [ship\_game](#ship\_game)
-    - [wind\_fans](#wind\_fans)
-## [\[toc\]](#table-of-contents) My Postscript Repository
-### [Postscript](https://github.com/elterminad0r/Postscript)
+- [My Postscript Repository](#toc-my-postscript-repository)
+    - [Postscript](#toc-postscript)
+- [Miscellaneous Python projects](#toc-miscellaneous-python-projects)
+    - [Sudoku](#toc-sudoku)
+    - [Calcudoku](#toc-calcudoku)
+    - [A453](#toc-a453)
+    - [Linked lists](#toc-linked-lists)
+    - [Cube](#toc-cube)
+    - [Punnet Squares](#toc-punnet-squares)
+    - [cookies](#toc-cookies)
+    - [Yahtzee](#toc-yahtzee)
+    - [queens](#toc-queens)
+    - [hangman](#toc-hangman)
+    - [points](#toc-points)
+    - [DNA](#toc-dna)
+    - [sorting](#toc-sorting)
+- [rc](#toc-rc)
+    - [rc](#toc-rc)
+- [My Python basics repo](#toc-my-python-basics-repo)
+    - [backtobasics](#toc-backtobasics)
+- [java-processing projects](#toc-java-processing-projects)
+    - [alphabet](#toc-alphabet)
+    - [balls](#toc-balls)
+    - [cars](#toc-cars)
+    - [circles](#toc-circles)
+    - [colourconway](#toc-colourconway)
+    - [mazes](#toc-mazes)
+    - [pendulums](#toc-pendulums)
+    - [pixel\_sorting](#toc-pixel\_sorting)
+    - [pythanimated](#toc-pythanimated)
+    - [rainbow\_lines](#toc-rainbow\_lines)
+    - [regen\_soup](#toc-regen\_soup)
+    - [shading](#toc-shading)
+    - [snowflakes](#toc-snowflakes)
+    - [square\_filling\_circle](#toc-square\_filling\_circle)
+    - [UI\_demo](#toc-ui\_demo)
+    - [turtles](#toc-turtles)
+    - [s\_zoom](#toc-s\_zoom)
+- [Implementations of games in Processing](#toc-implementations-of-games-in-processing)
+    - [platformer](#toc-platformer)
+    - [snake](#toc-snake)
+    - [spaceinvaders](#toc-spaceinvaders)
+    - [tetris](#toc-tetris)
+- [projects on "chaos" demonstrations](#toc-projects-on-"chaos"-demonstrations)
+    - [sierp\_demo](#toc-sierp\_demo)
+    - [chaos\_spreadsheet](#toc-chaos\_spreadsheet)
+- [massive project on moire effect](#toc-massive-project-on-moire-effect)
+    - [moire\_draggable](#toc-moire\_draggable)
+- [Mandelbrot and julia sets](#toc-mandelbrot-and-julia-sets)
+    - [julia](#toc-julia)
+    - [mandelbrot](#toc-mandelbrot)
+- [Python-processing projects](#toc-python-processing-projects)
+    - [asteroids](#toc-asteroids)
+    - [collatz\_tree](#toc-collatz\_tree)
+    - [bounce\_3d](#toc-bounce\_3d)
+    - [bubbles](#toc-bubbles)
+    - [perl](#toc-perl)
+    - [drag\_grav](#toc-drag\_grav)
+    - [kaleidoscope](#toc-kaleidoscope)
+    - [lightning](#toc-lightning)
+    - [bfs\_koch](#toc-bfs\_koch)
+    - [stepbysierp](#toc-stepbysierp)
+    - [py\_lerpbez](#toc-py\_lerpbez)
+    - [road\_screen](#toc-road\_screen)
+    - [rubiks\_cube](#toc-rubiks\_cube)
+    - [ship\_game](#toc-ship\_game)
+    - [wind\_fans](#toc-wind\_fans)
+# [\[toc\]](#table-of-contents) My Postscript Repository
+### [\[toc\]](#table-of-contents) [Postscript](https://github.com/elterminad0r/Postscript)
 Some of my Postscript (the printer language) projects - some early, some less so. `zut` means pile of rubbish. There's lots to do with polysymmetry and fractals, and then some other stuff. Postscript is actually a really fun language for static graphics programming - I love its syntax, model of stack frames (you have to manually push a new local namespace dictionary to the stack). It's powerful - featuring programmatic features like for loops, while maintaining good drawing primitives and vector graphics. It's actually pretty good for fractals, but also polysymmetric tilings and more. Here are a couple of my favourites:
 
 ![screenshot](https://github.com/elterminad0r/Postscript/blob/master/svgs/penrose.svg)
@@ -79,8 +79,8 @@ Some of my Postscript (the printer language) projects - some early, some less so
 
 
 A few more that I really wanted to add here, but have moved to a directory of SVGs (they should be viewable in browser): [svgs](https://github.com/elterminad0r/Postscript/blob/master/svgs/). There are also `pdf` files, but they don't seem to render very well. They're there because they're a necessary intermediate stage to my SVG generation method - I first use `ps2pdf`, and then `pdf2svg`. It seems to be working quite well so it's good enough for me. I've tested that all of these work with my version of GhostScript - you should also be able to open them in Preview on MacOS or some kind of illustrator/graphics program.
-## Miscellaneous Python projects
-### [Sudoku](https://github.com/elterminad0r/sudoku)
+# [\[toc\]](#table-of-contents) Miscellaneous Python projects
+### [\[toc\]](#table-of-contents) [Sudoku](https://github.com/elterminad0r/sudoku)
 A (brute-force) sudoku solver in Python. It models a Sudoku as a list (array under the hood) of length 81. It generates a further two-dimensional array (`[81][21]`), which maps cell locations to all other cell locations that that cell can "see". An empty cell takes the conveniently unused value of 0. Input sudoku is read from stdin, and should simply consist of 81 whitespace separated digits. The program comes with an option (`-e`) to print an "empty" sudoku for ease of entering a sudoku. With this as input (`ex.txt`)::
 
     0 0 0  2 6 0  7 0 1
@@ -118,7 +118,7 @@ Produces, in a very respectable time-frame:
     python3 solve.py  0.04s user 0.00s system 90% cpu 0.044 total
 
 Of course, it's a stupid solver so if you give it a problem engineered to work against it the universe will probably collapse before it's finished.
-### [Calcudoku](https://github.com/elterminad0r/Calcudoku)
+### [\[toc\]](#table-of-contents) [Calcudoku](https://github.com/elterminad0r/Calcudoku)
 A simple brute force solver for an 8\*8 'calcudoku'. A `Calcudoku` is given a number of *regions*, with *targets* and *operations*. A region is a set of adjacent cells (although the program could handle non-adjacent cells), where they are given an operation and a target. The Target is an integer which must be reached by combining the integers in the cells using the operation, ie:
 
     target = 6
@@ -142,7 +142,7 @@ Input works like so: each region is defined and assigned to a character, and the
     6 2 1 4 5 8 7 3 
     2 6 3 7 1 5 8 4 
     1 4 5 8 3 7 6 2 
-### [A453](https://github.com/elterminad0r/A453)
+### [\[toc\]](#table-of-contents) [A453](https://github.com/elterminad0r/A453)
 From my GCSE computing course - see [my full writeup](https://github.com/elterminad0r/A453/blob/master/writeup.pdf) (be warned - it's big. I'd recommend downloading it rather than viewing it inline - I've crashed a couple of browser sessions by trying the latter). It's a **heavily** type-annotated collection of scripts in Python, which perform various forms of naive and less naive compression on text. It initially uses a very naive system of building an index of words and writing "pointers" to words in that index, where the pointers are space-separated base-10 integers in ASCII. This is of course a tremendous waste of a byte - I later go on to use variable-length prefix encodings and raw binary data-files to make some significant gains. It's nowhere near something like LZW compression in terms of speed or compressive factor, but I think that for a Python script given the initial constraints, it's not bad at all. Also features some heavy unit testing, and modularisation, and a pretty decent interface for input/output using argparse. It also features an implementation of LZW in the same framework, used as reference (it's faster and produces more compresssion :( ). This repository features several utilities for abstract dealing with binary misaligned data - they're not particularly optimised, but they're pretty elegant. BinaryWriter and BinaryReader classes are used to buffer byte input and act like iterables.
 
 The most simple compressive algorithm (`readable_compression.py`), given the input:
@@ -188,7 +188,7 @@ Here are some tests on compressive ratios:
     1933187
     $ cat ../text/shakespeare.txt | python lossless_compression.py | wc -c 
     2150980
-### [Linked lists](https://github.com/elterminad0r/linked_list)
+### [\[toc\]](#table-of-contents) [Linked lists](https://github.com/elterminad0r/linked_list)
 My Python linked list implementation. This is my expanded implementation from the HackerRank challenged. Note it's kind of half finished and untested so probably broken in all manner of fun ways. It's recursive so won't be able to handle any serious load due to Python's lack of tail call optimisation. It also overloads the `__or__` operator, which put together with recursion produces some slightly Haskell-inspired levels of conciseness:
 
 ```Python
@@ -218,7 +218,7 @@ def take(head, n):
     s2.merge(s3)                    = <0, 1, 2, 3, 4, 5>
 
 NB it's Python 3.6, as it uses f-strings. Should be easy enough to use .format instead.
-### [Cube](https://github.com/elterminad0r/Cube)
+### [\[toc\]](#table-of-contents) [Cube](https://github.com/elterminad0r/Cube)
 My project expressing a Rubik's cube as a list of integers representing colours, and moves on the cube as permutations on the list. Uses some operator overloading for some pretty expressive syntax to build up the set of moves on the cube. The object model allows chaining and merging of permutations, allowing you to build up to something like this:
 
 ```Python
@@ -253,7 +253,7 @@ There are many such samples in `cube.py`. Note that no speed is lost in the abst
 For prettier visualisations, refer to my parallel [Processing project](https://github.com/elterminad0r/rubiks_cube).
 
 This project also explores some more group-theoretical aspects of the cube - eg how many times must a set of moves be repeated to return a cube to its original state. An interesting optimisation in this is finding "sub-cycles" in the permutation formed by the set of moves and determining the LCM of the lengths of these sub-cycles.
-### [Punnet Squares](https://github.com/elterminad0r/Punnet)
+### [\[toc\]](#table-of-contents) [Punnet Squares](https://github.com/elterminad0r/Punnet)
 Some leftover code for Punnet square generation, from a stackoverflow question. The question was deleted, so I decided to see how illegible I could make my code. Was once intended to become a `code-golf` challenge, but it was too similar to another challenge. It uses some neat generator/unpacking tricks. If tokens are shortened appropriately, you can get this to be pretty short.
 
 `$ python code.py Xx xx`
@@ -263,7 +263,7 @@ Some leftover code for Punnet square generation, from a stackoverflow question. 
 	x|Xx|xx
 	-+---+--
 	x|Xx|xx
-### [cookies](https://github.com/elterminad0r/cookies)
+### [\[toc\]](#table-of-contents) [cookies](https://github.com/elterminad0r/cookies)
 Some projects on "the cookie game" in Python. Includes an automatic opponent and some testing scripts on higher dimensions of the game. Here is a sample of `opponent.py` dealing out a thrashing (featuring a little more description of what the game is):
 
 `$ python opponent.py -j 4 8`
@@ -304,9 +304,9 @@ Some projects on "the cookie game" in Python. Includes an automatic opponent and
     computer wins
 
 Also features a miscellaneous utility function that greps for lines containing the letters of a word, in order.
-### [Yahtzee](https://github.com/elterminad0r/yahtzee)
+### [\[toc\]](#table-of-contents) [Yahtzee](https://github.com/elterminad0r/yahtzee)
 A work in progress - hoping to end up building a kind of nice yahtzee framework and then try to implement some different yahtzee playing algorithms (maybe monte carlo, neural network, etc). Stemming from mid-yahtzee computing banter. It might be interesting to see the distribution of scores achieved by different algorithms, such as a greedy yahtzee-seeking algorithm, or a more measured greedy algorithm searching for intersections between dice and targets (maybe weighting by scores / ease). All sorts of fun opportunities are available - reading random integers from `/dev/urandom`, synchronizing different algorithms into one stream of dice of "game", implementing algorithms as generators that require sent variables, secure extra-algorithm move validation..
-### [queens](https://github.com/elterminad0r/queens)
+### [\[toc\]](#table-of-contents) [queens](https://github.com/elterminad0r/queens)
 The n-queens problem in Python. A command-line script to generate all solutions to the problem for an n\*n chessboard (the problem being to fit n queens on this board such that no queen can target another). It uses the relatively naive backtracking technique. It stores queens as a list of length `n`, where each element is the `y`-coordinate of a queen (or `None`) if the queen doesn't exist.
 
 The default case is 8\*8 - so calling with `$ python queens.py` results in something like this:
@@ -345,7 +345,7 @@ The default case is 8\*8 - so calling with `$ python queens.py` results in somet
 It works for any board dimension - eg `$ python -n 13`.
 
 It features a little optimisation - minimising dual computation and reconstruction of objects - `positions` in `_n_queens` is always the same list, and its length is never changed.
-### [hangman](https://github.com/elterminad0r/hangman)
+### [\[toc\]](#table-of-contents) [hangman](https://github.com/elterminad0r/hangman)
 A bit of a legacy project on Hangman. It's an implementation of hangman, where the man being hanged is drawn in Turtle. I have to say I'm actually pretty proud of it. It originally used some slightly messy terminal escape codes to try and hide user input - this has since been replaced with `getpass`. It also features a pretty robust command line interface which happens in parallel with the turtle graphics. Here it is in action (where the invisibly entered word is `"izaak van dongen"`):
 
 	What should the word be? 
@@ -399,25 +399,25 @@ A bit of a legacy project on Hangman. It's an implementation of hangman, where t
 After several more failures, the screen will turn red and look like this (NB this has been building up in steps like a proper hangman game):
 
 ![screenshot](https://github.com/elterminad0r/hangman/blob/master/fail.png)
-### [points](https://github.com/elterminad0r/points)
+### [\[toc\]](#table-of-contents) [points](https://github.com/elterminad0r/points)
 My first serious, non-trivial, non-tutorial suggested Python project was `points.py`. This repository features several evolutions of the project as I grew more experienced with Python - `IV` is still in development. The gist of the program is to take a set of coordinates, and fit a polynomial in `x` to them *exactly*. This is guaratneed to be possible if no coordinates share an x-coordinate. It is done by substituting each coordinate into the general equation for a polynomial of degree (`num of points - 1`), which results in a solvable system of simultaneous equations, which the program then solves with varying levels of elegance.
-### [DNA](https://github.com/elterminad0r/DNA)
+### [\[toc\]](#table-of-contents) [DNA](https://github.com/elterminad0r/DNA)
 My various projects from my brief work experience at the Wellcome Trust Sanger Institute, where I did a project on error-correction in DNA strings. Features various approaches, including Hadamard codes moved forcibly to base-4, and a base-4 adaptation of the Hamming code, where parity is extended into value-mod-4.
 
 It also has some simple Python CGI scripts implementing some of the found approaches in a very simplistic web interface.
 
 [Here](https://github.com/elterminad0r/DNA/blob/master/presentation.pdf) is the accompanying presentation I made for the end of my stay.
-### [sorting](https://github.com/elterminad0r/sorting)
+### [\[toc\]](#table-of-contents) [sorting](https://github.com/elterminad0r/sorting)
 My collection of Python sorting algorithms from once upon a time. Investigation into efficent sorting of integers in the end, which doesn't require comparisons. It's on the to-do list to redo/clean this all up one day.
-## rc
-### [rc](https://github.com/elterminad0r/rc)
+# [\[toc\]](#table-of-contents) rc
+### [\[toc\]](#table-of-contents) [rc](https://github.com/elterminad0r/rc)
 A collection of copies of my rc files for easier access. They're not particularly pretty - I haven't put much effort into them. Generally, I'm satisfied to use what works. I'm happy enough to introduce obscure aliases I'll forget though. `vimrc` contains a number of things specific to my terminal.
 
 I use `izaak-zshrc` for my `rc` file for `zsh`, as to allow `oh-my-zsh`'s default file to be preserved/keep my file safe. It contains a preposterous volume of aliases, beware.
 
 I have two email accounts set up with `mutt`, with obscured passwords. `gmail` is aliases to load my `gmail` credentials, etc. I've emulated `muttrc` syntax with a `sh` shebang.
-## My Python basics repo
-### [backtobasics](https://github.com/elterminad0r/backtobasics)
+# [\[toc\]](#table-of-contents) My Python basics repo
+### [\[toc\]](#table-of-contents) [backtobasics](https://github.com/elterminad0r/backtobasics)
 Some Python basics should any of my one audience members wish to refer to them. The main goal is to provide lots of accessible examples of basic Python functionality/syntax and make a reasonably usable index of these examples. Features simple examples of code, with mildly explanatory comments. For example, a demonstration of a validation function that takes a parser function as an argument (using while-loops and try-except, docstring omitted):
 
 ```Python
@@ -434,8 +434,8 @@ def get_type(ty, msg):
 ```
 
 Veel plezier `: )`
-## java-processing projects
-### [alphabet](https://github.com/elterminad0r/alphabet)
+# [\[toc\]](#table-of-contents) java-processing projects
+### [\[toc\]](#table-of-contents) [alphabet](https://github.com/elterminad0r/alphabet)
 Shading the screen using letters of the alphabet in Processing. All printable ascii keys on the keyboard are accessible from the keyboard. Some special keys (space, enter) are used for acceleration. ASCII value scales with the x value. Here are some screenshots:
 
 ![screenshot](https://github.com/elterminad0r/alphabet/blob/master/screenshots/alph1.png)
@@ -443,35 +443,35 @@ Shading the screen using letters of the alphabet in Processing. All printable as
 And after a couple of years of typing:
 
 ![screenshot](https://github.com/elterminad0r/alphabet/blob/master/screenshots/alph2.png)
-### [balls](https://github.com/elterminad0r/balls)
+### [\[toc\]](#table-of-contents) [balls](https://github.com/elterminad0r/balls)
 Simple, slightly buggy implementation of balls that can bounce off both each other and walls. It ends up looking pretty dynamic. It uses an equation for circle collision from wikipedia. The problem is that sometimes a ball will clip into another ball and start a weird orbit/mating dance. Especially happens when there's disparity between ball radii. It looks like this:
 
 ![screenshot](https://github.com/elterminad0r/balls/blob/master/screenshot.png)
-### [cars](https://github.com/elterminad0r/cars)
+### [\[toc\]](#table-of-contents) [cars](https://github.com/elterminad0r/cars)
 Early experimenting in OOP in java-processing. Animates a bunch of rectangles and their attributes (colour, size, position, rotation etc). It looks like this:
 
 ![screenshot](https://github.com/elterminad0r/cars/blob/master/screenshot.png)
-### [circles](https://github.com/elterminad0r/circles)
+### [\[toc\]](#table-of-contents) [circles](https://github.com/elterminad0r/circles)
 Neat little effect in processing an grid of circles, where radius increases the closer to the mouse. Produces quite a simple yet satisfying effect - example:
 
 ![screenshot](https://github.com/elterminad0r/circles/blob/master/screenshot.png)
-### [colourconway](https://github.com/elterminad0r/colourconway)
+### [\[toc\]](#table-of-contents) [colourconway](https://github.com/elterminad0r/colourconway)
 Conway's game of life, with colourisation related to recent activity. It's pretty but the code is a godawful mess I might try to wade into one day. Here it is in action:
 
 ![screenshot](https://github.com/elterminad0r/colourconway/blob/master/screenshot.png)
-### [mazes](https://github.com/elterminad0r/mazes)
+### [\[toc\]](#table-of-contents) [mazes](https://github.com/elterminad0r/mazes)
 Maze generation algorithms in Processing, by random walking and "knocking down" walls, and backtracking when cornered. All cells are guaranteed to be reachable, so any combination of cells can be taken as start-end (top-left bottom-right, for example). Features solutions and slower, frame-by-frame generation. Here it is in action:
 
 ![screenshot](https://github.com/elterminad0r/mazes/blob/master/screenshots/nopath.png)
 ![screenshot](https://github.com/elterminad0r/mazes/blob/master/screenshots/path.png)
 ![screenshot](https://github.com/elterminad0r/mazes/blob/master/screenshots/slo.png)
-### [pendulums](https://github.com/elterminad0r/pendulums)
+### [\[toc\]](#table-of-contents) [pendulums](https://github.com/elterminad0r/pendulums)
 A little more experimentation with Java OO in processing. Uses the simple model of pendulums to produce a slow interference effect. Here's a static screenshot:
 
 ![screenshot](https://github.com/elterminad0r/pendulums/blob/master/screenshot.png)
 
 It doesn't quite deliver the effect of them in motion, but you can see the interference/general idea.
-### [pixel\_sorting](https://github.com/elterminad0r/pixel_sorting)
+### [\[toc\]](#table-of-contents) [pixel\_sorting](https://github.com/elterminad0r/pixel_sorting)
 Sorting rows of pixels in an image by brightness, in Processing. Most of the work was done by Daniel Shiffman.
 
 With this as input:
@@ -485,29 +485,29 @@ It can produce this:
 While it's running, it looks like this:
 
 ![screenshot](https://github.com/elterminad0r/pixel_sorting/blob/master/intermediary.png)
-### [pythanimated](https://github.com/elterminad0r/pythanimated)
+### [\[toc\]](#table-of-contents) [pythanimated](https://github.com/elterminad0r/pythanimated)
 Relatively simple code to eternally increment animate the angle of a rendered Pythagoras Tree fractal.
 
 ![screenshot](https://github.com/elterminad0r/pythanimated/blob/master/screenshot.png)
-### [rainbow\_lines](https://github.com/elterminad0r/rainbow_lines)
+### [\[toc\]](#table-of-contents) [rainbow\_lines](https://github.com/elterminad0r/rainbow_lines)
 A simpler project, doing some slightly diagonal rainbow shading on a canvas.
 
 Here is a screenshot:
 
 ![Screenshot](https://github.com/elterminad0r/rainbow_lines/blob/master/screenshot.png)
-### [regen\_soup](https://github.com/elterminad0r/regen_soup)
+### [\[toc\]](#table-of-contents) [regen\_soup](https://github.com/elterminad0r/regen_soup)
 Simple OO to display a kind of weird soup-like substance with some mildly hallucinogenic rainbows. It doesn't use drawing primitives to draw the rainbows as Processing doesn't support any kind of gradient, so it actually directly modifies the pixel array. It looks like this:
 
 ![screenshot](https://github.com/elterminad0r/regen_soup/blob/master/screenshot.png)
-### [shading](https://github.com/elterminad0r/shading)
+### [\[toc\]](#table-of-contents) [shading](https://github.com/elterminad0r/shading)
 Processing "rainbow shading" by many random diagonal lines, colour shifting according to x position. It looks like this:
 
 ![screenshot](https://github.com/elterminad0r/shading/blob/master/screenshot.png)
-### [snowflakes](https://github.com/elterminad0r/snowflakes)
+### [\[toc\]](#table-of-contents) [snowflakes](https://github.com/elterminad0r/snowflakes)
 From a Christmas CS lesson once upon a time - snowflakes simulated by ascii characters. It looks like this:
 
 ![screenshot](https://github.com/elterminad0r/snowflakes/blob/master/screenshot.png)
-### [square\_filling\_circle](https://github.com/elterminad0r/square_filling_circle)
+### [\[toc\]](#table-of-contents) [square\_filling\_circle](https://github.com/elterminad0r/square_filling_circle)
 Squares that fill up the area of a circle, inspired by the classic pi paradox (as the total area of the squares approaches the area of the circle, then surely the perimeter does so too, which would lead to pi=4). It uses a real beauty of an equation worked through by hand to find the intersection of a line with gradient 1 and a circle arc - 
 
     intercept = 0.5 * (sqrt(-a * a + 2 * a * (b + c - d) - b * b - 2 * b * c + 2 * b * d - c * c + 2 * c * d - d * d + 2 * r * r) + a + b + c - d) - c;
@@ -515,39 +515,39 @@ Squares that fill up the area of a circle, inspired by the classic pi paradox (a
 Here is a screenshot of it in action:
 
 ![screenshot](https://github.com/elterminad0r/square_filling_circle/blob/master/screenshot.png)
-### [UI\_demo](https://github.com/elterminad0r/UI_demo)
+### [\[toc\]](#table-of-contents) [UI\_demo](https://github.com/elterminad0r/UI_demo)
 A simpler implementation/demonstration of my UI elements in Processing, later to be used more in `moire_draggable`. It does a lot of event handling and delegation through static methods to abstract that from the main pde sketch. It uses some vector arithmetic for some of the features. It looks like this:
 
 ![screenshot](https://github.com/elterminad0r/UI_demo/blob/master/screenshot.png)
-### [turtles](https://github.com/elterminad0r/turtles)
+### [\[toc\]](#table-of-contents) [turtles](https://github.com/elterminad0r/turtles)
 Custom turtle implementation in Processing, used to have multiple turtles follow the same instructions (from keyboard) for symmetric kinda pretty rainbow patterns. Here is what it looks like:
 
 ![screenshot](https://github.com/elterminad0r/turtles/blob/master/screenshot.png)
-### [s\_zoom](https://github.com/elterminad0r/s_zoom)
+### [\[toc\]](#table-of-contents) [s\_zoom](https://github.com/elterminad0r/s_zoom)
 A kind of inefficient sketch that tries to emulate the effect of infinitely zooming in on the top part of a Sierpinski Triangle. It looks like this:
 
 ![screenshot](https://github.com/elterminad0r/s_zoom/blob/master/screenshot.png)
-## Implementations of games in Processing
-### [platformer](https://github.com/elterminad0r/platformer)
+# [\[toc\]](#table-of-contents) Implementations of games in Processing
+### [\[toc\]](#table-of-contents) [platformer](https://github.com/elterminad0r/platformer)
 An extremely bare-bones platformer in processing - both in content and implementation. Its collision detection, after much work, seems to be pretty flawless. It should be relatively easy to add more platorms. Here is what it looks like - be warned that I'm a prolific graphic designer:
 
 ![screenshot](https://github.com/elterminad0r/platformer/blob/master/screenshot.png)
 
 The upright rectangle is the protagonist, and the sideways rectangles are platforms. If Thomas was alone can do it, so can I.
-### [snake](https://github.com/elterminad0r/snake)
+### [\[toc\]](#table-of-contents) [snake](https://github.com/elterminad0r/snake)
 The game Snake in Processing. Not a particularly clear implementation. The snake is rainbow coloured. There is a known bug with the score-text, but I'm not feeling motivated enough to fix it. It also features some very well hidden cheat codes. It looks like this:
 
 ![screenshot](https://github.com/elterminad0r/snake/blob/master/screenshot.png)
-### [spaceinvaders](https://github.com/elterminad0r/spaceinvaders)
+### [\[toc\]](#table-of-contents) [spaceinvaders](https://github.com/elterminad0r/spaceinvaders)
 Kind of old implementation of Space Invaders I did in processing. It serves as a great showcase of my mastery of graphic design. In fact, I'm starting to worry I've peaked too early in my career:
 
 ![screenshot](https://github.com/elterminad0r/spaceinvaders/blob/master/screenshot.png)
-### [tetris](https://github.com/elterminad0r/tetris)
+### [\[toc\]](#table-of-contents) [tetris](https://github.com/elterminad0r/tetris)
 Old implementation of Tetris in processing. At last, a game with graphics I can understand. The pieces and their rotations are all hardcoded. This suffers from the same bug as my snake game. Here's my attempt at playing it while taking a screenshot:
 
 ![screenshot](https://github.com/elterminad0r/tetris/blob/master/screenshot.png)
-## projects on "chaos" demonstrations
-### [sierp\_demo](https://github.com/elterminad0r/sierp_demo)
+# [\[toc\]](#table-of-contents) projects on "chaos" demonstrations
+### [\[toc\]](#table-of-contents) [sierp\_demo](https://github.com/elterminad0r/sierp_demo)
 processing implementation of the "chaos game", with a couple of interactive features. The game works as follows: Take a point in the middle of a triangle. Choose a random corner. Take the point directly in between that corner and your current point. Make this your new point (remember to draw old points). This can produce some interesting results, given automation:
 
 First couple of points:
@@ -563,12 +563,12 @@ A **lot** more, and shrunken points:
 ![screensaver](https://github.com/elterminad0r/sierp_demo/blob/master/screenshots/latest.png)
 
 Fancy that.
-### [chaos\_spreadsheet](https://github.com/elterminad0r/chaos_spreadsheet)
+### [\[toc\]](#table-of-contents) [chaos\_spreadsheet](https://github.com/elterminad0r/chaos_spreadsheet)
 Illustration of the chaotic behaviour of the logistic map function (used for some interactive demoing once upon a time). Acts as a programmatic, slightly enhanced version of just generating the logistic map in a spreadsheet and plotting it. Features animation and some fine control over parameters. It looks like this (but animated):
 
 ![screenshot](https://github.com/elterminad0r/chaos_spreadsheet/blob/master/screenshot.png)
-## massive project on moire effect
-### [moire\_draggable](https://github.com/elterminad0r/moire_draggable)
+# [\[toc\]](#table-of-contents) massive project on moire effect
+### [\[toc\]](#table-of-contents) [moire\_draggable](https://github.com/elterminad0r/moire_draggable)
 A program to interactively explore the moire interference effect on grids, using a (self implemented) visual UI with the mouse, with further features on the keyboard. Also features some serialisation (to preprocessed handwritten postscript) and an experimental Postscript compresser which works by mangling.  Experimenting with some more OOP, and pure Java integration with Processing.  probably not a good idea for people with epilepsy and the like `1234567890-=[back][tab]` to add grids mouse interface for most manipulation.  click and drag on the colourful UIElements to change grid parameters. use the green button to clone a grid, the red to remove.
 
     r to reset
@@ -605,8 +605,8 @@ Here are some screenshots of what you might begin to do with it, with the "UI" p
 ![screenshot](https://github.com/elterminad0r/moire_draggable/blob/master/screenshots/radial.png)
 
 Both of these were narrowly obtained before my laptop melted
-## Mandelbrot and julia sets
-### [julia](https://github.com/elterminad0r/julia)
+# [\[toc\]](#table-of-contents) Mandelbrot and julia sets
+### [\[toc\]](#table-of-contents) [julia](https://github.com/elterminad0r/julia)
 Julia set visualisation next to mandelbrot set, illustrating what a julia set is (kind of) and more so its correspondance with the mandelbrot set.
 
 As a Julia set takes a complex number as input, the mouse coordinates can serve as input. When this is put together with the mandelbrot set, something interesting happens.. You can easily find "interesting" Julia sets - move the mouse along the border of the Mandelbrot set.
@@ -617,7 +617,7 @@ Here are just a couple of examples:
 ![screenshot](https://github.com/elterminad0r/julia/blob/master/screenshots/julia2.png)
 ![screenshot](https://github.com/elterminad0r/julia/blob/master/screenshots/julia3.png)
 ![screenshot](https://github.com/elterminad0r/julia/blob/master/screenshots/julia4.png)
-### [mandelbrot](https://github.com/elterminad0r/mandelbrot)
+### [\[toc\]](#table-of-contents) [mandelbrot](https://github.com/elterminad0r/mandelbrot)
 This is a program in java-processing that renders the mandelbrot set. This set is defined as the set of the complex numbers, c such that there is no divergence when 0 is iterated under f(z) = z^2 + c The program works by simply iterating and observing if this number becomes large.  The speed of divergence is then used to give colourings.  The parameters kept track of are - x, y, scale, iteration cap, multibrot value (alternative exponent for z), width and height. See [usage.md](https://github.com/elterminad0r/mandelbrot/blob/master/usage.md) for info about the usage of the sketch.
 
 It supports some mildly sophisticated serialisation - in string format. Any rendering can be described in a couple of terms (x, y, scale, width height, multibrot) which can be quite compactly encoded. This is then stored as the **filename** of any image you save from the sketch. What a stroke of genius, never has a filename been prettier than `-16od5ok4AH4+-NlkJp9kxyI4+w8SYn6PLXC4+Tf+3+uu+Ff.tiff`.
@@ -629,12 +629,12 @@ Here are three randomly chosen screenshots from my travels:
 ![screenshot](https://github.com/elterminad0r/mandelbrot/blob/master/screenshots/mandel3.png)
 
 [Here](https://drive.google.com/drive/folders/0B3EHq-o9udUMQ2pyZlJKQWZlcDA?usp=sharing) is my full collection of higher quality serialisations for ayone interested.
-## Python-processing projects
-### [asteroids](https://github.com/elterminad0r/asteroids)
+# [\[toc\]](#table-of-contents) Python-processing projects
+### [\[toc\]](#table-of-contents) [asteroids](https://github.com/elterminad0r/asteroids)
 My attempt at Saturn - asteroids orbiting a planet in 3d processing. Again, familiarisation. The asteroids are, of course, rainbow-coloured. It looks like this:
 
 ![screenshot](https://github.com/elterminad0r/asteroids/blob/master/screenshot.png)
-### [collatz\_tree](https://github.com/elterminad0r/collatz_tree)
+### [\[toc\]](#table-of-contents) [collatz\_tree](https://github.com/elterminad0r/collatz_tree)
 Inspired by the Collatz conjecture. From the conjecture, one might be able to build a tree with root node 1 where all numbers feed back to 1, and any path down the tree is a Collatz path. Featuring a command-line script to generate (and draw a very pretty unicode picture of) a collatz tree, and a Processing file that draws an even prettier tree, where a `3n + 1` step goes left, and an `n / 2` step goes right, featuring some rainbow HSB colouring. If the Collatz conjecture is disproven, this program might not work.
 
 Here is the Processing sketch in action:
@@ -666,17 +666,17 @@ And this is a sample of `CollatzTree.py`, to a depth of 20 with one extra space 
     │ │ └─1...
     │ └─
     └─
-### [bounce\_3d](https://github.com/elterminad0r/bounce_3d)
+### [\[toc\]](#table-of-contents) [bounce\_3d](https://github.com/elterminad0r/bounce_3d)
 Very simple bouncing balls using Processing's 3d engine. Starting to familiarise with translation and rotation, and how to effectively fit OO in 3-D, and use alpha channels in 3D. It looks like this:
 
 ![screenshot](https://github.com/elterminad0r/bounce_3d/blob/master/screenshot.png)
-### [bubbles](https://github.com/elterminad0r/bubbles)
+### [\[toc\]](#table-of-contents) [bubbles](https://github.com/elterminad0r/bubbles)
 Neon kinda bubbles that merge into one another. Makes for a kind of intereseting screensaver. There are a number of parameters - they're currently set to a pretty stable state. Decrease loss / increase some defaults for more action.
 
 Here is a screenshot with bubbles in neon mode, with a couple of extra mayhem bubbles added on top of defaults:
 
 ![screenshot](https://github.com/elterminad0r/bubbles/blob/master/screenshot.png)
-### [perl](https://github.com/elterminad0r/perl)
+### [\[toc\]](#table-of-contents) [perl](https://github.com/elterminad0r/perl)
 Has nothing to do with Perl. Rather, with George Perlin and Perlin noise. A couple of small pieces of code exploring the applications of Perlin noise in various dimensions. Here are some screenshots:
 
 Dual 1-dimensional Perlin noise to move a point through 2-d space, with time as input (not very inspiring, I know):
@@ -694,13 +694,13 @@ Dual 1-dimensional Perlin noise to move a point through 2-d space, with time as 
 Lots of Perlin noise to move a box through 3-D space a la Wingardium Leviosa. Varies a lot.
 
 ![screenshot](https://github.com/elterminad0r/perl/blob/master/screenshots/boxperl.png)
-### [drag\_grav](https://github.com/elterminad0r/drag_grav)
+### [\[toc\]](#table-of-contents) [drag\_grav](https://github.com/elterminad0r/drag_grav)
 Some experimentation with my fun new model of movement. Terminal velocity isn't directly enforced, but a drag coefficient is - acceleration due to gravity is constant, but the velocity decays exponentially, making it naturally reach a limit/peter out.
 
 Here is what it looks like:
 
 ![screenshot](https://github.com/elterminad0r/drag_grav/blob/master/screenshot.png)
-### [kaleidoscope](https://github.com/elterminad0r/kaleidoscope)
+### [\[toc\]](#table-of-contents) [kaleidoscope](https://github.com/elterminad0r/kaleidoscope)
 Kaleidoscope-inspired pretty processing thing. Shapes are not allowed to collide. Generates sides using arctangent interpolation, and does a nice rolling effect to both save framerate and show off Python generators to all the java-processers.
 
 Here is a screenshot of the rolling setup in progress:
@@ -714,7 +714,7 @@ And here is a finished kaleidoscope:
 And here is a larger kaleidoscope which is easier to see:
 
 ![screenshot](https://github.com/elterminad0r/kaleidoscope/blob/master/big.png)
-### [lightning](https://github.com/elterminad0r/lightning)
+### [\[toc\]](#table-of-contents) [lightning](https://github.com/elterminad0r/lightning)
 Attempt at simulating a lightning-like figure (Lichtenberg figure). Works by keeping a field of potential electrons and randomly expanding into one. More frequently accessed branches thicken. Uses all sorts of haphazard optimisation to make it run, whatsoever. It uses a nice little trick so that a branches prevalence first grows rapidly, then slows - interpolation on the square root. Of course, features rainbow support.
 
 Here is an example of it in action:
@@ -724,17 +724,17 @@ Here is an example of it in action:
 Here is a display of the "electron field":
 
 ![screenshot](https://github.com/elterminad0r/lightning/blob/master/screenshots/electrons.png)
-### [bfs\_koch](https://github.com/elterminad0r/bfs_koch)
+### [\[toc\]](#table-of-contents) [bfs\_koch](https://github.com/elterminad0r/bfs_koch)
 Breadth first Koch snowflake, similar to the sierpinski triangle. It looks like this:
 
 ![screenshot](https://github.com/elterminad0r/bfs_koch/blob/master/screenshot.png)
 
 It's a bit off as I've turned off smoothing, but overall I prefer it this way.
-### [stepbysierp](https://github.com/elterminad0r/stepbysierp)
+### [\[toc\]](#table-of-contents) [stepbysierp](https://github.com/elterminad0r/stepbysierp)
 A breadth-first Sierpinski triangle, using generators. It has been optimised a lot so that each stack frame needs only track coordinates, and crucially they share triangle dimension information. Originally, whenever a new depth was reached, the program stuttered as it had to create an exponential number of new generators with new calculations. It looks like this:
 
 ![screenshot](https://github.com/elterminad0r/stepbysierp/blob/master/screenshot.png)
-### [py\_lerpbez](https://github.com/elterminad0r/py_lerpbez)
+### [\[toc\]](#table-of-contents) [py\_lerpbez](https://github.com/elterminad0r/py_lerpbez)
 My first proper Python-processing project. It generates an arbitrary order Bezier Curve, showing some of the behind the scenes too. It's become slowly but steadily more bloated to the point where it can now also draw all subcurves, or draw rainbows.
 
 Here it is in action:
@@ -744,24 +744,24 @@ Here it is in action:
 And with added rainbows:
 
 ![screenshot](https://github.com/elterminad0r/py_lerpbez/blob/master/screenshots/rainbow.png)
-### [road\_screen](https://github.com/elterminad0r/road_screen)
+### [\[toc\]](#table-of-contents) [road\_screen](https://github.com/elterminad0r/road_screen)
 My first foray into three-dimensional graphics programming. Done with purely 2-D primitives. Distance/perspective is simulated by interpolating on an arctangent, to confine a potentially infinite range (viewer to horizon) to a bounded range. Don't run it if you love your CPU.
 
 This is what it looks like:
 
 ![screenshot](https://github.com/elterminad0r/road_screen/blob/master/screenshot.png)
-### [rubiks\_cube](https://github.com/elterminad0r/rubiks_cube)
+### [\[toc\]](#table-of-contents) [rubiks\_cube](https://github.com/elterminad0r/rubiks_cube)
 Visual interface to my Rubik's cube model, in python-processing using P3D.
 
 Here are some screenshots:
 
 ![Screenshot](https://github.com/elterminad0r/rubiks_cube/blob/master/solved_ss.png "Solved state")
 ![Screenshot](https://github.com/elterminad0r/rubiks_cube/blob/master/scrambled_ss.png "Scrambled state")
-### [ship\_game](https://github.com/elterminad0r/ship_game)
+### [\[toc\]](#table-of-contents) [ship\_game](https://github.com/elterminad0r/ship_game)
 One of the earlier Python-processing projects. A ship using drag coefficients, and a half-baked autopilot. It has features for random walking using Perlin noise, and for trying to get to a destination (the mouse). Pretty options for exhaust fumes are available. Here is a sample screenshot, using confetti exhaust, with the help of the perlin autopilot:
 
 ![screenshot](https://github.com/elterminad0r/ship_game/blob/master/screenshot.png)
-### [wind\_fans](https://github.com/elterminad0r/wind_fans)
+### [\[toc\]](#table-of-contents) [wind\_fans](https://github.com/elterminad0r/wind_fans)
 Simulates nutella-style turbines being blown by the mouse. Can be a little intensive. They are all made in beautiful HSB colours. It looks like this (just pretend they're spinning):
 
 ![screenshot](https://github.com/elterminad0r/wind_fans/blob/master/screenshot.png)
