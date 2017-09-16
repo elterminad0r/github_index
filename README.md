@@ -16,6 +16,7 @@ A bit of a meta-project on creating a nicer index of my github repositories. Par
     - [hangman](#toc-hangman)
     - [points](#toc-points)
     - [DNA](#toc-dna)
+- [Sorting algorithms](#toc-sorting-algorithms)
     - [sorting](#toc-sorting)
 - [My RC files](#toc-my-rc-files)
     - [rc](#toc-rc)
@@ -419,8 +420,21 @@ It also has some simple Python CGI scripts implementing some of the found approa
 [Here](https://github.com/elterminad0r/DNA/blob/master/presentation.pdf) is the accompanying presentation I made for the end of my stay.
 
 It's somewhere around the middle of my well-populated to-do list to revisit this and clean it up.
+# [\[toc\]](#table-of-contents) Sorting algorithms
 ### [\[toc\]](#table-of-contents) [sorting](https://github.com/elterminad0r/sorting)
-My collection of Python sorting algorithms from once upon a time. Investigation into efficent sorting of integers in the end, which doesn't require comparisons. It's on the to-do list to redo/clean this all up one day.
+My various projects on sorting in Python. The main part is a mix of pure-Python and processing, which is a project in progress, hoping to get some clean, efficient sorting implementations in Python and visualise them (in the classic points fashion, with added rainbows and exponential decay to demonstrate array accesses) in addition to providing command-line support. `pure` contains pure implementations - in the main directory generator versions are provided (which allow the sort to block itself while keeping state, and allow the generator to provide information about where it's working for rainbow access visualistion). They're also Python 2 as that's my processing installation, so there are some `xrange`s etc.
+
+Here is Quicksort, for example:
+
+![screenshot](https://github.com/elterminad0r/sorting/blob/master/quick.png)
+
+And merge-sort:
+
+![screenshot](https://github.com/elterminad0r/sorting/blob/master/merge.png)
+
+So far it also features bubble-sort and bogosort. I'm only doing algorithms than can be implemented somewhat in place without too much trickery, as this allows the visualisation (merge-sort does make some auxiliary arrays but it still shows the accesses in the merging).
+
+It also features an old, old directory (`school`) from when I was in year 10 and did an investigation into sorting algorithms, which devolved into comparison-less integer sorting. It's a mess. 
 # [\[toc\]](#table-of-contents) My RC files
 ### [\[toc\]](#table-of-contents) [rc](https://github.com/elterminad0r/rc)
 A collection of copies of my rc files for easier access. They're not particularly pretty - I haven't put much effort into them. Generally, I'm satisfied to use what works. I'm happy enough to introduce obscure aliases I'll forget though. `vimrc` contains a number of things specific to my terminal.
