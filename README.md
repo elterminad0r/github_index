@@ -426,25 +426,27 @@ My various projects on sorting in Python. The main part is a mix of pure-Python 
 
 Here is heapsort, for example:
 
-![screenshot](https://github.com/elterminad0r/sorting/blob/master/data/heap.png)
+![screenshot](https://github.com/elterminad0r/sorting/blob/master/screenshots/heap.png)
 
 Here is shellsort (a generalization of insertion sort):
 
-![screenshot](https://github.com/elterminad0r/sorting/blob/master/data/shell.png)
+![screenshot](https://github.com/elterminad0r/sorting/blob/master/screenshots/shell.png)
 
 The slightly more esoteric bitonic sort:
 
-![screenshot](https://github.com/elterminad0r/sorting/blob/master/data/bitonic.png)
+![screenshot](https://github.com/elterminad0r/sorting/blob/master/screenshots/bitonic.png)
 
-An LSD radix sort:
+An appropriately named LSD radix sort:
 
-![screenshot](https://github.com/elterminad0r/sorting/blob/master/data/lsd_radix.png)
+![screenshot](https://github.com/elterminad0r/sorting/blob/master/screenshots/lsd_radix.png)
 
-Other screenshots can be found in the `data` directory.
+Other screenshots can be found in the `screenshots` directory.
 
 So far it also features bubble-sort and bogosort (the former is miniaturised and sped up and still takes forever to complete - the second just takes forever to complete), in addition to some of the other standard ones. I'm only doing algorithms than can be implemented somewhat in place without too much trickery, as this allows the visualisation (merge-sort does make some auxiliary arrays but it still shows the accesses in the merging).
 
 It also features an old, old directory (`school`) from when I was in year 10 and did an investigation into sorting algorithms, which devolved into comparison-less integer sorting. It's a mess. 
+
+[Here](https://youtu.be/BaFKYvCZq1k) is a full video rendering I made of it at one point.
 # [\[toc\]](#table-of-contents) My RC files
 ### [\[toc\]](#table-of-contents) [rc](https://github.com/elterminad0r/rc)
 A collection of copies of my rc files for easier access. They're not particularly pretty - I haven't put much effort into them. Generally, I'm satisfied to use what works. I'm happy enough to introduce obscure aliases I'll forget though. `vimrc` contains a number of things specific to my terminal.
@@ -479,6 +481,8 @@ Shading the screen using letters of the alphabet in Processing. All printable as
 And after a couple of years of typing:
 
 ![screenshot](https://github.com/elterminad0r/alphabet/blob/master/screenshots/alph2.png)
+
+[Here](https://youtu.be/K-3I5doHDqs) is a *short* video of it in action.
 ### [\[toc\]](#table-of-contents) [balls](https://github.com/elterminad0r/balls)
 Simple, slightly buggy implementation of balls that can bounce off both each other and walls. It ends up looking pretty dynamic. It uses an equation for circle collision from wikipedia. The problem is that sometimes a ball will clip into another ball and start a weird orbit/mating dance. Especially happens when there's disparity between ball radii. It looks like this:
 
@@ -495,12 +499,16 @@ Neat little effect in processing an grid of circles, where radius increases the 
 Conway's game of life, with colourisation related to recent activity. It's pretty but the code is a godawful mess I might try to wade into one day. Here it is in action:
 
 ![screenshot](https://github.com/elterminad0r/colourconway/blob/master/screenshot.png)
+
+[Here](https://youtu.be/xvZLSq9onlU) is a video.
 ### [\[toc\]](#table-of-contents) [mazes](https://github.com/elterminad0r/mazes)
 Maze generation algorithms in Processing, by random walking and "knocking down" walls, and backtracking when cornered. All cells are guaranteed to be reachable, so any combination of cells can be taken as start-end (top-left bottom-right, for example). Features solutions and slower, frame-by-frame generation. Here it is in action:
 
 ![screenshot](https://github.com/elterminad0r/mazes/blob/master/screenshots/nopath.png)
 ![screenshot](https://github.com/elterminad0r/mazes/blob/master/screenshots/path.png)
 ![screenshot](https://github.com/elterminad0r/mazes/blob/master/screenshots/slo.png)
+
+The slow version has [this](https://youtu.be/RDCxf3rzJrw) video.
 ### [\[toc\]](#table-of-contents) [pendulums](https://github.com/elterminad0r/pendulums)
 A little more experimentation with Java OO in processing. Uses the simple model of pendulums to produce a slow interference effect. Here's a static screenshot:
 
@@ -727,6 +735,8 @@ Dual 1-dimensional Perlin noise to move a point through 2-d space, with time as 
 
 ![screenshot](https://github.com/elterminad0r/perl/blob/master/screenshots/perl_3.png)
 
+There is also [a video](https://youtu.be/gF6Wr106b4M) of this one.
+
 Lots of Perlin noise to move a box through 3-D space a la Wingardium Leviosa. Varies a lot.
 
 ![screenshot](https://github.com/elterminad0r/perl/blob/master/screenshots/boxperl.png)
@@ -760,6 +770,8 @@ Here is an example of it in action:
 Here is a display of the "electron field":
 
 ![screenshot](https://github.com/elterminad0r/lightning/blob/master/screenshots/electrons.png)
+
+[Here](https://www.youtube.com/watch?v=o_IPt9EWTpg) is a short video of it in action.
 ### [\[toc\]](#table-of-contents) [bfs\_koch](https://github.com/elterminad0r/bfs_koch)
 Breadth first Koch snowflake, similar to the sierpinski triangle. It looks like this:
 
