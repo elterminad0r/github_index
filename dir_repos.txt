@@ -21,8 +21,8 @@
 # My RC files
 /home/izaak/programmeren/rc/	rc	https://github.com/elterminad0r/rc	 A collection of my rc files
 
-# My Python basics repo
-/home/izaak/programmeren/python/backtobasics/	backtobasics	https://github.com/elterminad0r/backtobasics	Python basics
+# My basics repo (simple scripts in different languages)
+/home/izaak/programmeren/backtobasics/	backtobasics	https://github.com/elterminad0r/backtobasics	Python basics
 
 # java-processing projects
 /home/izaak/programmeren/processing/alphabet/	alphabet	https://github.com/elterminad0r/alphabet	 Alphabet shading in processing

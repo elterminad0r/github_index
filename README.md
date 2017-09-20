@@ -20,7 +20,7 @@ A bit of a meta-project on creating a nicer index of my github repositories. Par
     - [sorting](#toc-sorting)
 - [My RC files](#toc-my-rc-files)
     - [rc](#toc-rc)
-- [My Python basics repo](#toc-my-python-basics-repo)
+- [My basics repo (simple scripts in different languages)](#toc-my-basics-repo-(simple-scripts-in-different-languages))
     - [backtobasics](#toc-backtobasics)
 - [java-processing projects](#toc-java-processing-projects)
     - [alphabet](#toc-alphabet)
@@ -454,7 +454,7 @@ A collection of copies of my rc files for easier access. They're not particularl
 I use `izaak-zshrc` for my `rc` file for `zsh`, as to allow `oh-my-zsh`'s default file to be preserved/keep my file safe. It contains a preposterous volume of aliases, beware.
 
 I have two email accounts set up with `mutt`, with obscured passwords. `gmail` is aliases to load my `gmail` credentials, etc. I've emulated `muttrc` syntax with a `sh` shebang.
-# [\[toc\]](#table-of-contents) My Python basics repo
+# [\[toc\]](#table-of-contents) My basics repo (simple scripts in different languages)
 ### [\[toc\]](#table-of-contents) [backtobasics](https://github.com/elterminad0r/backtobasics)
 Some Python basics should any of my one audience members wish to refer to them. The main goal is to provide lots of accessible examples of basic Python functionality/syntax and make a reasonably usable index of these examples. Features simple examples of code, with mildly explanatory comments. For example, a demonstration of a validation function that takes a parser function as an argument (using while-loops and try-except, docstring omitted):
 
@@ -472,6 +472,8 @@ def get_type(ty, msg):
 ```
 
 Veel plezier `: )`
+
+Possibly in future featuring other languages.
 # [\[toc\]](#table-of-contents) java-processing projects
 ### [\[toc\]](#table-of-contents) [alphabet](https://github.com/elterminad0r/alphabet)
 Shading the screen using letters of the alphabet in Processing. All printable ascii keys on the keyboard are accessible from the keyboard. Some special keys (space, enter) are used for acceleration. ASCII value scales with the x value. Here are some screenshots:
