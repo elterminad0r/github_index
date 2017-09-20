@@ -426,7 +426,23 @@ It also has some simple Python CGI scripts implementing some of the found approa
 It's somewhere around the middle of my well-populated to-do list to revisit this and clean it up.
 # [\[toc\]](#table-of-contents) My repo of scratch projects
 ### [\[toc\]](#table-of-contents) [scratch](https://github.com/elterminad0r/scratch)
-Some Scratch projects
+Some Scratch projects. Ranges from an implementation of air resistance, gravitational acceleration and an explictly lagged paddle to merge sort, integer base conversion and Sierpinski's triangle. Features the zip archive, and JSON project extracted from the zip archive as a matter of interest.
+
+Here is a base conversion, from ZZ\\36 to hex.
+
+![screenshot](https://github.com/elterminad0r/scratch/blob/master/screenshots/base_conversion.png)
+
+Here it's performed a mergesort on the prime numbers:
+
+![screenshot](https://github.com/elterminad0r/scratch/blob/master/screenshots/mergesort.png)
+
+Here is a static snapshot of pong:
+
+![screenshot](https://github.com/elterminad0r/scratch/blob/master/screenshots/pong.png)
+
+Here is a multicoloured sierpinski's gasket:
+
+![screenshot](https://github.com/elterminad0r/scratch/blob/master/screenshots/sierp.png)
 # [\[toc\]](#table-of-contents) Sorting algorithms
 ### [\[toc\]](#table-of-contents) [sorting](https://github.com/elterminad0r/sorting)
 My various projects on sorting in Python. The main part is a mix of pure-Python and processing, which is a project in progress, hoping to get some clean, efficient sorting implementations in Python and visualise them (in the classic points fashion, with added rainbows and exponential decay to demonstrate array accesses think kind of like [this](https://www.youtube.com/watch?v=kPRA0W1kECg)) in addition to providing command-line support. `pure` contains pure implementations - in the main directory generator versions are provided (which allow the sort to block itself while keeping state, and allow the generator to provide information about where it's working for rainbow access visualistion). They're also Python 2 as that's my processing installation, so there are some `xrange`s etc.
