@@ -16,6 +16,8 @@ A bit of a meta-project on creating a nicer index of my github repositories. Par
     - [hangman](#toc-hangman)
     - [points](#toc-points)
     - [DNA](#toc-dna)
+- [My repo of scratch projects](#toc-my-repo-of-scratch-projects)
+    - [scratch](#toc-scratch)
 - [Sorting algorithms](#toc-sorting-algorithms)
     - [sorting](#toc-sorting)
 - [My RC files](#toc-my-rc-files)
@@ -40,6 +42,7 @@ A bit of a meta-project on creating a nicer index of my github repositories. Par
     - [UI\_demo](#toc-ui\_demo)
     - [turtles](#toc-turtles)
     - [s\_zoom](#toc-s\_zoom)
+    - [sandpiles](#toc-sandpiles)
 - [Implementations of games in Processing](#toc-implementations-of-games-in-processing)
     - [platformer](#toc-platformer)
     - [snake](#toc-snake)
@@ -69,6 +72,7 @@ A bit of a meta-project on creating a nicer index of my github repositories. Par
     - [rubiks\_cube](#toc-rubiks\_cube)
     - [ship\_game](#toc-ship\_game)
     - [wind\_fans](#toc-wind\_fans)
+    - [langton](#toc-langton)
 # [\[toc\]](#table-of-contents) My Postscript Repository
 ### [\[toc\]](#table-of-contents) [Postscript](https://github.com/elterminad0r/Postscript)
 Some of my Postscript (the printer language) projects - some early, some less so. `zut` means pile of rubbish. There's lots to do with polysymmetry and fractals, and then some other stuff. Postscript is actually a really fun language for static graphics programming - I love its syntax, model of stack frames (you have to manually push a new local namespace dictionary to the stack). It's powerful - featuring programmatic features like for loops, while maintaining good drawing primitives and vector graphics. It's actually pretty good for fractals, but also polysymmetric tilings and more. Here are a couple of my favourites:
@@ -420,6 +424,9 @@ It also has some simple Python CGI scripts implementing some of the found approa
 [Here](https://github.com/elterminad0r/DNA/blob/master/presentation.pdf) is the accompanying presentation I made for the end of my stay.
 
 It's somewhere around the middle of my well-populated to-do list to revisit this and clean it up.
+# [\[toc\]](#table-of-contents) My repo of scratch projects
+### [\[toc\]](#table-of-contents) [scratch](https://github.com/elterminad0r/scratch)
+Some Scratch projects
 # [\[toc\]](#table-of-contents) Sorting algorithms
 ### [\[toc\]](#table-of-contents) [sorting](https://github.com/elterminad0r/sorting)
 My various projects on sorting in Python. The main part is a mix of pure-Python and processing, which is a project in progress, hoping to get some clean, efficient sorting implementations in Python and visualise them (in the classic points fashion, with added rainbows and exponential decay to demonstrate array accesses think kind of like [this](https://www.youtube.com/watch?v=kPRA0W1kECg)) in addition to providing command-line support. `pure` contains pure implementations - in the main directory generator versions are provided (which allow the sort to block itself while keeping state, and allow the generator to provide information about where it's working for rainbow access visualistion). They're also Python 2 as that's my processing installation, so there are some `xrange`s etc.
@@ -573,6 +580,12 @@ Custom turtle implementation in Processing, used to have multiple turtles follow
 A kind of inefficient sketch that tries to emulate the effect of infinitely zooming in on the top part of a Sierpinski Triangle. It looks like this:
 
 ![screenshot](https://github.com/elterminad0r/s_zoom/blob/master/screenshot.png)
+### [\[toc\]](#table-of-contents) [sandpiles](https://github.com/elterminad0r/sandpiles)
+An implementation of Abelian sandpiles that I believe to be currently broken (some points seem to exceed 8) - it's a very pretty fractal though. 
+
+Here it is in an early stage (as it takes a lot of time/power to view later stages):
+
+![screenshot](https://github.com/elterminad0r/sandpiles/blob/master/abelian.png)
 # [\[toc\]](#table-of-contents) Implementations of games in Processing
 ### [\[toc\]](#table-of-contents) [platformer](https://github.com/elterminad0r/platformer)
 An extremely bare-bones platformer in processing - both in content and implementation. Its collision detection, after much work, seems to be pretty flawless. It should be relatively easy to add more platorms. Here is what it looks like - be warned that I'm a prolific graphic designer:
@@ -815,3 +828,7 @@ One of the earlier Python-processing projects. A ship using drag coefficients, a
 Simulates nutella-style turbines being blown by the mouse. Can be a little intensive. They are all made in beautiful HSB colours. It looks like this (just pretend they're spinning):
 
 ![screenshot](https://github.com/elterminad0r/wind_fans/blob/master/screenshot.png)
+### [\[toc\]](#table-of-contents) [langton](https://github.com/elterminad0r/langton)
+Langton's ant in Processing, supporting different setups. I'm currently unsure if there's a bug - use at own risk. It wraps around the screen, so highways can collide - it ends up somethign like this:
+
+![screenshot](https://github.com/elterminad0r/langton/blob/master/langton.png)

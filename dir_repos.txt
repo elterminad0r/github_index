@@ -15,6 +15,9 @@
 /home/izaak/programmeren/points/	points	https://github.com/elterminad0r/points	 Polynomial fitting in Python
 /home/izaak/programmeren/DNA/	DNA	https://github.com/elterminad0r/DNA	 Error-correcting DNA barcodes in Python
 
+# My repo of scratch projects
+/home/izaak/programmeren/scratch/	scratch	https://github.com/elterminad0r/scratch	 Scratch projects
+
 # Sorting algorithms
 /home/izaak/programmeren/processing/sorting/	sorting	https://github.com/elterminad0r/sorting	 Messy sorting algorithms in Python
 
@@ -42,6 +45,7 @@
 /home/izaak/programmeren/processing/UI_demo/	UI_demo	https://github.com/elterminad0r/UI_demo	Processing UI elements
 /home/izaak/programmeren/processing/turtles/	turtles	https://github.com/elterminad0r/turtles	Turtles in processing
 /home/izaak/programmeren/processing/s_zoom/	s_zoom	https://github.com/elterminad0r/s_zoom	Sierpinski zoom
+/home/izaak/programmeren/processing/sandpiles/	sandpiles	https://github.com/elterminad0r/sandpiles	Abelian sandpiles
 
 # Implementations of games in Processing
 /home/izaak/programmeren/processing/platformer/	platformer	https://github.com/elterminad0r/platformer	platformer in processing
@@ -76,3 +80,4 @@
 /home/izaak/programmeren/processing/rubiks_cube/	rubiks_cube	https://github.com/elterminad0r/rubiks_cube	Visual rubiks cube
 /home/izaak/programmeren/processing/ship_game/	ship_game	https://github.com/elterminad0r/ship_game	Space ship in processing
 /home/izaak/programmeren/processing/wind_fans/	wind_fans	https://github.com/elterminad0r/wind_fans	Fans being blown
+/home/izaak/programmeren/processing/langton/	langton	https://github.com/elterminad0r/langton	Langton's ant
