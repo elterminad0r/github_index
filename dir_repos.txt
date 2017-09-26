@@ -81,3 +81,5 @@
 /home/izaak/programmeren/processing/ship_game/	ship_game	https://github.com/elterminad0r/ship_game	Space ship in processing
 /home/izaak/programmeren/processing/wind_fans/	wind_fans	https://github.com/elterminad0r/wind_fans	Fans being blown
 /home/izaak/programmeren/processing/langton/	langton	https://github.com/elterminad0r/langton	Langton's ant
+/home/izaak/programmeren/processing/squiggles/	squiggles	https://github.com/elterminad0r/squiggles	squiggles in Processing
+/home/izaak/programmeren/processing/tenprint/	tenprint	https://github.com/elterminad0r/tenprint	10PRINT in Processing

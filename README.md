@@ -73,6 +73,8 @@ A bit of a meta-project on creating a nicer index of my github repositories. Par
     - [ship\_game](#toc-ship\_game)
     - [wind\_fans](#toc-wind\_fans)
     - [langton](#toc-langton)
+    - [squiggles](#toc-squiggles)
+    - [tenprint](#toc-tenprint)
 # [\[toc\]](#table-of-contents) My Postscript Repository
 ### [\[toc\]](#table-of-contents) [Postscript](https://github.com/elterminad0r/Postscript)
 Some of my Postscript (the printer language) projects - some early, some less so. `zut` means pile of rubbish. There's lots to do with polysymmetry and fractals, and then some other stuff. Postscript is actually a really fun language for static graphics programming - I love its syntax, model of stack frames (you have to manually push a new local namespace dictionary to the stack). It's powerful - featuring programmatic features like for loops, while maintaining good drawing primitives and vector graphics. It's actually pretty good for fractals, but also polysymmetric tilings and more. Here are a couple of my favourites:
@@ -848,3 +850,25 @@ Simulates nutella-style turbines being blown by the mouse. Can be a little inten
 Langton's ant in Processing, supporting different setups. I'm currently unsure if there's a bug - use at own risk. It wraps around the screen, so highways can collide - it ends up somethign like this:
 
 ![screenshot](https://github.com/elterminad0r/langton/blob/master/langton.png)
+### [\[toc\]](#table-of-contents) [squiggles](https://github.com/elterminad0r/squiggles)
+A squiggle generator in Python processing. Works by generating a square tesselation of "tiles" which each have two quarter circles at opposing corners, with radius half the base of the square, such that an arc ends at each midpoint of a square edge. These tiles are then randomly rotated. It "walks" between two orientations. It looks like this at the start:
+
+![screenshot](https://github.com/elterminad0r/squiggles/blob/master/start.png)
+
+And nearer the middle:
+
+![screenshot](https://github.com/elterminad0r/squiggles/blob/master/mid.png)
+### [\[toc\]](#table-of-contents) [tenprint](https://github.com/elterminad0r/tenprint)
+"10 print" in Python-processing. Inspired by [Daniel Shiffman's video](https://youtu.be/bEyTZ5ZZxZs). Rather than statically generating random positions and leaving it, each slash has a chance of mutating each frame. The starting state is an aligned grid:
+
+![screenshot](https://github.com/elterminad0r/tenprint/blob/master/screenshots/start.png)
+
+And as the program runs, it deforms into something more like this:
+
+![screenshot](https://github.com/elterminad0r/tenprint/blob/master/screenshots/inprogress.png)
+
+You can see that they don't just snap, but interpolate themselves to where they need to be. The slashes aren't often precisely aligned - this is a natural side effect of allowing them to turn in a continuum rather than flipping between binary states.
+
+This also illustrates the mildly interesting property that this does actually approach a half/half distribution.
+
+Lastly, [here](https://youtu.be/eZNffI1R3xM) is a video of it in action.
