@@ -14,6 +14,7 @@
 /home/izaak/programmeren/hangman/	hangman	https://github.com/elterminad0r/hangman	Hangman in Python (integrated with Turtle)
 /home/izaak/programmeren/points/	points	https://github.com/elterminad0r/points	 Polynomial fitting in Python
 /home/izaak/programmeren/DNA/	DNA	https://github.com/elterminad0r/DNA	 Error-correcting DNA barcodes in Python
+/home/izaak/programmeren/noughtsandcrosses/	noughtsandcrosses	https://github.com/elterminad0r/noughtsandcrosses	 Noughts and crosses framework for CLI in Python
 
 # My repo of scratch projects
 /home/izaak/programmeren/scratch/	scratch	https://github.com/elterminad0r/scratch	 Scratch projects

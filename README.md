@@ -16,6 +16,7 @@ A bit of a meta-project on creating a nicer index of my github repositories. Par
     - [hangman](#toc-hangman)
     - [points](#toc-points)
     - [DNA](#toc-dna)
+    - [noughtsandcrosses](#toc-noughtsandcrosses)
 - [My repo of scratch projects](#toc-my-repo-of-scratch-projects)
     - [scratch](#toc-scratch)
 - [Sorting algorithms](#toc-sorting-algorithms)
@@ -426,6 +427,25 @@ It also has some simple Python CGI scripts implementing some of the found approa
 [Here](https://github.com/elterminad0r/DNA/blob/master/presentation.pdf) is the accompanying presentation I made for the end of my stay.
 
 It's somewhere around the middle of my well-populated to-do list to revisit this and clean it up.
+### [\[toc\]](#table-of-contents) [noughtsandcrosses](https://github.com/elterminad0r/noughtsandcrosses)
+A CLI noughts and crosses framework in Python. It looks something like this:
+
+	   0  1  2 
+	0   |   |   
+	 ---+---+---
+	1   |   |   
+	 ---+---+---
+	2   |   |   
+	You are playing as noughts
+	Enter the position you want to play in > 1 1
+	   0  1  2 
+	0   |   |   
+	 ---+---+---
+	1   | O |   
+	 ---+---+---
+	2   |   |   
+
+For now, it's assumed that play is between two humans. A potential future project is adding some kind of minmax based AI.
 # [\[toc\]](#table-of-contents) My repo of scratch projects
 ### [\[toc\]](#table-of-contents) [scratch](https://github.com/elterminad0r/scratch)
 Some Scratch projects. Ranges from an implementation of air resistance, gravitational acceleration and an explictly lagged paddle to merge sort, integer base conversion and Sierpinski's triangle. Features the zip archive, and JSON project extracted from the zip archive as a matter of interest.
