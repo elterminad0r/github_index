@@ -17,6 +17,7 @@ A bit of a meta-project on creating a nicer index of my github repositories. Par
     - [points](#toc-points)
     - [DNA](#toc-dna)
     - [noughtsandcrosses](#toc-noughtsandcrosses)
+    - [cipher\_tools](#toc-cipher\_tools)
 - [My repo of scratch projects](#toc-my-repo-of-scratch-projects)
     - [scratch](#toc-scratch)
 - [Sorting algorithms](#toc-sorting-algorithms)
@@ -448,6 +449,19 @@ A CLI noughts and crosses framework in Python. It looks something like this:
 	2   |   |   
 
 For now, it's assumed that play is between two humans. A potential future project is adding some kind of minmax based AI.
+### [\[toc\]](#table-of-contents) [cipher\_tools](https://github.com/elterminad0r/cipher_tools)
+A collection of programs to aid in cipher-cracking. If you use this and you're not a GW appreciator you're a disappointment and need to re-evaluate your life (beware as `eval` is unsafe).
+
+These are, as it stands, text-based interfaces. Hopefully it should be possible to paste in input. They rely on an installation of Python 3 (I recommend 3.6). They might be runnable by clicking the script from a file explorer?
+
+View the md files in the `demo` directory for guidance on each program so far.
+
+More comments, tweaks and even programs such as
+ - A better interactive script featuring some commands to inspect/alter state
+ - Finding similar repeating substring
+ - Finding adjacent reoccurring characters
+ - and more
+still to come. Stay tuned.
 # [\[toc\]](#table-of-contents) My repo of scratch projects
 ### [\[toc\]](#table-of-contents) [scratch](https://github.com/elterminad0r/scratch)
 Some Scratch projects. Ranges from an implementation of air resistance, gravitational acceleration and an explictly lagged paddle to merge sort, integer base conversion and Sierpinski's triangle. Features the zip archive, and JSON project extracted from the zip archive as a matter of interest.
@@ -897,8 +911,11 @@ Lastly, [here](https://youtu.be/eZNffI1R3xM) is a video of it in action.
 ### [\[toc\]](#table-of-contents) [mod\_mult](https://github.com/elterminad0r/mod_mult)
 Visualisation of a modular multiplication table in processing. Generates slowly. It looks like this:
 
-![screenshot](https://github.com/elterminad0r/mod_mult/blob/master/half.png)
-![screenshot](https://github.com/elterminad0r/mod_mult/blob/master/fin.png)
+![screenshot](https://github.com/elterminad0r/mod_mult/blob/master/screenshots/half.png)
+![screenshot](https://github.com/elterminad0r/mod_mult/blob/master/screenshots/fin.png)
+
+and in higher resolution:
+![screenshot](https://github.com/elterminad0r/mod_mult/blob/master/screenshots/higher.png)
 ### [\[toc\]](#table-of-contents) [lsystems](https://github.com/elterminad0r/lsystems)
 A general approach to L-systems in Python processing, using recursive generators, with a couple implemented. Due to the use of generators they also generate slowly, generating bit-by-bit rather than blocking for several frames. Here are a few:
 
