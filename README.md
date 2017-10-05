@@ -77,6 +77,7 @@ A bit of a meta-project on creating a nicer index of my github repositories. Par
     - [squiggles](#toc-squiggles)
     - [tenprint](#toc-tenprint)
     - [mod\_mult](#toc-mod\_mult)
+    - [lsystems](#toc-lsystems)
 # [\[toc\]](#table-of-contents) My Postscript Repository
 ### [\[toc\]](#table-of-contents) [Postscript](https://github.com/elterminad0r/Postscript)
 Some of my Postscript (the printer language) projects - some early, some less so. `zut` means pile of rubbish. There's lots to do with polysymmetry and fractals, and then some other stuff. Postscript is actually a really fun language for static graphics programming - I love its syntax, model of stack frames (you have to manually push a new local namespace dictionary to the stack). It's powerful - featuring programmatic features like for loops, while maintaining good drawing primitives and vector graphics. It's actually pretty good for fractals, but also polysymmetric tilings and more. Here are a couple of my favourites:
@@ -898,3 +899,10 @@ Visualisation of a modular multiplication table in processing. Generates slowly.
 
 ![screenshot](https://github.com/elterminad0r/mod_mult/blob/master/half.png)
 ![screenshot](https://github.com/elterminad0r/mod_mult/blob/master/fin.png)
+### [\[toc\]](#table-of-contents) [lsystems](https://github.com/elterminad0r/lsystems)
+A general approach to L-systems in Python processing, using recursive generators, with a couple implemented. Due to the use of generators they also generate slowly, generating bit-by-bit rather than blocking for several frames. Here are a few:
+
+![screenshot](https://github.com/elterminad0r/lsystems/blob/master/screenshots/hilprog.png)
+![screenshot](https://github.com/elterminad0r/lsystems/blob/master/screenshots/hil.png)
+![screenshot](https://github.com/elterminad0r/lsystems/blob/master/screenshots/drg.png)
+![screenshot](https://github.com/elterminad0r/lsystems/blob/master/screenshots/lev.png)
