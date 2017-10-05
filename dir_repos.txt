@@ -84,3 +84,4 @@
 /home/izaak/programmeren/processing/langton/	langton	https://github.com/elterminad0r/langton	Langton's ant
 /home/izaak/programmeren/processing/squiggles/	squiggles	https://github.com/elterminad0r/squiggles	squiggles in Processing
 /home/izaak/programmeren/processing/tenprint/	tenprint	https://github.com/elterminad0r/tenprint	10PRINT in Processing
+/home/izaak/programmeren/processing/mod_mult/	mod_mult	https://github.com/elterminad0r/mod_mult	Modular multiplication table
