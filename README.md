@@ -454,14 +454,18 @@ A collection of programs to aid in cipher-cracking. If you use this and you're n
 
 These are, as it stands, text-based interfaces. Hopefully it should be possible to paste in input. They rely on an installation of Python 3 (I recommend 3.6). They might be runnable by clicking the script from a file explorer?
 
-View the md files in the `demo` directory for guidance on each program so far.
+You can obtain the scripts by downloading them, pasting them in, or even cloning them if you're feeling really enthusiastic. (NB the scripts are all in the `src` directory.)
 
-More comments, tweaks and even programs such as
- - A better interactive script featuring some commands to inspect/alter state
- - Finding similar repeating substring
- - Finding adjacent reoccurring characters
- - and more
-still to come. Stay tuned.
+Here is a quick guide to installation and execution (if you're a command line user, you can safely ignore and just clone and pull, and run `text_interface` from the CLI):
+
+ - Install Python 3.6 and, by extension, Idle from https://www.python.org/downloads/. This should be pretty well documented across the web.
+ - Download this repository (click Clone or download, and then "Download ZIP"). You will probably need to unzip it. Don't make any changes to the files.
+ - Open the file `text_interface.py` in Idle.
+ - Run it (press F5 or navigate to "run" in the menus)
+
+For more on how `text_interface.py` works, see [this](https://github.com/elterminad0r/cipher_tools/blob/master/text_interface_doc.md) MD file.
+
+For documentation on each function, see [this](https://github.com/elterminad0r/cipher_tools/blob/master/action_doc.md) MD file.
 # [\[toc\]](#table-of-contents) My repo of scratch projects
 ### [\[toc\]](#table-of-contents) [scratch](https://github.com/elterminad0r/scratch)
 Some Scratch projects. Ranges from an implementation of air resistance, gravitational acceleration and an explictly lagged paddle to merge sort, integer base conversion and Sierpinski's triangle. Features the zip archive, and JSON project extracted from the zip archive as a matter of interest.
