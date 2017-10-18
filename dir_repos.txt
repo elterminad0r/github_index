@@ -3,6 +3,7 @@
 /home/izaak/programmeren/scratch/	scratch	https://github.com/elterminad0r/scratch	 Scratch projects
 /home/izaak/programmeren/rc/	rc	https://github.com/elterminad0r/rc	 A collection of my rc files
 /home/izaak/programmeren/backtobasics/	backtobasics	https://github.com/elterminad0r/backtobasics	Python basics
+/home/izaak/Documents/hills/physics/	physics	https://github.com/elterminad0r/physics	 Physics course
 
 # Miscellaneous Python projects
 /home/izaak/programmeren/sudoku/	sudoku	https://github.com/elterminad0r/sudoku	Sudoku solver in Python
