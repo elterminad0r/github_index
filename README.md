@@ -1,8 +1,11 @@
 # github\_inventory
 A bit of a meta-project on creating a nicer index of my github repositories. Partially motivated because I'm too greedy to do with only 6 pinned repositories. It's just about stable enough to function (on my personal convention for my repositories). It features several sub-utilities I chain together, including directory-searching and API-json reading. It files my projects under subcategories, and concatenates together readmes under a category heading. It was also about familiarising myself with Markdown (generating headers, normalising header names in links to contents, tables etc). It features just about the right combination of absolute and relative links that the readme source is in-place stable. Now featuring disgusting links at the start of each header to jump back to the table of contents - I'm not a web designer leave me alone.
 ## Table of Contents
-- [My Postscript Repository](#toc-my-postscript-repository)
+- [Miscellaneous](#toc-miscellaneous)
     - [Postscript](#toc-postscript)
+    - [scratch](#toc-scratch)
+    - [rc](#toc-rc)
+    - [backtobasics](#toc-backtobasics)
 - [Miscellaneous Python projects](#toc-miscellaneous-python-projects)
     - [Sudoku](#toc-sudoku)
     - [Calcudoku](#toc-calcudoku)
@@ -18,14 +21,7 @@ A bit of a meta-project on creating a nicer index of my github repositories. Par
     - [DNA](#toc-dna)
     - [noughtsandcrosses](#toc-noughtsandcrosses)
     - [cipher\_tools](#toc-cipher\_tools)
-- [My repo of scratch projects](#toc-my-repo-of-scratch-projects)
-    - [scratch](#toc-scratch)
-- [Sorting algorithms](#toc-sorting-algorithms)
     - [sorting](#toc-sorting)
-- [My RC files](#toc-my-rc-files)
-    - [rc](#toc-rc)
-- [My basics repo (simple scripts in different languages)](#toc-my-basics-repo-(simple-scripts-in-different-languages))
-    - [backtobasics](#toc-backtobasics)
 - [java-processing projects](#toc-java-processing-projects)
     - [alphabet](#toc-alphabet)
     - [balls](#toc-balls)
@@ -45,17 +41,13 @@ A bit of a meta-project on creating a nicer index of my github repositories. Par
     - [turtles](#toc-turtles)
     - [s\_zoom](#toc-s\_zoom)
     - [sandpiles](#toc-sandpiles)
-- [Implementations of games in Processing](#toc-implementations-of-games-in-processing)
     - [platformer](#toc-platformer)
     - [snake](#toc-snake)
     - [spaceinvaders](#toc-spaceinvaders)
     - [tetris](#toc-tetris)
-- [projects on "chaos" demonstrations](#toc-projects-on-"chaos"-demonstrations)
     - [sierp\_demo](#toc-sierp\_demo)
     - [chaos\_spreadsheet](#toc-chaos\_spreadsheet)
-- [massive project on moire effect](#toc-massive-project-on-moire-effect)
     - [moire\_draggable](#toc-moire\_draggable)
-- [Mandelbrot and julia sets](#toc-mandelbrot-and-julia-sets)
     - [julia](#toc-julia)
     - [mandelbrot](#toc-mandelbrot)
 - [Python-processing projects](#toc-python-processing-projects)
@@ -79,7 +71,7 @@ A bit of a meta-project on creating a nicer index of my github repositories. Par
     - [tenprint](#toc-tenprint)
     - [mod\_mult](#toc-mod\_mult)
     - [lsystems](#toc-lsystems)
-# [\[toc\]](#table-of-contents) My Postscript Repository
+# [\[toc\]](#table-of-contents) Miscellaneous
 ### [\[toc\]](#table-of-contents) [Postscript](https://github.com/elterminad0r/Postscript)
 Some of my Postscript (the printer language) projects - some early, some less so. `zut` means pile of rubbish. There's lots to do with polysymmetry and fractals, and then some other stuff. Postscript is actually a really fun language for static graphics programming - I love its syntax, model of stack frames (you have to manually push a new local namespace dictionary to the stack). It's powerful - featuring programmatic features like for loops, while maintaining good drawing primitives and vector graphics. It's actually pretty good for fractals, but also polysymmetric tilings and more. Here are a couple of my favourites:
 
@@ -100,6 +92,49 @@ Stars formed by choosing equidistant points around the circumference of a circle
 ![screenshot](https://github.com/elterminad0r/Postscript/blob/master/svgs/star2.svg)
 
 A few more that I really converted to svg to add here, but realised this readme was getting clunky. I moved them to a directory of SVGs (they should be viewable in browser): [svgs](https://github.com/elterminad0r/Postscript/blob/master/svgs/). There are also `pdf` files, but they don't seem to render very well. They're there because they're a necessary intermediate stage to my SVG generation method - I first use `ps2pdf`, and then `pdf2svg`. It seems to be working quite well so it's good enough for me. I've tested that all of these work with my version of GhostScript - you should also be able to open them in Preview on MacOS or some kind of illustrator/graphics program. These are only a couple of my favourites - the decision making process was like being forced to choose between my own children. I tried to pick some varied projects showing different possible projects in Postscript, although really I like everything that isn't in `zut` that's here.
+### [\[toc\]](#table-of-contents) [scratch](https://github.com/elterminad0r/scratch)
+Some Scratch projects. Ranges from an implementation of air resistance, gravitational acceleration and an explictly lagged paddle to merge sort, integer base conversion and Sierpinski's triangle. Features the zip archive, and JSON project extracted from the zip archive as a matter of interest.
+
+Here is a base conversion, from ZZ\\36 to hex.
+
+![screenshot](https://github.com/elterminad0r/scratch/blob/master/screenshots/base_conversion.png)
+
+Here it's performed a mergesort on the prime numbers:
+
+![screenshot](https://github.com/elterminad0r/scratch/blob/master/screenshots/mergesort.png)
+
+Here is a static snapshot of pong:
+
+![screenshot](https://github.com/elterminad0r/scratch/blob/master/screenshots/pong.png)
+
+Here is a multicoloured sierpinski's gasket:
+
+![screenshot](https://github.com/elterminad0r/scratch/blob/master/screenshots/sierp.png)
+### [\[toc\]](#table-of-contents) [rc](https://github.com/elterminad0r/rc)
+A collection of copies of my rc files for easier access. They're not particularly pretty - I haven't put much effort into them. Generally, I'm satisfied to use what works. I'm happy enough to introduce obscure aliases I'll forget though. `vimrc` contains a number of things specific to my terminal.
+
+I use `izaak-zshrc` for my `rc` file for `zsh`, as to allow `oh-my-zsh`'s default file to be preserved/keep my file safe. It contains a preposterous volume of aliases, beware.
+
+I have two email accounts set up with `mutt`, with obscured passwords. `gmail` is aliases to load my `gmail` credentials, etc. I've emulated `muttrc` syntax with a `sh` shebang.
+### [\[toc\]](#table-of-contents) [backtobasics](https://github.com/elterminad0r/backtobasics)
+Some Python basics should any of my one audience members wish to refer to them. The main goal is to provide lots of accessible examples of basic Python functionality/syntax and make a reasonably usable index of these examples. Features simple examples of code, with mildly explanatory comments. For example, a demonstration of a validation function that takes a parser function as an argument (using while-loops and try-except, docstring omitted):
+
+```Python
+def get_type(ty, msg):
+     while True:
+         try:
+             val = ty(input(msg))
+         #if a value error is raised, print it and carry on
+         except ValueError as ve:
+             print(ve)
+         else:
+             #if it all goes fine return the value (this breaks from the loop and function)
+             return val
+```
+
+Veel plezier `: )`
+
+Possibly in future featuring other languages.
 # [\[toc\]](#table-of-contents) Miscellaneous Python projects
 ### [\[toc\]](#table-of-contents) [Sudoku](https://github.com/elterminad0r/sudoku)
 A (brute-force) sudoku solver in Python. It models a Sudoku as a list (array under the hood) of length 81. It generates a further two-dimensional array (`[81][21]`), which maps cell locations to all other cell locations that that cell can "see". An empty cell takes the conveniently unused value of 0. Input sudoku is read from stdin, and should simply consist of 81 whitespace separated digits. The program comes with an option (`-e`) to print an "empty" sudoku for ease of entering a sudoku. With this as input (`ex.txt`)::
@@ -450,42 +485,30 @@ A CLI noughts and crosses framework in Python. It looks something like this:
 
 For now, it's assumed that play is between two humans. A potential future project is adding some kind of minmax based AI.
 ### [\[toc\]](#table-of-contents) [cipher\_tools](https://github.com/elterminad0r/cipher_tools)
-A collection of programs to aid in cipher-cracking. If you use this and you're not a GW appreciator you're a disappointment and need to re-evaluate your life (beware as `eval` is unsafe).
+A collection of programs to aid in cipher-cracking/cryptanalysis. If you use this and you're not a GW appreciator you're a disappointment and need to re-evaluate your life (beware as `eval` is unsafe).
 
 These are, as it stands, text-based interfaces. Hopefully it should be possible to paste in input. They rely on an installation of Python 3 (I recommend 3.6). They might be runnable by clicking the script from a file explorer?
 
 You can obtain the scripts by downloading them, pasting them in, or even cloning them if you're feeling really enthusiastic. (NB the scripts are all in the `src` directory.)
 
-Here is a quick guide to installation and execution (if you're a command line user, you can safely ignore and just clone and pull, and run `text_interface` from the CLI):
+Here is a quick guide to installation and execution:
 
  - Install Python 3.6 and, by extension, Idle from https://www.python.org/downloads/. This should be pretty well documented across the web.
  - Download this repository (click Clone or download, and then "Download ZIP"). You will probably need to unzip it. Don't make any changes to the files.
- - Open the file `text_interface.py` in Idle.
- - Run it (press F5 or navigate to "run" in the menus)
+ - Navigate to `src/` in the repository in the file explorer of your choice
+ - Click/double click on `text_interface.py` to run it.
+
+If you're a command line user, you can safely ignore and just clone and pull, and run `text_interface` from the CLI.
+
+NB the following two MD files are currently way out of date. However, as updates *should* generally act as a superset over previous versions, you can refer to them both. Especially the syntax described of `text_interface` still works, but beware there exists some more syntax now to support polyalphabetism (currently best reference point is `com_pat` and `parse_com` in [source](https://github.com/elterminad0r/cipher_tools/blob/e449797809dacf1f3c5d6380673cb087d8825a6b/src/text_interface.py#L106). Also, know that some function names have changed - the help message will always be exactly correct as it is generated from the actual commands in memory).
 
 For more on how `text_interface.py` works, see [this](https://github.com/elterminad0r/cipher_tools/blob/master/text_interface_doc.md) MD file.
 
 For documentation on each function, see [this](https://github.com/elterminad0r/cipher_tools/blob/master/action_doc.md) MD file.
-# [\[toc\]](#table-of-contents) My repo of scratch projects
-### [\[toc\]](#table-of-contents) [scratch](https://github.com/elterminad0r/scratch)
-Some Scratch projects. Ranges from an implementation of air resistance, gravitational acceleration and an explictly lagged paddle to merge sort, integer base conversion and Sierpinski's triangle. Features the zip archive, and JSON project extracted from the zip archive as a matter of interest.
 
-Here is a base conversion, from ZZ\\36 to hex.
+You can also try looking at the source files in `src` - they're now pretty well documented inline. This will be more technical, terse, and may require some knowledge of Python but is guaranteed to be up to date.
 
-![screenshot](https://github.com/elterminad0r/scratch/blob/master/screenshots/base_conversion.png)
-
-Here it's performed a mergesort on the prime numbers:
-
-![screenshot](https://github.com/elterminad0r/scratch/blob/master/screenshots/mergesort.png)
-
-Here is a static snapshot of pong:
-
-![screenshot](https://github.com/elterminad0r/scratch/blob/master/screenshots/pong.png)
-
-Here is a multicoloured sierpinski's gasket:
-
-![screenshot](https://github.com/elterminad0r/scratch/blob/master/screenshots/sierp.png)
-# [\[toc\]](#table-of-contents) Sorting algorithms
+At this point I would rate the whole affair as borderline operational. It's still marginally woefully unprepared for anything but a simple substitution cipher. This is something I'm working on.
 ### [\[toc\]](#table-of-contents) [sorting](https://github.com/elterminad0r/sorting)
 My various projects on sorting in Python. The main part is a mix of pure-Python and processing, which is a project in progress, hoping to get some clean, efficient sorting implementations in Python and visualise them (in the classic points fashion, with added rainbows and exponential decay to demonstrate array accesses think kind of like [this](https://www.youtube.com/watch?v=kPRA0W1kECg)) in addition to providing command-line support. `pure` contains pure implementations - in the main directory generator versions are provided (which allow the sort to block itself while keeping state, and allow the generator to provide information about where it's working for rainbow access visualistion). They're also Python 2 as that's my processing installation, so there are some `xrange`s etc.
 
@@ -512,33 +535,6 @@ So far it also features bubble-sort and bogosort (the former is miniaturised and
 It also features an old, old directory (`school`) from when I was in year 10 and did an investigation into sorting algorithms, which devolved into comparison-less integer sorting. It's a mess. 
 
 [Here](https://youtu.be/BaFKYvCZq1k) is a full video rendering I made of it at one point.
-# [\[toc\]](#table-of-contents) My RC files
-### [\[toc\]](#table-of-contents) [rc](https://github.com/elterminad0r/rc)
-A collection of copies of my rc files for easier access. They're not particularly pretty - I haven't put much effort into them. Generally, I'm satisfied to use what works. I'm happy enough to introduce obscure aliases I'll forget though. `vimrc` contains a number of things specific to my terminal.
-
-I use `izaak-zshrc` for my `rc` file for `zsh`, as to allow `oh-my-zsh`'s default file to be preserved/keep my file safe. It contains a preposterous volume of aliases, beware.
-
-I have two email accounts set up with `mutt`, with obscured passwords. `gmail` is aliases to load my `gmail` credentials, etc. I've emulated `muttrc` syntax with a `sh` shebang.
-# [\[toc\]](#table-of-contents) My basics repo (simple scripts in different languages)
-### [\[toc\]](#table-of-contents) [backtobasics](https://github.com/elterminad0r/backtobasics)
-Some Python basics should any of my one audience members wish to refer to them. The main goal is to provide lots of accessible examples of basic Python functionality/syntax and make a reasonably usable index of these examples. Features simple examples of code, with mildly explanatory comments. For example, a demonstration of a validation function that takes a parser function as an argument (using while-loops and try-except, docstring omitted):
-
-```Python
-def get_type(ty, msg):
-     while True:
-         try:
-             val = ty(input(msg))
-         #if a value error is raised, print it and carry on
-         except ValueError as ve:
-             print(ve)
-         else:
-             #if it all goes fine return the value (this breaks from the loop and function)
-             return val
-```
-
-Veel plezier `: )`
-
-Possibly in future featuring other languages.
 # [\[toc\]](#table-of-contents) java-processing projects
 ### [\[toc\]](#table-of-contents) [alphabet](https://github.com/elterminad0r/alphabet)
 Shading the screen using letters of the alphabet in Processing. All printable ascii keys on the keyboard are accessible from the keyboard. Some special keys (space, enter) are used for acceleration. ASCII value scales with the x value. Here are some screenshots:
@@ -644,7 +640,6 @@ An implementation of Abelian sandpiles that I believe to be currently broken (so
 Here it is in an early stage (as it takes a lot of time/power to view later stages):
 
 ![screenshot](https://github.com/elterminad0r/sandpiles/blob/master/abelian.png)
-# [\[toc\]](#table-of-contents) Implementations of games in Processing
 ### [\[toc\]](#table-of-contents) [platformer](https://github.com/elterminad0r/platformer)
 An extremely bare-bones platformer in processing - both in content and implementation. Its collision detection, after much work, seems to be pretty flawless. It should be relatively easy to add more platorms. Here is what it looks like - be warned that I'm a prolific graphic designer:
 
@@ -663,7 +658,6 @@ Kind of old implementation of Space Invaders I did in processing. It serves as a
 Old implementation of Tetris in processing. At last, a game with graphics I can understand. The pieces and their rotations are all hardcoded. This suffers from the same bug as my snake game. Here's my attempt at playing it while taking a screenshot:
 
 ![screenshot](https://github.com/elterminad0r/tetris/blob/master/screenshot.png)
-# [\[toc\]](#table-of-contents) projects on "chaos" demonstrations
 ### [\[toc\]](#table-of-contents) [sierp\_demo](https://github.com/elterminad0r/sierp_demo)
 processing implementation of the "chaos game", with a couple of interactive features. The game works as follows: Take a point in the middle of a triangle. Choose a random corner. Take the point directly in between that corner and your current point. Make this your new point (remember to draw old points). This can produce some interesting results, given automation:
 
@@ -684,7 +678,6 @@ Fancy that.
 Illustration of the chaotic behaviour of the logistic map function (used for some interactive demoing once upon a time). Acts as a programmatic, slightly enhanced version of just generating the logistic map in a spreadsheet and plotting it. Features animation and some fine control over parameters. It looks like this (but animated):
 
 ![screenshot](https://github.com/elterminad0r/chaos_spreadsheet/blob/master/screenshot.png)
-# [\[toc\]](#table-of-contents) massive project on moire effect
 ### [\[toc\]](#table-of-contents) [moire\_draggable](https://github.com/elterminad0r/moire_draggable)
 A program to interactively explore the moire interference effect on grids, using a (self implemented) visual UI with the mouse, with further features on the keyboard. Also features some serialisation (to preprocessed handwritten postscript) and an experimental Postscript compresser which works by mangling.  Experimenting with some more OOP, and pure Java integration with Processing.  probably not a good idea for people with epilepsy and the like `1234567890-=[back][tab]` to add grids mouse interface for most manipulation.  click and drag on the colourful UIElements to change grid parameters. use the green button to clone a grid, the red to remove.
 
@@ -722,7 +715,6 @@ Here are some screenshots of what you might begin to do with it, with the "UI" p
 ![screenshot](https://github.com/elterminad0r/moire_draggable/blob/master/screenshots/radial.png)
 
 Both of these were narrowly obtained before my laptop melted
-# [\[toc\]](#table-of-contents) Mandelbrot and julia sets
 ### [\[toc\]](#table-of-contents) [julia](https://github.com/elterminad0r/julia)
 Julia set visualisation next to mandelbrot set, illustrating what a julia set is (kind of) and more so its correspondance with the mandelbrot set.
 

@@ -1,5 +1,8 @@
-# My Postscript Repository
+# Miscellaneous
 /home/izaak/programmeren/Postscript/	Postscript	https://github.com/elterminad0r/Postscript	Some postscript projects, ranging back from around 2013
+/home/izaak/programmeren/scratch/	scratch	https://github.com/elterminad0r/scratch	 Scratch projects
+/home/izaak/programmeren/rc/	rc	https://github.com/elterminad0r/rc	 A collection of my rc files
+/home/izaak/programmeren/backtobasics/	backtobasics	https://github.com/elterminad0r/backtobasics	Python basics
 
 # Miscellaneous Python projects
 /home/izaak/programmeren/sudoku/	sudoku	https://github.com/elterminad0r/sudoku	Sudoku solver in Python
@@ -16,18 +19,7 @@
 /home/izaak/programmeren/DNA/	DNA	https://github.com/elterminad0r/DNA	 Error-correcting DNA barcodes in Python
 /home/izaak/programmeren/noughtsandcrosses/	noughtsandcrosses	https://github.com/elterminad0r/noughtsandcrosses	 Noughts and crosses framework for CLI in Python
 /home/izaak/programmeren/cipher_tools/	cipher_tools	https://github.com/elterminad0r/cipher_tools	 Decryption tools in Python
-
-# My repo of scratch projects
-/home/izaak/programmeren/scratch/	scratch	https://github.com/elterminad0r/scratch	 Scratch projects
-
-# Sorting algorithms
 /home/izaak/programmeren/processing/sorting/	sorting	https://github.com/elterminad0r/sorting	 Messy sorting algorithms in Python
-
-# My RC files
-/home/izaak/programmeren/rc/	rc	https://github.com/elterminad0r/rc	 A collection of my rc files
-
-# My basics repo (simple scripts in different languages)
-/home/izaak/programmeren/backtobasics/	backtobasics	https://github.com/elterminad0r/backtobasics	Python basics
 
 # java-processing projects
 /home/izaak/programmeren/processing/alphabet/	alphabet	https://github.com/elterminad0r/alphabet	 Alphabet shading in processing
@@ -48,21 +40,13 @@
 /home/izaak/programmeren/processing/turtles/	turtles	https://github.com/elterminad0r/turtles	Turtles in processing
 /home/izaak/programmeren/processing/s_zoom/	s_zoom	https://github.com/elterminad0r/s_zoom	Sierpinski zoom
 /home/izaak/programmeren/processing/sandpiles/	sandpiles	https://github.com/elterminad0r/sandpiles	Abelian sandpiles
-
-# Implementations of games in Processing
 /home/izaak/programmeren/processing/platformer/	platformer	https://github.com/elterminad0r/platformer	platformer in processing
 /home/izaak/programmeren/processing/snake/	snake	https://github.com/elterminad0r/snake	snake game
 /home/izaak/programmeren/processing/spaceinvaders/	spaceinvaders	https://github.com/elterminad0r/spaceinvaders	Space Invaders in processing
 /home/izaak/programmeren/processing/tetris/	tetris	https://github.com/elterminad0r/tetris	tetris in processing
-
-# projects on "chaos" demonstrations
 /home/izaak/programmeren/processing/sierp_demo/	sierp_demo	https://github.com/elterminad0r/sierp_demo	chaos game in processing
 /home/izaak/programmeren/processing/chaos_spreadsheet/	chaos_spreadsheet	https://github.com/elterminad0r/chaos_spreadsheet	logistic map in processing
-
-# massive project on moire effect
 /home/izaak/programmeren/processing/moire_draggable/	moire_draggable	https://github.com/elterminad0r/moire_draggable	moire effect explorer with UI in processing
-
-# Mandelbrot and julia sets
 /home/izaak/programmeren/processing/julia/	julia	https://github.com/elterminad0r/julia	Julia sets in processing
 /home/izaak/programmeren/processing/mandelbrot/	mandelbrot	https://github.com/elterminad0r/mandelbrot	mandelbrot explorer
 
