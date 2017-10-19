@@ -4,6 +4,7 @@
 /home/izaak/programmeren/rc/	rc	https://github.com/elterminad0r/rc	 A collection of my rc files
 /home/izaak/programmeren/backtobasics/	backtobasics	https://github.com/elterminad0r/backtobasics	Python basics
 /home/izaak/Documents/hills/physics/	physics	https://github.com/elterminad0r/physics	 Physics course
+/home/izaak/programmeren/assignments/assignment_guessing/	assignment_guessing	https://github.com/elterminad0r/assignment_guessing	guessing assignment
 
 # Miscellaneous Python projects
 /home/izaak/programmeren/sudoku/	sudoku	https://github.com/elterminad0r/sudoku	Sudoku solver in Python
