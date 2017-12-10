@@ -7,6 +7,8 @@ A bit of a meta-project on creating a nicer index of my github repositories. Par
     - [rc](#toc-rc)
     - [backtobasics](#toc-backtobasics)
     - [physics](#toc-physics)
+- [Assignments](#toc-assignments)
+    - [palindromes](#toc-palindromes)
     - [assignment\_guessing](#toc-assignment\_guessing)
 - [Miscellaneous Python projects](#toc-miscellaneous-python-projects)
     - [Sudoku](#toc-sudoku)
@@ -139,6 +141,9 @@ Veel plezier `: )`
 Possibly in future featuring other languages.
 ### [\[toc\]](#table-of-contents) [physics](https://github.com/elterminad0r/physics)
 All my physics stuff. Currently some experimenting with LaTeX and not much else.
+# [\[toc\]](#table-of-contents) Assignments
+### [\[toc\]](#table-of-contents) [palindromes](https://github.com/elterminad0r/palindromes)
+Assignment on palindromes in Pascal
 ### [\[toc\]](#table-of-contents) [assignment\_guessing](https://github.com/elterminad0r/assignment_guessing)
 The "guessing game" assignment.
 # [\[toc\]](#table-of-contents) Miscellaneous Python projects
@@ -491,30 +496,72 @@ A CLI noughts and crosses framework in Python. It looks something like this:
 
 For now, it's assumed that play is between two humans. A potential future project is adding some kind of minmax based AI.
 ### [\[toc\]](#table-of-contents) [cipher\_tools](https://github.com/elterminad0r/cipher_tools)
-A collection of programs to aid in cipher-cracking/cryptanalysis. If you use this and you're not a GW appreciator you're a disappointment and need to re-evaluate your life (beware as `eval` is unsafe).
+A collection of programs to aid in cipher-cracking/cryptanalysis. If you use
+this and you're not a GW appreciator you're a disappointment and need to
+re-evaluate your life (beware as `eval` is unsafe). Please note:
 
-These are, as it stands, text-based interfaces. Hopefully it should be possible to paste in input. They rely on an installation of Python 3 (I recommend 3.6). They might be runnable by clicking the script from a file explorer?
+“In submitting an entry solo entrants vouch that it is solely their own work
+and teams warrant that it is solely their own collective work.”
 
-You can obtain the scripts by downloading them, pasting them in, or even cloning them if you're feeling really enthusiastic. (NB the scripts are all in the `src` directory.)
+Currently features, among other things:
+
+ - Pretty fully fledged textual interface, with exception handling and a
+   functional model for commands/functions
+ - Frequency analysis (including IOC calculation)
+ - Substitution
+ - Some facilities for polyalphabetic analysis
+ - Analysis of frequently occurring runs of letters
+ - Hints for unsubstituted letters
+ - Display of expected frequency analysis
+ - Substitution table histories
+ - Utility to split an unpunctuated text into words, featuring blacklisting,
+   whitelisting and space hinting
+
+These are, as it stands, text-based interfaces. Hopefully it should be possible
+to paste in input. They rely on an installation of Python 3 (I recommend 3.6).
+They might be runnable by clicking the script from a file explorer?
+
+Notice: sometimes I find catastrophic bugs, fix them and don't tell anyone.
+This is absolutely my fault and I'll try to stop doing this but in the meantime
+please make sure your version is up to date.
+
+You can obtain the scripts by downloading them, pasting them in, or even
+cloning them if you're feeling really enthusiastic. (NB the scripts are all in
+the `src` directory.)
 
 Here is a quick guide to installation and execution:
 
- - Install Python 3.6 and, by extension, Idle from https://www.python.org/downloads/. This should be pretty well documented across the web.
- - Download this repository (click Clone or download, and then "Download ZIP"). You will probably need to unzip it. Don't make any changes to the files.
+ - Install Python 3.6 and, by extension, Idle from
+   https://www.python.org/downloads/. This should be pretty well documented
+   across the web.
+ - Download this repository (click Clone or download, and then "Download ZIP").
+   You will probably need to unzip it. Don't make any changes to the files.
  - Navigate to `src/` in the repository in the file explorer of your choice
  - Click/double click on `text_interface.py` to run it.
 
-If you're a command line user, you can safely ignore and just clone and pull, and run `text_interface` from the CLI.
+You probably can run it from IDLE, but I would not recommend, as IDLE does not
+provide some of the terminal features used (eg it breaks automatic width
+detection)
 
-NB the following two MD files are currently way out of date. However, as updates *should* generally act as a superset over previous versions, you can refer to them both. Especially the syntax described of `text_interface` still works, but beware there exists some more syntax now to support polyalphabetism (currently best reference point is `com_pat` and `parse_com` in [source](https://github.com/elterminad0r/cipher_tools/blob/e449797809dacf1f3c5d6380673cb087d8825a6b/src/text_interface.py#L106). Also, know that some function names have changed - the help message will always be exactly correct as it is generated from the actual commands in memory).
+If you're a command line user, you can safely ignore and just clone and pull,
+and run `text_interface` from the CLI.
 
-For more on how `text_interface.py` works, see [this](https://github.com/elterminad0r/cipher_tools/blob/master/text_interface_doc.md) MD file.
+For more on how `text_interface.py` works, see
+[this](https://github.com/elterminad0r/cipher_tools/blob/master/text_interface_doc.md)
+MD file.
 
-For documentation on each function, see [this](https://github.com/elterminad0r/cipher_tools/blob/master/action_doc.md) MD file.
+For documentation on each function, see
+[this](https://github.com/elterminad0r/cipher_tools/blob/master/action_doc.md)
+MD file.
 
-You can also try looking at the source files in `src` - they're now pretty well documented inline. This will be more technical, terse, and may require some knowledge of Python but is guaranteed to be up to date.
+For fledgling documentation on `splitting_words`, see
+[this](https://github.com/elterminad0r/cipher_tools/blob/master/splitting_doc.md)
+MD file. This is probably not useful to anyone because (1) it's illegible (2)
+it only works from a terminal prompt.
 
-At this point I would rate the whole affair as borderline operational. It's still marginally woefully unprepared for anything but a simple substitution cipher. This is something I'm working on.
+You can also try looking at the source files in `src` - they're now pretty well
+documented inline. This will be more technical, terse, and may require some
+knowledge of Python but is guaranteed to be up to date.
 ### [\[toc\]](#table-of-contents) [sorting](https://github.com/elterminad0r/sorting)
 My various projects on sorting in Python. The main part is a mix of pure-Python and processing, which is a project in progress, hoping to get some clean, efficient sorting implementations in Python and visualise them (in the classic points fashion, with added rainbows and exponential decay to demonstrate array accesses think kind of like [this](https://www.youtube.com/watch?v=kPRA0W1kECg)) in addition to providing command-line support. `pure` contains pure implementations - in the main directory generator versions are provided (which allow the sort to block itself while keeping state, and allow the generator to provide information about where it's working for rainbow access visualistion). They're also Python 2 as that's my processing installation, so there are some `xrange`s etc.
 
