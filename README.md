@@ -26,6 +26,7 @@ A bit of a meta-project on creating a nicer index of my github repositories. Par
     - [noughtsandcrosses](#toc-noughtsandcrosses)
     - [cipher\_tools](#toc-cipher\_tools)
     - [sorting](#toc-sorting)
+    - [elf\_game](#toc-elf\_game)
 - [java-processing projects](#toc-java-processing-projects)
     - [alphabet](#toc-alphabet)
     - [balls](#toc-balls)
@@ -588,6 +589,14 @@ So far it also features bubble-sort and bogosort (the former is miniaturised and
 It also features an old, old directory (`school`) from when I was in year 10 and did an investigation into sorting algorithms, which devolved into comparison-less integer sorting. It's a mess. 
 
 [Here](https://youtu.be/BaFKYvCZq1k) is a full video rendering I made of it at one point.
+### [\[toc\]](#table-of-contents) [elf\_game](https://github.com/elterminad0r/elf_game)
+A framework for simulating the elf game, allowing for testing, analysis and
+evaluation of different strategies.  `sim_game.py` is an OOP framework to
+perform the simulation. `stats.py` calculates statistics about the distribution
+of money earned, and the other files are implementers. See `results.txt` for
+the results from my data.
+
+I know it's undocumented and uncommented and non-pep8 compliant
 # [\[toc\]](#table-of-contents) java-processing projects
 ### [\[toc\]](#table-of-contents) [alphabet](https://github.com/elterminad0r/alphabet)
 Shading the screen using letters of the alphabet in Processing. All printable ascii keys on the keyboard are accessible from the keyboard. Some special keys (space, enter) are used for acceleration. ASCII value scales with the x value. Here are some screenshots:
