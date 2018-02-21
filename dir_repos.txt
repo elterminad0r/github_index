@@ -28,6 +28,7 @@
 /home/izaak/programmeren/cipher_tools/	cipher_tools	https://github.com/elterminad0r/cipher_tools	Decryption tools in Python
 /home/izaak/programmeren/processing/sorting/	sorting	https://github.com/elterminad0r/sorting	Messy sorting algorithms in Python
 /home/izaak/programmeren/elf_game/	elf_game	https://github.com/elterminad0r/elf_game	Simulating the elf game
+/home/izaak/programmeren/programming_challenges/	programming_challenges	https://github.com/elterminad0r/programming_challenges	programming challenges
 
 # java-processing projects
 /home/izaak/programmeren/processing/alphabet/	alphabet	https://github.com/elterminad0r/alphabet	Alphabet shading in processing
