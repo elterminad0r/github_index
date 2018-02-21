@@ -10,6 +10,8 @@ A bit of a meta-project on creating a nicer index of my github repositories. Par
 - [Assignments](#toc-assignments)
     - [palindromes](#toc-palindromes)
     - [assignment\_guessing](#toc-assignment\_guessing)
+    - [anagrams](#toc-anagrams)
+    - [encryption](#toc-encryption)
 - [Miscellaneous Python projects](#toc-miscellaneous-python-projects)
     - [Sudoku](#toc-sudoku)
     - [Calcudoku](#toc-calcudoku)
@@ -148,6 +150,10 @@ All my physics stuff. Currently some experimenting with LaTeX and not much else.
 Assignment on palindromes in Pascal
 ### [\[toc\]](#table-of-contents) [assignment\_guessing](https://github.com/elterminad0r/assignment_guessing)
 The "guessing game" assignment.
+### [\[toc\]](#table-of-contents) [anagrams](https://github.com/elterminad0r/anagrams)
+Assignment on anagrams in Pascal.
+### [\[toc\]](#table-of-contents) [encryption](https://github.com/elterminad0r/encryption)
+Assignment on textfiles/encryption.
 # [\[toc\]](#table-of-contents) Miscellaneous Python projects
 ### [\[toc\]](#table-of-contents) [Sudoku](https://github.com/elterminad0r/sudoku)
 A (brute-force) sudoku solver in Python. It models a Sudoku as a list (array under the hood) of length 81. It generates a further two-dimensional array (`[81][21]`), which maps cell locations to all other cell locations that that cell can "see". An empty cell takes the conveniently unused value of 0. Input sudoku is read from stdin, and should simply consist of 81 whitespace separated digits. The program comes with an option (`-e`) to print an "empty" sudoku for ease of entering a sudoku. With this as input (`ex.txt`)::

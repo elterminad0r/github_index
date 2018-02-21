@@ -8,6 +8,8 @@
 # Assignments
 /home/izaak/programmeren/assignments/palindromes/	palindromes	https://github.com/elterminad0r/palindromes	palindromes assignment
 /home/izaak/programmeren/assignments/guessing/	assignment_guessing	https://github.com/elterminad0r/assignment_guessing	guessing assignment
+/home/izaak/programmeren/assignments/anagrams/	anagrams	https://github.com/elterminad0r/anagrams	anagrams assignment
+/home/izaak/programmeren/assignments/encryption/	encryption	https://github.com/elterminad0r/encryption	encryption assignment
 
 # Miscellaneous Python projects
 /home/izaak/programmeren/sudoku/	sudoku	https://github.com/elterminad0r/sudoku	Sudoku solver in Python
