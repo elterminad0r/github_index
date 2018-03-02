@@ -629,9 +629,24 @@ tiny tiny command line interface.
 Here is an image of the chaotic behaviour it might exhibit - the only
 difference in starting conditions was that one pendulum was 10 degrees higher:
 
-![figure of pendulums](https://github.com/elterminad0r/double_pendulum/blob/master/chaotic.png)
+![figure of pendulums](https://github.com/elterminad0r/double_pendulum/blob/master/mat_chaotic.png)
 
 See also [this](https://youtu.be/eM7zUfZCPS0) video of it in action.
+
+It now also includes a Processing sketch that uses an iterative model of the
+double pendulum. This sketch drew the maths from the
+[video](https://www.youtube.com/watch?v=uWzPe_S-RVE)
+and [code](https://github.com/CodingTrain/website/blob/master/CodingChallenges/CC_93_DoublePendulum/CC_93_DoublePendulum.pde)
+by Daniel Shiffman, although mostly for formulae - the sketch is now in an
+entirely different language, for example. It has similarly been modified to
+encapsulate each double pendulum in an object, and shows two simultaneously. It
+looks like this:
+
+![figure of pendulums](https://github.com/elterminad0r/double_pendulum/blob/master/pde_chaotic.png)
+
+The crucial difference between the two animations is that the first is more
+accurate, but the second is iterative so slightly less processing-intensive
+near the start and can continue indefinitely.
 # [\[toc\]](#table-of-contents) java-processing projects
 ### [\[toc\]](#table-of-contents) [alphabet](https://github.com/elterminad0r/alphabet)
 Shading the screen using letters of the alphabet in Processing. All printable ascii keys on the keyboard are accessible from the keyboard. Some special keys (space, enter) are used for acceleration. ASCII value scales with the x value. Here are some screenshots:

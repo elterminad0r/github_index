@@ -29,7 +29,7 @@
 /home/izaak/programmeren/cipher_tools/	cipher_tools	https://github.com/elterminad0r/cipher_tools	Decryption tools in Python
 /home/izaak/programmeren/processing/sorting/	sorting	https://github.com/elterminad0r/sorting	Messy sorting algorithms in Python
 /home/izaak/programmeren/elf_game/	elf_game	https://github.com/elterminad0r/elf_game	Simulating the elf game
-/home/izaak/programmeren/double_pendulum/	double_pendulum	https://github.com/elterminad0r/double_pendulum	Animation of the classic double pendulum
+/home/izaak/programmeren/processing/double_pendulum/	double_pendulum	https://github.com/elterminad0r/double_pendulum	Animation of the classic double pendulum
 
 # java-processing projects
 /home/izaak/programmeren/processing/alphabet/	alphabet	https://github.com/elterminad0r/alphabet	Alphabet shading in processing
