@@ -82,3 +82,5 @@
 /home/izaak/programmeren/processing/mod_mult/	mod_mult	https://github.com/elterminad0r/mod_mult	Modular multiplication table
 /home/izaak/programmeren/processing/lsystems/	lsystems	https://github.com/elterminad0r/lsystems	L systems in Python
 /home/izaak/programmeren/processing/pong/	pong	https://github.com/elterminad0r/pong	Neon pong
+/home/izaak/programmeren/processing/radial_oscillation/	radial_oscillation	https://github.com/elterminad0r/radial_oscillation	oscillates and radial
+/home/izaak/programmeren/processing/ascii_art/	ascii_art	https://github.com/elterminad0r/ascii_art	ascii art

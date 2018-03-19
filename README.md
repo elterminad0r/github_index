@@ -81,6 +81,8 @@ A bit of a meta-project on creating a nicer index of my github repositories. Par
     - [mod\_mult](#toc-mod\_mult)
     - [lsystems](#toc-lsystems)
     - [pong](#toc-pong)
+    - [radial\_oscillation](#toc-radial\_oscillation)
+    - [ascii\_art](#toc-ascii\_art)
 # [\[toc\]](#table-of-contents) Miscellaneous
 ### [\[toc\]](#table-of-contents) [Postscript](https://github.com/elterminad0r/Postscript)
 Some of my Postscript (the printer language) projects - some early, some less so. `zut` means pile of rubbish. There's lots to do with polysymmetry and fractals, and then some other stuff. Postscript is actually a really fun language for static graphics programming - I love its syntax, model of stack frames (you have to manually push a new local namespace dictionary to the stack). It's powerful - featuring programmatic features like for loops, while maintaining good drawing primitives and vector graphics. It's actually pretty good for fractals, but also polysymmetric tilings and more. Here are a couple of my favourites:
@@ -1039,3 +1041,31 @@ aesthetic with a sprinkling of Perlin noise and lots of vector calculations.
 
 Handily, you control both paddles so a friend is not required to play. If you
 do have a friend, you can quickly swap between who's using the keyboard.
+### [\[toc\]](#table-of-contents) [radial\_oscillation](https://github.com/elterminad0r/radial_oscillation)
+A processing project on the graphing of polar functions for r in theta and time
+by using successively more oscillating points on straight lines, inspired by
+[this](https://www.reddit.com/r/oddlysatisfying/comments/82nbra/every_line_is_straight/)
+post.
+
+It's currently not very adaptable, the main problem being that it doesn't
+necessarily know the period of a given function (eg given r = sin(theta/3 + t),
+it has to plot theta from 0 to 6pi). This is also the function it's currently
+set up to draw. Here are some screenshots of it as it progresses:
+
+![screenshot](https://github.com/elterminad0r/radial_oscillation/blob/master/screenshots/startradial.png)
+![screenshot](https://github.com/elterminad0r/radial_oscillation/blob/master/screenshots/moreradial.png)
+![screenshot](https://github.com/elterminad0r/radial_oscillation/blob/master/screenshots/evenmoreradial.png)
+![screenshot](https://github.com/elterminad0r/radial_oscillation/blob/master/screenshots/radial_fin.png)
+
+A video of it can be found [here](https://youtu.be/H8MlbKC8moY), and
+[here](https://gfycat.com/EllipticalMellowIndianringneckparakeet) is a webm
+(GIF). [here](https://gfycat.com/AshamedAcceptableAustralianfurseal) is a gif
+of a different function.
+### [\[toc\]](#table-of-contents) [ascii\_art](https://github.com/elterminad0r/ascii_art)
+Converting images to ASCII using Processing. It's not a very complicated
+algorithm but a very satisfying output. All it needs to do is sample brightness
+over the appropriate rectangles, although it spends some time on scaling
+calculations. Here are a couple of examples:
+
+![screenshot](https://github.com/elterminad0r/ascii_art/blob/master/screenshots/tim_ascii.png)
+![screenshot](https://github.com/elterminad0r/ascii_art/blob/master/screenshots/shimmi_ascii.png)
