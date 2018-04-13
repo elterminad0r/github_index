@@ -1,4 +1,4 @@
-# github\_inventory
+# github\_index
 A bit of a meta-project on creating a nicer index of my github repositories. Partially motivated because I'm too greedy to do with only 6 pinned repositories. It's just about stable enough to function (on my personal convention for my repositories). It features several sub-utilities I chain together, including directory-searching and API-json reading. It files my projects under subcategories, and concatenates together readmes under a category heading. It was also about familiarising myself with Markdown (generating headers, normalising header names in links to contents, tables etc). It features just about the right combination of absolute and relative links that the readme source is in-place stable. Now featuring disgusting links at the start of each header to jump back to the table of contents - I'm not a web designer leave me alone.
 ## Table of Contents
 - [Miscellaneous](#toc-miscellaneous)
@@ -31,6 +31,7 @@ A bit of a meta-project on creating a nicer index of my github repositories. Par
     - [sorting](#toc-sorting)
     - [elf\_game](#toc-elf\_game)
     - [double\_pendulum](#toc-double\_pendulum)
+    - [flippy\_bot](#toc-flippy\_bot)
 - [java-processing projects](#toc-java-processing-projects)
     - [alphabet](#toc-alphabet)
     - [balls](#toc-balls)
@@ -649,6 +650,52 @@ looks like this:
 The crucial difference between the two animations is that the first is more
 accurate, but the second is iterative so slightly less processing-intensive
 near the start and can continue indefinitely.
+### [\[toc\]](#table-of-contents) [flippy\_bot](https://github.com/elterminad0r/flippy_bot)
+Flippy bit bot. It uses and was developed with the webdriver for Chromium. You
+will need to install the correct drivers for your browser if you want to run
+this. Change the browser at your own risk - I couldn't get firefox to work.
+
+It's of course also dependent on Selenium.
+
+The constants defined at the start may need to be tweaked to suit your
+preference/browser speed.
+
+After a certain time, the bot will hit the limit of possible scores. This is
+due to really quite primitive way the game approaches difficulty scaling.
+
+Here are a selection of relevant screenshots of the game's JS code (`game.js`):
+
+![screenshot](https://github.com/elterminad0r/flippy_bot/blob/master/screenshots/js_init.png)
+
+![screenshot](https://github.com/elterminad0r/flippy_bot/blob/master/screenshots/cons_init.png)
+
+![screenshot](https://github.com/elterminad0r/flippy_bot/blob/master/screenshots/js_attack.png)
+
+![screenshot](https://github.com/elterminad0r/flippy_bot/blob/master/screenshots/js_cycle.png)
+
+Basically, the game initially sets the millisecond interval between enemies to
+5000 ms. Whenever an enemy dies this interval is decreased by 30 ms, and
+whenever the game refreshed and the "cycle" function is called, the time is
+further decreased by 0.2 ms. The cycle function has a constant interval of 10
+ms, but also takes some time to run. This means that the upper bound of
+achievable score is variable between computers, or even on the same computer
+can depend on CPU and memory availability.
+
+On my laptop, this apocalypse happens at around 80 enemies, two and a half
+minutes in. This means that my refresh rate would be:
+
+    (5000 - 80 * 30) / 150 / 0.2
+    = 87 Hz
+
+As an high-uncertainty estimate, this seems reasonable, so I consider this to
+be a satisfactory explanation of why this happens.
+
+Frustratingly, this result means that the best way to get a high score is to
+play flippy bit on a slower computer.
+
+Here is the resulting apocalypse:
+
+![screenshot](https://github.com/elterminad0r/flippy_bot/blob/master/screenshots/apocalypse.png)
 # [\[toc\]](#table-of-contents) java-processing projects
 ### [\[toc\]](#table-of-contents) [alphabet](https://github.com/elterminad0r/alphabet)
 Shading the screen using letters of the alphabet in Processing. All printable ascii keys on the keyboard are accessible from the keyboard. Some special keys (space, enter) are used for acceleration. ASCII value scales with the x value. Here are some screenshots:

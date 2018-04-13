@@ -1,86 +1,87 @@
 # Miscellaneous
-/home/izaak/programmeren/Postscript/	Postscript	https://github.com/elterminad0r/Postscript	Some postscript projects, ranging back from around 2013
-/home/izaak/programmeren/scratch/	scratch	https://github.com/elterminad0r/scratch	Scratch projects
-/home/izaak/programmeren/rc/	rc	https://github.com/elterminad0r/rc	A collection of my rc files
-/home/izaak/programmeren/backtobasics/	backtobasics	https://github.com/elterminad0r/backtobasics	Python basics
-/home/izaak/programmeren/programming_challenges/	programming_challenges	https://github.com/elterminad0r/programming_challenges	programming challenges
-/home/izaak/Documents/hills/physics/	physics	https://github.com/elterminad0r/physics	Physics course
+/home/izaak/programmeren/github_index/cache/Postscript/	https://github.com/elterminad0r/Postscript
+/home/izaak/programmeren/github_index/cache/scratch/	https://github.com/elterminad0r/scratch
+/home/izaak/programmeren/github_index/cache/rc/	https://github.com/elterminad0r/rc
+/home/izaak/programmeren/github_index/cache/backtobasics/	https://github.com/elterminad0r/backtobasics
+/home/izaak/programmeren/github_index/cache/programming_challenges/	https://github.com/elterminad0r/programming_challenges
+/home/izaak/programmeren/github_index/cache/physics/	https://github.com/elterminad0r/physics
 
 # Assignments
-/home/izaak/programmeren/assignments/palindromes/	palindromes	https://github.com/elterminad0r/palindromes	palindromes assignment
-/home/izaak/programmeren/assignments/guessing/	assignment_guessing	https://github.com/elterminad0r/assignment_guessing	guessing assignment
-/home/izaak/programmeren/assignments/anagrams/	anagrams	https://github.com/elterminad0r/anagrams	anagrams assignment
-/home/izaak/programmeren/assignments/encryption/	encryption	https://github.com/elterminad0r/encryption	encryption assignment
+/home/izaak/programmeren/github_index/cache/palindromes/	https://github.com/elterminad0r/palindromes
+/home/izaak/programmeren/github_index/cache/guessing/	https://github.com/elterminad0r/assignment_guessing
+/home/izaak/programmeren/github_index/cache/anagrams/	https://github.com/elterminad0r/anagrams
+/home/izaak/programmeren/github_index/cache/encryption/	https://github.com/elterminad0r/encryption
 
 # Miscellaneous Python projects
-/home/izaak/programmeren/sudoku/	sudoku	https://github.com/elterminad0r/sudoku	Sudoku solver in Python
-/home/izaak/programmeren/Calcudoku/	Calcudoku	https://github.com/elterminad0r/Calcudoku	Calcudoku solver
-/home/izaak/programmeren/A453/	A453	https://github.com/elterminad0r/A453	Controlled assessment - historic interest
-/home/izaak/programmeren/linked_list/	linked_list	https://github.com/elterminad0r/linked_list	Recursive Python linked list
-/home/izaak/programmeren/Cube/	Cube	https://github.com/elterminad0r/Cube	Rubik's cube model
-/home/izaak/programmeren/stackoverflow/Punnet/	Punnet	https://github.com/elterminad0r/Punnet	Punnet Square generation
-/home/izaak/programmeren/cookies/	cookies	https://github.com/elterminad0r/cookies	The "cookie game" Python project
-/home/izaak/programmeren/yahtzee/	yahtzee	https://github.com/elterminad0r/yahtzee	Hopefully some functioning yahtzee models eventually..
-/home/izaak/programmeren/queens/	queens	https://github.com/elterminad0r/queens	N-queens in Python
-/home/izaak/programmeren/hangman/	hangman	https://github.com/elterminad0r/hangman	Hangman in Python (integrated with Turtle)
-/home/izaak/programmeren/points/	points	https://github.com/elterminad0r/points	Polynomial fitting in Python
-/home/izaak/programmeren/DNA/	DNA	https://github.com/elterminad0r/DNA	Error-correcting DNA barcodes in Python
-/home/izaak/programmeren/noughtsandcrosses/	noughtsandcrosses	https://github.com/elterminad0r/noughtsandcrosses	Noughts and crosses framework for CLI in Python
-/home/izaak/programmeren/cipher_tools/	cipher_tools	https://github.com/elterminad0r/cipher_tools	Decryption tools in Python
-/home/izaak/programmeren/processing/sorting/	sorting	https://github.com/elterminad0r/sorting	Messy sorting algorithms in Python
-/home/izaak/programmeren/elf_game/	elf_game	https://github.com/elterminad0r/elf_game	Simulating the elf game
-/home/izaak/programmeren/processing/double_pendulum/	double_pendulum	https://github.com/elterminad0r/double_pendulum	Animation of the classic double pendulum
+/home/izaak/programmeren/github_index/cache/sudoku/	https://github.com/elterminad0r/sudoku
+/home/izaak/programmeren/github_index/cache/Calcudoku/	https://github.com/elterminad0r/Calcudoku
+/home/izaak/programmeren/github_index/cache/A453/	https://github.com/elterminad0r/A453
+/home/izaak/programmeren/github_index/cache/linked_list/	https://github.com/elterminad0r/linked_list
+/home/izaak/programmeren/github_index/cache/Cube/	https://github.com/elterminad0r/Cube
+/home/izaak/programmeren/github_index/cache/Punnet/	https://github.com/elterminad0r/Punnet
+/home/izaak/programmeren/github_index/cache/cookies/	https://github.com/elterminad0r/cookies
+/home/izaak/programmeren/github_index/cache/yahtzee/	https://github.com/elterminad0r/yahtzee
+/home/izaak/programmeren/github_index/cache/queens/	https://github.com/elterminad0r/queens
+/home/izaak/programmeren/github_index/cache/hangman/	https://github.com/elterminad0r/hangman
+/home/izaak/programmeren/github_index/cache/points/	https://github.com/elterminad0r/points
+/home/izaak/programmeren/github_index/cache/DNA/	https://github.com/elterminad0r/DNA
+/home/izaak/programmeren/github_index/cache/noughtsandcrosses/	https://github.com/elterminad0r/noughtsandcrosses
+/home/izaak/programmeren/github_index/cache/cipher_tools/	https://github.com/elterminad0r/cipher_tools
+/home/izaak/programmeren/github_index/cache/sorting/	https://github.com/elterminad0r/sorting
+/home/izaak/programmeren/github_index/cache/elf_game/	https://github.com/elterminad0r/elf_game
+/home/izaak/programmeren/github_index/cache/double_pendulum/	https://github.com/elterminad0r/double_pendulum
+/home/izaak/programmeren/flippy_bot/	https://github.com/elterminad0r/flippy_bot
 
 # java-processing projects
-/home/izaak/programmeren/processing/alphabet/	alphabet	https://github.com/elterminad0r/alphabet	Alphabet shading in processing
-/home/izaak/programmeren/processing/balls/	balls	https://github.com/elterminad0r/balls	bouncing balls in processing
-/home/izaak/programmeren/processing/cars/	cars	https://github.com/elterminad0r/cars	OOP flying boxes
-/home/izaak/programmeren/processing/circles/	circles	https://github.com/elterminad0r/circles	Lightweight visual effect
-/home/izaak/programmeren/processing/colourconway/	colourconway	https://github.com/elterminad0r/colourconway	coloured conway's game of life in processing
-/home/izaak/programmeren/processing/mazes/	mazes	https://github.com/elterminad0r/mazes	Maze generation
-/home/izaak/programmeren/processing/pendulums/	pendulums	https://github.com/elterminad0r/pendulums	Pendulum simulation
-/home/izaak/programmeren/processing/pixel_sorting/	pixel_sorting	https://github.com/elterminad0r/pixel_sorting	Sorting pixels - inspired heavily by Daniel Shiffman
-/home/izaak/programmeren/processing/pythanimated/	pythanimated	https://github.com/elterminad0r/pythanimated	Animated Pythagoras Tree
-/home/izaak/programmeren/processing/rainbow_lines/	rainbow_lines	https://github.com/elterminad0r/rainbow_lines	Rainbow shading
-/home/izaak/programmeren/processing/regen_soup/	regen_soup	https://github.com/elterminad0r/regen_soup	Trippy rainbows
-/home/izaak/programmeren/processing/shading/	shading	https://github.com/elterminad0r/shading	Fuzzy rainbow
-/home/izaak/programmeren/processing/snowflakes/	snowflakes	https://github.com/elterminad0r/snowflakes	'Tis the season to be jolly
-/home/izaak/programmeren/processing/square_filling_circle/	square_filling_circle	https://github.com/elterminad0r/square_filling_circle	Squares filling a circle
-/home/izaak/programmeren/processing/UI_demo/	UI_demo	https://github.com/elterminad0r/UI_demo	Processing UI elements
-/home/izaak/programmeren/processing/turtles/	turtles	https://github.com/elterminad0r/turtles	Turtles in processing
-/home/izaak/programmeren/processing/s_zoom/	s_zoom	https://github.com/elterminad0r/s_zoom	Sierpinski zoom
-/home/izaak/programmeren/processing/sandpiles/	sandpiles	https://github.com/elterminad0r/sandpiles	Abelian sandpiles
-/home/izaak/programmeren/processing/platformer/	platformer	https://github.com/elterminad0r/platformer	platformer in processing
-/home/izaak/programmeren/processing/snake/	snake	https://github.com/elterminad0r/snake	snake game
-/home/izaak/programmeren/processing/spaceinvaders/	spaceinvaders	https://github.com/elterminad0r/spaceinvaders	Space Invaders in processing
-/home/izaak/programmeren/processing/tetris/	tetris	https://github.com/elterminad0r/tetris	tetris in processing
-/home/izaak/programmeren/processing/sierp_demo/	sierp_demo	https://github.com/elterminad0r/sierp_demo	chaos game in processing
-/home/izaak/programmeren/processing/chaos_spreadsheet/	chaos_spreadsheet	https://github.com/elterminad0r/chaos_spreadsheet	logistic map in processing
-/home/izaak/programmeren/processing/moire_draggable/	moire_draggable	https://github.com/elterminad0r/moire_draggable	moire effect explorer with UI in processing
-/home/izaak/programmeren/processing/julia/	julia	https://github.com/elterminad0r/julia	Julia sets in processing
-/home/izaak/programmeren/processing/mandelbrot/	mandelbrot	https://github.com/elterminad0r/mandelbrot	mandelbrot explorer
+/home/izaak/programmeren/github_index/cache/alphabet/	https://github.com/elterminad0r/alphabet
+/home/izaak/programmeren/github_index/cache/balls/	https://github.com/elterminad0r/balls
+/home/izaak/programmeren/github_index/cache/cars/	https://github.com/elterminad0r/cars
+/home/izaak/programmeren/github_index/cache/circles/	https://github.com/elterminad0r/circles
+/home/izaak/programmeren/github_index/cache/colourconway/	https://github.com/elterminad0r/colourconway
+/home/izaak/programmeren/github_index/cache/mazes/	https://github.com/elterminad0r/mazes
+/home/izaak/programmeren/github_index/cache/pendulums/	https://github.com/elterminad0r/pendulums
+/home/izaak/programmeren/github_index/cache/pixel_sorting/	https://github.com/elterminad0r/pixel_sorting
+/home/izaak/programmeren/github_index/cache/pythanimated/	https://github.com/elterminad0r/pythanimated
+/home/izaak/programmeren/github_index/cache/rainbow_lines/	https://github.com/elterminad0r/rainbow_lines
+/home/izaak/programmeren/github_index/cache/regen_soup/	https://github.com/elterminad0r/regen_soup
+/home/izaak/programmeren/github_index/cache/shading/	https://github.com/elterminad0r/shading
+/home/izaak/programmeren/github_index/cache/snowflakes/	https://github.com/elterminad0r/snowflakes
+/home/izaak/programmeren/github_index/cache/square_filling_circle/	https://github.com/elterminad0r/square_filling_circle
+/home/izaak/programmeren/github_index/cache/UI_demo/	https://github.com/elterminad0r/UI_demo
+/home/izaak/programmeren/github_index/cache/turtles/	https://github.com/elterminad0r/turtles
+/home/izaak/programmeren/github_index/cache/s_zoom/	https://github.com/elterminad0r/s_zoom
+/home/izaak/programmeren/github_index/cache/sandpiles/	https://github.com/elterminad0r/sandpiles
+/home/izaak/programmeren/github_index/cache/platformer/	https://github.com/elterminad0r/platformer
+/home/izaak/programmeren/github_index/cache/snake/	https://github.com/elterminad0r/snake
+/home/izaak/programmeren/github_index/cache/spaceinvaders/	https://github.com/elterminad0r/spaceinvaders
+/home/izaak/programmeren/github_index/cache/tetris/	https://github.com/elterminad0r/tetris
+/home/izaak/programmeren/github_index/cache/sierp_demo/	https://github.com/elterminad0r/sierp_demo
+/home/izaak/programmeren/github_index/cache/chaos_spreadsheet/	https://github.com/elterminad0r/chaos_spreadsheet
+/home/izaak/programmeren/github_index/cache/moire_draggable/	https://github.com/elterminad0r/moire_draggable
+/home/izaak/programmeren/github_index/cache/julia/	https://github.com/elterminad0r/julia
+/home/izaak/programmeren/github_index/cache/mandelbrot/	https://github.com/elterminad0r/mandelbrot
 
 # Python-processing projects
-/home/izaak/programmeren/processing/asteroids/	asteroids	https://github.com/elterminad0r/asteroids	3d asteroids belt
-/home/izaak/programmeren/processing/collatz_tree/	collatz_tree	https://github.com/elterminad0r/collatz_tree	Tree constructed from collatz paths
-/home/izaak/programmeren/processing/bounce_3d/	bounce_3d	https://github.com/elterminad0r/bounce_3d	3d bouncing balls
-/home/izaak/programmeren/processing/bubbles/	bubbles	https://github.com/elterminad0r/bubbles	bubble screensaver
-/home/izaak/programmeren/processing/perl/	perl	https://github.com/elterminad0r/perl	PERLIN NOISE
-/home/izaak/programmeren/processing/drag_grav/	drag_grav	https://github.com/elterminad0r/drag_grav	Model of gravity + bouncy balls
-/home/izaak/programmeren/processing/kaleidoscope/	kaleidoscope	https://github.com/elterminad0r/kaleidoscope	A colourful kaleidoscope type thing
-/home/izaak/programmeren/processing/lightning/	lightning	https://github.com/elterminad0r/lightning	Lichtenberg figures
-/home/izaak/programmeren/processing/bfs_koch/	bfs_koch	https://github.com/elterminad0r/bfs_koch	breadth first koch
-/home/izaak/programmeren/processing/stepbysierp/	stepbysierp	https://github.com/elterminad0r/stepbysierp	BFS sierpinski
-/home/izaak/programmeren/processing/py_lerpbez/	py_lerpbez	https://github.com/elterminad0r/py_lerpbez	Bezier curves in python-processing
-/home/izaak/programmeren/processing/road_screen/	road_screen	https://github.com/elterminad0r/road_screen	3-D road-travelling screensaver
-/home/izaak/programmeren/processing/rubiks_cube/	rubiks_cube	https://github.com/elterminad0r/rubiks_cube	Visual rubiks cube
-/home/izaak/programmeren/processing/ship_game/	ship_game	https://github.com/elterminad0r/ship_game	Space ship in processing
-/home/izaak/programmeren/processing/wind_fans/	wind_fans	https://github.com/elterminad0r/wind_fans	Fans being blown
-/home/izaak/programmeren/processing/langton/	langton	https://github.com/elterminad0r/langton	Langton's ant
-/home/izaak/programmeren/processing/squiggles/	squiggles	https://github.com/elterminad0r/squiggles	squiggles in Processing
-/home/izaak/programmeren/processing/tenprint/	tenprint	https://github.com/elterminad0r/tenprint	10PRINT in Processing
-/home/izaak/programmeren/processing/mod_mult/	mod_mult	https://github.com/elterminad0r/mod_mult	Modular multiplication table
-/home/izaak/programmeren/processing/lsystems/	lsystems	https://github.com/elterminad0r/lsystems	L systems in Python
-/home/izaak/programmeren/processing/pong/	pong	https://github.com/elterminad0r/pong	Neon pong
-/home/izaak/programmeren/processing/radial_oscillation/	radial_oscillation	https://github.com/elterminad0r/radial_oscillation	oscillates and radial
-/home/izaak/programmeren/processing/ascii_art/	ascii_art	https://github.com/elterminad0r/ascii_art	ascii art
+/home/izaak/programmeren/github_index/cache/asteroids/	https://github.com/elterminad0r/asteroids
+/home/izaak/programmeren/github_index/cache/collatz_tree/	https://github.com/elterminad0r/collatz_tree
+/home/izaak/programmeren/github_index/cache/bounce_3d/	https://github.com/elterminad0r/bounce_3d
+/home/izaak/programmeren/github_index/cache/bubbles/	https://github.com/elterminad0r/bubbles
+/home/izaak/programmeren/github_index/cache/perl/	https://github.com/elterminad0r/perl
+/home/izaak/programmeren/github_index/cache/drag_grav/	https://github.com/elterminad0r/drag_grav
+/home/izaak/programmeren/github_index/cache/kaleidoscope/	https://github.com/elterminad0r/kaleidoscope
+/home/izaak/programmeren/github_index/cache/lightning/	https://github.com/elterminad0r/lightning
+/home/izaak/programmeren/github_index/cache/bfs_koch/	https://github.com/elterminad0r/bfs_koch
+/home/izaak/programmeren/github_index/cache/stepbysierp/	https://github.com/elterminad0r/stepbysierp
+/home/izaak/programmeren/github_index/cache/py_lerpbez/	https://github.com/elterminad0r/py_lerpbez
+/home/izaak/programmeren/github_index/cache/road_screen/	https://github.com/elterminad0r/road_screen
+/home/izaak/programmeren/github_index/cache/rubiks_cube/	https://github.com/elterminad0r/rubiks_cube
+/home/izaak/programmeren/github_index/cache/ship_game/	https://github.com/elterminad0r/ship_game
+/home/izaak/programmeren/github_index/cache/wind_fans/	https://github.com/elterminad0r/wind_fans
+/home/izaak/programmeren/github_index/cache/langton/	https://github.com/elterminad0r/langton
+/home/izaak/programmeren/github_index/cache/squiggles/	https://github.com/elterminad0r/squiggles
+/home/izaak/programmeren/github_index/cache/tenprint/	https://github.com/elterminad0r/tenprint
+/home/izaak/programmeren/github_index/cache/mod_mult/	https://github.com/elterminad0r/mod_mult
+/home/izaak/programmeren/github_index/cache/lsystems/	https://github.com/elterminad0r/lsystems
+/home/izaak/programmeren/github_index/cache/pong/	https://github.com/elterminad0r/pong
+/home/izaak/programmeren/github_index/cache/radial_oscillation/	https://github.com/elterminad0r/radial_oscillation
+/home/izaak/programmeren/github_index/cache/ascii_art/	https://github.com/elterminad0r/ascii_art
