@@ -1,2 +1,2 @@
 #!/usr/bin/env zsh
-wget -qO- "https://api.github.com/users/elterminad0r/repos?page=$1"
+wget -qO- "https://api.github.com/users/goedel-gang/repos?page=$1"
