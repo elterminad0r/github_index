@@ -1,19 +1,26 @@
 # github\_index
 A bit of a meta-project on creating a nicer index of my github repositories. Partially motivated because I'm too greedy to do with only 6 pinned repositories. It's just about stable enough to function (on my personal convention for my repositories). It features several sub-utilities I chain together, including directory-searching and API-json reading. It files my projects under subcategories, and concatenates together readmes under a category heading. It was also about familiarising myself with Markdown (generating headers, normalising header names in links to contents, tables etc). It features just about the right combination of absolute and relative links that the readme source is in-place stable. Now featuring disgusting links at the start of each header to jump back to the table of contents - I'm not a web designer leave me alone.
 ## Table of Contents
-- [Miscellaneous](#toc-miscellaneous)
+- [Miscellaneous programming](#toc-miscellaneous-programming)
     - [Postscript](#toc-postscript)
     - [scratch](#toc-scratch)
-    - [rc](#toc-rc)
     - [backtobasics](#toc-backtobasics)
     - [programming\_challenges](#toc-programming\_challenges)
+    - [python\_demo](#toc-python\_demo)
+    - [microbit](#toc-microbit)
+    - [autobiographical\_integers](#toc-autobiographical\_integers)
+- [Miscellaneous other](#toc-miscellaneous-other)
+    - [rc](#toc-rc)
     - [physics](#toc-physics)
+    - [maths](#toc-maths)
 - [Assignments](#toc-assignments)
     - [palindromes](#toc-palindromes)
     - [assignment\_guessing](#toc-assignment\_guessing)
     - [anagrams](#toc-anagrams)
     - [encryption](#toc-encryption)
     - [noughtsandcrosses](#toc-noughtsandcrosses)
+    - [GUIssing](#toc-guissing)
+    - [pesten](#toc-pesten)
 - [Miscellaneous Python projects](#toc-miscellaneous-python-projects)
     - [Sudoku](#toc-sudoku)
     - [Calcudoku](#toc-calcudoku)
@@ -85,7 +92,7 @@ A bit of a meta-project on creating a nicer index of my github repositories. Par
     - [pong](#toc-pong)
     - [radial\_oscillation](#toc-radial\_oscillation)
     - [ascii\_art](#toc-ascii\_art)
-# [\[toc\]](#table-of-contents) Miscellaneous
+# [\[toc\]](#table-of-contents) Miscellaneous programming
 ### [\[toc\]](#table-of-contents) [Postscript](https://github.com/goedel-gang/Postscript)
 Some of my Postscript (the printer language) projects - some early, some less so. `zut` means pile of rubbish. There's lots to do with polysymmetry and fractals, and then some other stuff. Postscript is actually a really fun language for static graphics programming - I love its syntax, model of stack frames (you have to manually push a new local namespace dictionary to the stack). It's powerful - featuring programmatic features like for loops, while maintaining good drawing primitives and vector graphics. It's actually pretty good for fractals, but also polysymmetric tilings and more. Here are a couple of my favourites:
 
@@ -124,12 +131,6 @@ Here is a static snapshot of pong:
 Here is a multicoloured sierpinski's gasket:
 
 ![screenshot](https://github.com/goedel-gang/scratch/blob/master/screenshots/sierp.png)
-### [\[toc\]](#table-of-contents) [rc](https://github.com/goedel-gang/rc)
-A collection of copies of my rc files for easier access. They're not particularly pretty - I haven't put much effort into them. Generally, I'm satisfied to use what works. I'm happy enough to introduce obscure aliases I'll forget though. `vimrc` contains a number of things specific to my terminal.
-
-I use `izaak-zshrc` for my `rc` file for `zsh`, as to allow `oh-my-zsh`'s default file to be preserved/keep my file safe. It contains a preposterous volume of aliases, beware.
-
-I have two email accounts set up with `mutt`, with obscured passwords. `gmail` is aliases to load my `gmail` credentials, etc. I've emulated `muttrc` syntax with a `sh` shebang.
 ### [\[toc\]](#table-of-contents) [backtobasics](https://github.com/goedel-gang/backtobasics)
 Some Python basics should any of my one audience members wish to refer to them. The main goal is to provide lots of accessible examples of basic Python functionality/syntax and make a reasonably usable index of these examples. Features simple examples of code, with mildly explanatory comments. For example, a demonstration of a validation function that takes a parser function as an argument (using while-loops and try-except, docstring omitted):
 
@@ -151,8 +152,95 @@ Veel plezier `: )`
 Possibly in future featuring other languages.
 ### [\[toc\]](#table-of-contents) [programming\_challenges](https://github.com/goedel-gang/programming_challenges)
 Various programming challenges (for now just populated by my solutions to the BIO 2017).
+### [\[toc\]](#table-of-contents) [python\_demo](https://github.com/goedel-gang/python_demo)
+
+Run noughtsandcrosses/play.py to play noughts and crosses against computer.
+
+waves.py slowly produces several different types of wave.
+
+fractals.py for fractals in Turtle using Lindermayer systems - meaning each
+fractal is coded in just a couple of lines of definitions.
+
+Fractals.py is a very nicely implemented framework for L-systems, where I have
+then proceeded to plug in some L-system definitions for wikipedia. It's much
+more nicely done than for example https://github.com/goedel-gang/lsystems, but
+it's not as pretty.
+
+![screenshot](https://github.com/goedel-gang/python_demo/blob/master/win_screenshot_20190330_121915.png)
+![screenshot](https://github.com/goedel-gang/python_demo/blob/master/win_screenshot_20190330_122012.png)
+![screenshot](https://github.com/goedel-gang/python_demo/blob/master/win_screenshot_20190330_122102.png)
+
+Perhaps a way to expand this, if you have time, is to allow the user to specify
+the number of iterations to perform. You could also look for other fractals to
+add.
+
+see https://github.com/goedel-gang/github\_index
+    for general good times
+
+Good Processing things to show people:
+
+If you don't have Git installed, you'll probably need to download ZIP files and
+unzip them, then making sure they're in a directory with the same name as the
+`/.*\.py?de/` file, or Processing will refuse to open.
+
+For the second lot, make sure to have installed Python mode (this should not
+required admin access).
+
+https://github.com/goedel-gang/mandelbrot
+https://github.com/goedel-gang/turtles
+https://github.com/goedel-gang/pythanimated
+https://github.com/goedel-gang/mazes
+https://github.com/goedel-gang/pendulums
+https://github.com/goedel-gang/colourconway
+https://github.com/goedel-gang/circles
+
+https://github.com/goedel-gang/kaleidoscope
+https://github.com/goedel-gang/rubiks\_cube
+https://github.com/goedel-gang/sorting
+https://github.com/goedel-gang/bubbles
+https://github.com/goedel-gang/ship\_game
+https://github.com/goedel-gang/lsystems
+https://github.com/goedel-gang/pong
+https://github.com/goedel-gang/radial\_oscillation
+
+see https://github.com/goedel-gang/Postscript/blob/master/README.md
+    for Postscript fractals and other geometrical patterns
+### [\[toc\]](#table-of-contents) [microbit](https://github.com/goedel-gang/microbit)
+Featuring mandelbit, an implementation of a Mandelbrot set renderer on a 5x5
+Microbit grid.
+
+![picture](https://github.com/goedel-gang/microbit/blob/master/mandelbrot.jpg)
+### [\[toc\]](#table-of-contents) [autobiographical\_integers](https://github.com/goedel-gang/autobiographical_integers)
+Programs to search for [autobiographical integers](https://oeis.org/A138480).
+# [\[toc\]](#table-of-contents) Miscellaneous other
+### [\[toc\]](#table-of-contents) [rc](https://github.com/goedel-gang/rc)
+A collection of copies of my rc files for easier access. They're not particularly pretty - I haven't put much effort into them. Generally, I'm satisfied to use what works. I'm happy enough to introduce obscure aliases I'll forget though. `vimrc` contains a number of things specific to my terminal.
+
+I use `izaak-zshrc` for my `rc` file for `zsh`, as to allow `oh-my-zsh`'s default file to be preserved/keep my file safe. It contains a preposterous volume of aliases, beware.
+
+I have two email accounts set up with `mutt`, with obscured passwords. `gmail` is aliases to load my `gmail` credentials, etc. I've emulated `muttrc` syntax with a `sh` shebang.
+https://developer.atlassian.com/blog/2016/02/best-way-to-store-dotfiles-git-bare-repo/
+
+    git init --bare $HOME/.cfg
+    alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+    config config --local status.showUntrackedFiles no
+    echo "alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'" >> $HOME/.bashrc
+
+    alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+    echo ".cfg" >> .gitignore
+    git clone --bare <git-repo-url> $HOME/.cfg
+    alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+    config checkout
 ### [\[toc\]](#table-of-contents) [physics](https://github.com/goedel-gang/physics)
 All my physics stuff. Currently some experimenting with LaTeX and not much else.
+### [\[toc\]](#table-of-contents) [maths](https://github.com/goedel-gang/maths)
+
+A document of some description of sorts, with some maths in. Mostly for fun and
+learning LaTeX.
+
+Features some dangerously nice typesetting, and some atrociously bad
+typesetting. One day I might understand how to use TiKz, but for now
+`chi_t_notes/` is all you're getting.
 # [\[toc\]](#table-of-contents) Assignments
 ### [\[toc\]](#table-of-contents) [palindromes](https://github.com/goedel-gang/palindromes)
 Assignment on palindromes in Pascal
@@ -183,6 +271,12 @@ A CLI noughts and crosses framework in Python. It looks something like this:
 Minmax is also implemented - see `writeup.pdf`.
 
 ![screenshot](https://github.com/goedel-gang/noughtsandcrosses/blob/master/win_screenshot_20180712_110639.png)
+### [\[toc\]](#table-of-contents) [GUIssing](https://github.com/goedel-gang/GUIssing)
+GUI for the
+[assignment\_guessing](https://github.com/goedel-gang/assignment_guessing)
+project, developed under duress.
+### [\[toc\]](#table-of-contents) [pesten](https://github.com/goedel-gang/pesten)
+Programming assignment on OOP card games, namely "pesten".
 # [\[toc\]](#table-of-contents) Miscellaneous Python projects
 ### [\[toc\]](#table-of-contents) [Sudoku](https://github.com/goedel-gang/sudoku)
 A (brute-force) sudoku solver in Python. It models a Sudoku as a list (array under the hood) of length 81. It generates a further two-dimensional array (`[81][21]`), which maps cell locations to all other cell locations that that cell can "see". An empty cell takes the conveniently unused value of 0. Input sudoku is read from stdin, and should simply consist of 81 whitespace separated digits. The program comes with an option (`-e`) to print an "empty" sudoku for ease of entering a sudoku. With this as input (`ex.txt`)::

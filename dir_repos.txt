@@ -1,10 +1,17 @@
-# Miscellaneous
+# Miscellaneous programming
 /home/izaak/programmeren/github_index/cache/Postscript/	https://github.com/goedel-gang/Postscript
 /home/izaak/programmeren/github_index/cache/scratch/	https://github.com/goedel-gang/scratch
-/home/izaak/programmeren/github_index/cache/rc/	https://github.com/goedel-gang/rc
 /home/izaak/programmeren/github_index/cache/backtobasics/	https://github.com/goedel-gang/backtobasics
 /home/izaak/programmeren/github_index/cache/programming_challenges/	https://github.com/goedel-gang/programming_challenges
+/home/izaak/programmeren/python_demos/	https://github.com/goedel-gang/python_demo
+/home/izaak/programmeren/microbit/	https://github.com/goedel-gang/microbit
+/home/izaak/programmeren/autobiographical_integers/	https://github.com/goedel-gang/autobiographical_integers
+
+# Miscellaneous other
+/home/izaak/programmeren/github_index/cache/rc/	https://github.com/goedel-gang/rc
+/home/izaak/extra/	https://github.com/goedel-gang/dotfiles
 /home/izaak/programmeren/github_index/cache/physics/	https://github.com/goedel-gang/physics
+/home/izaak/fun/academic/	https://github.com/goedel-gang/maths
 
 # Assignments
 /home/izaak/programmeren/github_index/cache/palindromes/	https://github.com/goedel-gang/palindromes
@@ -12,6 +19,8 @@
 /home/izaak/programmeren/github_index/cache/anagrams/	https://github.com/goedel-gang/anagrams
 /home/izaak/programmeren/github_index/cache/encryption/	https://github.com/goedel-gang/encryption
 /home/izaak/programmeren/processing/noughtsandcrosses/	https://github.com/goedel-gang/noughtsandcrosses
+/home/izaak/programmeren/lazarus/GUIssing/	https://github.com/goedel-gang/GUIssing
+/home/izaak/programmeren/pesten/	https://github.com/goedel-gang/pesten
 
 # Miscellaneous Python projects
 /home/izaak/programmeren/github_index/cache/sudoku/	https://github.com/goedel-gang/sudoku
