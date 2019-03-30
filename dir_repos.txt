@@ -11,6 +11,7 @@
 /home/izaak/programmeren/github_index/cache/guessing/	https://github.com/goedel-gang/assignment_guessing
 /home/izaak/programmeren/github_index/cache/anagrams/	https://github.com/goedel-gang/anagrams
 /home/izaak/programmeren/github_index/cache/encryption/	https://github.com/goedel-gang/encryption
+/home/izaak/programmeren/github_index/cache/noughtsandcrosses/	https://github.com/goedel-gang/noughtsandcrosses
 
 # Miscellaneous Python projects
 /home/izaak/programmeren/github_index/cache/sudoku/	https://github.com/goedel-gang/sudoku

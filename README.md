@@ -13,6 +13,7 @@ A bit of a meta-project on creating a nicer index of my github repositories. Par
     - [assignment\_guessing](#toc-assignment\_guessing)
     - [anagrams](#toc-anagrams)
     - [encryption](#toc-encryption)
+    - [noughtsandcrosses](#toc-noughtsandcrosses)
 - [Miscellaneous Python projects](#toc-miscellaneous-python-projects)
     - [Sudoku](#toc-sudoku)
     - [Calcudoku](#toc-calcudoku)
@@ -161,6 +162,25 @@ The "guessing game" assignment.
 Assignment on anagrams in Pascal.
 ### [\[toc\]](#table-of-contents) [encryption](https://github.com/goedel-gang/encryption)
 Assignment on textfiles/encryption.
+### [\[toc\]](#table-of-contents) [noughtsandcrosses](https://github.com/goedel-gang/noughtsandcrosses)
+A CLI noughts and crosses framework in Python. It looks something like this:
+
+	   0  1  2 
+	0   |   |   
+	 ---+---+---
+	1   |   |   
+	 ---+---+---
+	2   |   |   
+	You are playing as noughts
+	Enter the position you want to play in > 1 1
+	   0  1  2 
+	0   |   |   
+	 ---+---+---
+	1   | O |   
+	 ---+---+---
+	2   |   |   
+
+For now, it's assumed that play is between two humans. A potential future project is adding some kind of minmax based AI.
 # [\[toc\]](#table-of-contents) Miscellaneous Python projects
 ### [\[toc\]](#table-of-contents) [Sudoku](https://github.com/goedel-gang/sudoku)
 A (brute-force) sudoku solver in Python. It models a Sudoku as a list (array under the hood) of length 81. It generates a further two-dimensional array (`[81][21]`), which maps cell locations to all other cell locations that that cell can "see". An empty cell takes the conveniently unused value of 0. Input sudoku is read from stdin, and should simply consist of 81 whitespace separated digits. The program comes with an option (`-e`) to print an "empty" sudoku for ease of entering a sudoku. With this as input (`ex.txt`)::
@@ -665,13 +685,17 @@ due to really quite primitive way the game approaches difficulty scaling.
 
 Here are a selection of relevant screenshots of the game's JS code (`game.js`):
 
-![screenshot](https://github.com/goedel-gang/flippy_bot/blob/master/screenshots/js_init.png)
+![screenshot](https://github.com/elterminad0r/flippy_bot/blob/master/screenshots/js_init.png)
 
-![screenshot](https://github.com/goedel-gang/flippy_bot/blob/master/screenshots/cons_init.png)
+![screenshot](https://github.com/elterminad0r/flippy_bot/blob/master/screenshots/cons_init.png)
 
-![screenshot](https://github.com/goedel-gang/flippy_bot/blob/master/screenshots/js_attack.png)
+![screenshot](https://github.com/elterminad0r/flippy_bot/blob/master/screenshots/js_attack.png)
 
-![screenshot](https://github.com/goedel-gang/flippy_bot/blob/master/screenshots/js_cycle.png)
+![screenshot](https://github.com/elterminad0r/flippy_bot/blob/master/screenshots/js_cycle.png)
+
+![screenshot](https://github.com/elterminad0r/flippy_bot/blob/master/screenshots/js_timeout.png)
+
+![screenshot](https://github.com/elterminad0r/flippy_bot/blob/master/screenshots/config_timeout.png)
 
 Basically, the game initially sets the millisecond interval between enemies to
 5000 ms. Whenever an enemy dies this interval is decreased by 30 ms, and
@@ -685,17 +709,29 @@ On my laptop, this apocalypse happens at around 80 enemies, two and a half
 minutes in. This means that my refresh rate would be:
 
     (5000 - 80 * 30) / 150 / 0.2
-    = 87 Hz
+    ~ 87 Hz
 
-As an high-uncertainty estimate, this seems reasonable, so I consider this to
-be a satisfactory explanation of why this happens.
+As a high-uncertainty estimate, this seems reasonable. It also leads to a cycle time of
 
-Frustratingly, this result means that the best way to get a high score is to
-play flippy bit on a slower computer.
+    1 / 87
+    ~ 11-12 ms
+
+Reassuringly, this is more than 10 ms and would put the average execution speed
+of a cycle at a couple of ms.
+
+All in all, I consider this to be a satisfactory explanation of why this
+happens.
+
+Frustratingly, this result means that the best way to get a high score using
+the bot is to play flippy bit on a slower computer.
+
+However, if you as a human start to press as many keys as quickly as possible
+as soon as the program crashes, your score actually goes up very fast. This is
+because almost everything is on screen at once.
 
 Here is the resulting apocalypse:
 
-![screenshot](https://github.com/goedel-gang/flippy_bot/blob/master/screenshots/apocalypse.png)
+![screenshot](https://github.com/elterminad0r/flippy_bot/blob/master/screenshots/apocalypse.png)
 # [\[toc\]](#table-of-contents) java-processing projects
 ### [\[toc\]](#table-of-contents) [alphabet](https://github.com/goedel-gang/alphabet)
 Shading the screen using letters of the alphabet in Processing. All printable ascii keys on the keyboard are accessible from the keyboard. Some special keys (space, enter) are used for acceleration. ASCII value scales with the x value. Here are some screenshots:
