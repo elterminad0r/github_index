@@ -11,6 +11,7 @@ A bit of a meta-project on creating a nicer index of my github repositories. Par
     - [autobiographical\_integers](#toc-autobiographical\_integers)
 - [Miscellaneous other](#toc-miscellaneous-other)
     - [rc](#toc-rc)
+    - [dotfiles](#toc-dotfiles)
     - [physics](#toc-physics)
     - [maths](#toc-maths)
 - [Assignments](#toc-assignments)
@@ -219,6 +220,8 @@ A collection of copies of my rc files for easier access. They're not particularl
 I use `izaak-zshrc` for my `rc` file for `zsh`, as to allow `oh-my-zsh`'s default file to be preserved/keep my file safe. It contains a preposterous volume of aliases, beware.
 
 I have two email accounts set up with `mutt`, with obscured passwords. `gmail` is aliases to load my `gmail` credentials, etc. I've emulated `muttrc` syntax with a `sh` shebang.
+### [\[toc\]](#table-of-contents) [dotfiles](https://github.com/goedel-gang/dotfiles)
+
 https://developer.atlassian.com/blog/2016/02/best-way-to-store-dotfiles-git-bare-repo/
 
     git init --bare $HOME/.cfg
