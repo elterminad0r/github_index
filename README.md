@@ -180,7 +180,9 @@ A CLI noughts and crosses framework in Python. It looks something like this:
 	 ---+---+---
 	2   |   |   
 
-For now, it's assumed that play is between two humans. A potential future project is adding some kind of minmax based AI.
+Minmax is also implemented - see `writeup.pdf`.
+
+![screenshot](https://github.com/goedel-gang/noughtsandcrosses/blob/master/win_screenshot_20180712_110639.png)
 # [\[toc\]](#table-of-contents) Miscellaneous Python projects
 ### [\[toc\]](#table-of-contents) [Sudoku](https://github.com/goedel-gang/sudoku)
 A (brute-force) sudoku solver in Python. It models a Sudoku as a list (array under the hood) of length 81. It generates a further two-dimensional array (`[81][21]`), which maps cell locations to all other cell locations that that cell can "see". An empty cell takes the conveniently unused value of 0. Input sudoku is read from stdin, and should simply consist of 81 whitespace separated digits. The program comes with an option (`-e`) to print an "empty" sudoku for ease of entering a sudoku. With this as input (`ex.txt`)::
@@ -529,7 +531,9 @@ A CLI noughts and crosses framework in Python. It looks something like this:
 	 ---+---+---
 	2   |   |   
 
-For now, it's assumed that play is between two humans. A potential future project is adding some kind of minmax based AI.
+Minmax is also implemented - see `writeup.pdf`.
+
+![screenshot](https://github.com/goedel-gang/noughtsandcrosses/blob/master/win_screenshot_20180712_110639.png)
 ### [\[toc\]](#table-of-contents) [cipher\_tools](https://github.com/goedel-gang/cipher_tools)
 A collection of programs to aid in cipher-cracking/cryptanalysis. If you use
 this and you're not a GW appreciator you're a disappointment and need to
