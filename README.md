@@ -9,6 +9,8 @@ A bit of a meta-project on creating a nicer index of my github repositories. Par
     - [python\_demo](#toc-python\_demo)
     - [microbit](#toc-microbit)
     - [autobiographical\_integers](#toc-autobiographical\_integers)
+    - [factors\_multiples](#toc-factors\_multiples)
+    - [tile\_encodings](#toc-tile\_encodings)
 - [Miscellaneous other](#toc-miscellaneous-other)
     - [rc](#toc-rc)
     - [dotfiles](#toc-dotfiles)
@@ -93,6 +95,10 @@ A bit of a meta-project on creating a nicer index of my github repositories. Par
     - [pong](#toc-pong)
     - [radial\_oscillation](#toc-radial\_oscillation)
     - [ascii\_art](#toc-ascii\_art)
+    - [hanoi](#toc-hanoi)
+    - [mandeldot](#toc-mandeldot)
+    - [gcd\_plot](#toc-gcd\_plot)
+    - [bifurcation\_logistic\_map](#toc-bifurcation\_logistic\_map)
 # [\[toc\]](#table-of-contents) Miscellaneous programming
 ### [\[toc\]](#table-of-contents) [Postscript](https://github.com/goedel-gang/Postscript)
 Some of my Postscript (the printer language) projects - some early, some less so. `zut` means pile of rubbish. There's lots to do with polysymmetry and fractals, and then some other stuff. Postscript is actually a really fun language for static graphics programming - I love its syntax, model of stack frames (you have to manually push a new local namespace dictionary to the stack). It's powerful - featuring programmatic features like for loops, while maintaining good drawing primitives and vector graphics. It's actually pretty good for fractals, but also polysymmetric tilings and more. Here are a couple of my favourites:
@@ -213,6 +219,76 @@ Microbit grid.
 ![picture](https://github.com/goedel-gang/microbit/blob/master/mandelbrot.jpg)
 ### [\[toc\]](#table-of-contents) [autobiographical\_integers](https://github.com/goedel-gang/autobiographical_integers)
 Programs to search for [autobiographical integers](https://oeis.org/A138480).
+### [\[toc\]](#table-of-contents) [factors\_multiples](https://github.com/goedel-gang/factors_multiples)
+Aiming to optimise the [NRich problem](https://nrich.maths.org/5468/solution)
+for length, by various graphical algorithms.
+
+The first approach was to implement a brute force DFS and leave this to run. I
+quickly found that that was intractable, although really I knew that all along -
+it was more about having something to implement in code, for the fun of it. I
+also spent some time optimising it for speed, by for example pre-computing the
+whole graph representing the board and using fast data-structures where possible
+(favouring arrays, eg boolean array of visited locations and array of current
+path.)
+
+I modified this to instead traverse the board randomly. This quickly got some
+better results. I also reimplemented this program in C rather than Python, to
+gain about an order of magnitude of speed. I also wrote some utility programs
+that try to naïvely or greedily insert remaining tiles between current tiles, or
+to highlight the connected subgraphs within remaining tiles. However, with all
+of this I was only able to generate a path of length 69.
+
+I then spent a bit of time looking at the properties of my current solutions and
+the better published solutions. I saw that they often included long "chains"
+of multiples of large numbers, eg multiples of 17. I designed a simple heuristic
+to emulate this behaviour, which is that the program tries to maximise the GCD
+between adjacent elements. If two candidates have the same GCD, they are
+randomly chosen between. Using this in conjunction with the greedy expansion
+utility I generated the following sequence:
+
+    >[76]58 29 87 3 69 23 92 46 2 62 31 93 1 35 70 10 40 80 20 100 50 25 75 15 45 90 30 60 12 96 48 24 72 36 18 54 27 81 9 63 21 42 84 28 56 14 98 49 7 91 13 52 26 78 6 66 33 99 11 44 22 88 8 16 32 64 4 76 38 19 95 5 85 17 68 34
+
+![screenshot](https://github.com/goedel-gang/factors_multiples/blob/master/screenshot.png)
+
+There are 10 primes between 50 and 100: 53, 59, 61, 67, 71, 73, 79, 83, 89, 97.
+Only one of these can be used (via the 1), so this implies a weak upper bound of
+91 as a chain length. My attempt is still pretty far from that and my program
+isn't particularly sophisticated, and I've not actually had a go at
+hand-optimising anything so I reckon it's still possible to get a much better
+score.
+
+Non-rigorously, I performed some exhaustive searches of lower board sizes which
+might suggest that around 85 is a more reasonable goal:
+
+    In [1]: 23 / 27, 24 / 28, 24 / 29, 26 / 30
+    Out[1]:
+    (0.8518518518518519,
+     0.8571428571428571,
+     0.8275862068965517,
+     0.8666666666666667)
+### [\[toc\]](#table-of-contents) [tile\_encodings](https://github.com/goedel-gang/tile_encoding)
+Solving the following problem:
+
+Given a series of N random bits (N could be 4 or 64), toggle exactly one bit
+such that you have encoded an integer in {0..N-1}.
+
+Phrased as a magic trick, you arrange for example 64 cards which are black on
+one side, and white on the other in a square. You let the target randomly flip
+all of the cards, and then select a particular cards (say, by placing some money
+under it). You then flip exactly one card. At this point, your accomplice, who
+has been out of the room the whole time, comes in and "immediately" determines
+which card is the target. This involves no tricks (well, a bit of information
+theory).
+
+This repository contains [programs to solve][1] this problem, and a
+[document detailing my exact solution][2].
+
+There is also a Processing sketch, but the pretty screenshots of it may contain
+spoilers so go [here][3] to see it.
+
+[1]: https://github.com/goedel-gang/tile_encoding/blob/master/src/magic_encode.py
+[2]: https://github.com/goedel-gang/tile_encoding/blob/master/SOLUTION.md
+[3]: https://github.com/goedel-gang/tile_encoding/blob/master/DOCUMENTATION.md
 # [\[toc\]](#table-of-contents) Miscellaneous other
 ### [\[toc\]](#table-of-contents) [rc](https://github.com/goedel-gang/rc)
 A collection of copies of my rc files for easier access. They're not particularly pretty - I haven't put much effort into them. Generally, I'm satisfied to use what works. I'm happy enough to introduce obscure aliases I'll forget though. `vimrc` contains a number of things specific to my terminal.
@@ -1253,3 +1329,29 @@ calculations. Here are a couple of examples:
 
 ![screenshot](https://github.com/goedel-gang/ascii_art/blob/master/screenshots/tim_ascii.png)
 ![screenshot](https://github.com/goedel-gang/ascii_art/blob/master/screenshots/shimmi_ascii.png)
+### [\[toc\]](#table-of-contents) [hanoi](https://github.com/goedel-gang/hanoi)
+Towers of Hanoi solver - an abstract solution that provides a generator over
+swaps and mutates the problem array, and checks for correctness when run in
+addition to a Processing sketch that displays the towers.
+
+![screenshot](https://github.com/goedel-gang/hanoi/blob/master/screenshot.png)
+### [\[toc\]](#table-of-contents) [mandeldot](https://github.com/goedel-gang/mandeldot)
+A mandelbrot orbit plotter.
+
+![screenshot](https://github.com/goedel-gang/mandeldot/blob/master/win_screenshot_20190326_183150.png)
+![screenshot](https://github.com/goedel-gang/mandeldot/blob/master/win_screenshot_20190326_182523.png)
+![screenshot](https://github.com/goedel-gang/mandeldot/blob/master/win_screenshot_20190326_182803.png)
+### [\[toc\]](#table-of-contents) [gcd\_plot](https://github.com/goedel-gang/gcd_plot)
+
+Plotting GCD(x, y) by hue. Despite it being a discrete plot, you get some funky
+functions.
+
+![screenshot](https://github.com/goedel-gang/gcd_plot/blob/master/win_screenshot_20190330_125227.png)
+![screenshot](https://github.com/goedel-gang/gcd_plot/blob/master/win_screenshot_20190330_125243.png)
+### [\[toc\]](#table-of-contents) [bifurcation\_logistic\_map](https://github.com/goedel-gang/bifurcation_logistic_map)
+
+A plotter for the bifurcation diagram of the logistic map. It's fairly dumb, but
+it seems to work. Not yet got a very developed UI - the only configurability is
+through tweaking global constants.
+
+![screenshot](https://github.com/goedel-gang/bifurcation_logistic_map/blob/master/win_screenshot_20190330_125830.png)

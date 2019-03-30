@@ -6,6 +6,8 @@
 /home/izaak/programmeren/python_demos/	https://github.com/goedel-gang/python_demo
 /home/izaak/programmeren/microbit/	https://github.com/goedel-gang/microbit
 /home/izaak/programmeren/autobiographical_integers/	https://github.com/goedel-gang/autobiographical_integers
+/home/izaak/programmeren/factors_multiples/	https://github.com/goedel-gang/factors_multiples
+/home/izaak/programmeren/processing/tile_encoding/	https://github.com/goedel-gang/tile_encoding
 
 # Miscellaneous other
 /home/izaak/programmeren/github_index/cache/rc/	https://github.com/goedel-gang/rc
@@ -95,3 +97,7 @@
 /home/izaak/programmeren/github_index/cache/pong/	https://github.com/goedel-gang/pong
 /home/izaak/programmeren/github_index/cache/radial_oscillation/	https://github.com/goedel-gang/radial_oscillation
 /home/izaak/programmeren/github_index/cache/ascii_art/	https://github.com/goedel-gang/ascii_art
+/home/izaak/programmeren/processing/hanoi/	https://github.com/goedel-gang/hanoi
+/home/izaak/programmeren/processing/mandeldot/	https://github.com/goedel-gang/mandeldot
+/home/izaak/programmeren/processing/gcd_plot/	https://github.com/goedel-gang/gcd_plot
+/home/izaak/programmeren/processing/bifurcation_logistic_map/	https://github.com/goedel-gang/bifurcation_logistic_map
