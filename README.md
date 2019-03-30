@@ -689,17 +689,17 @@ due to really quite primitive way the game approaches difficulty scaling.
 
 Here are a selection of relevant screenshots of the game's JS code (`game.js`):
 
-![screenshot](https://github.com/elterminad0r/flippy_bot/blob/master/screenshots/js_init.png)
+![screenshot](https://github.com/goedel-gang/flippy_bot/blob/master/screenshots/js_init.png)
 
-![screenshot](https://github.com/elterminad0r/flippy_bot/blob/master/screenshots/cons_init.png)
+![screenshot](https://github.com/goedel-gang/flippy_bot/blob/master/screenshots/cons_init.png)
 
-![screenshot](https://github.com/elterminad0r/flippy_bot/blob/master/screenshots/js_attack.png)
+![screenshot](https://github.com/goedel-gang/flippy_bot/blob/master/screenshots/js_attack.png)
 
-![screenshot](https://github.com/elterminad0r/flippy_bot/blob/master/screenshots/js_cycle.png)
+![screenshot](https://github.com/goedel-gang/flippy_bot/blob/master/screenshots/js_cycle.png)
 
-![screenshot](https://github.com/elterminad0r/flippy_bot/blob/master/screenshots/js_timeout.png)
+![screenshot](https://github.com/goedel-gang/flippy_bot/blob/master/screenshots/js_timeout.png)
 
-![screenshot](https://github.com/elterminad0r/flippy_bot/blob/master/screenshots/config_timeout.png)
+![screenshot](https://github.com/goedel-gang/flippy_bot/blob/master/screenshots/config_timeout.png)
 
 Basically, the game initially sets the millisecond interval between enemies to
 5000 ms. Whenever an enemy dies this interval is decreased by 30 ms, and
@@ -735,7 +735,7 @@ because almost everything is on screen at once.
 
 Here is the resulting apocalypse:
 
-![screenshot](https://github.com/elterminad0r/flippy_bot/blob/master/screenshots/apocalypse.png)
+![screenshot](https://github.com/goedel-gang/flippy_bot/blob/master/screenshots/apocalypse.png)
 # [\[toc\]](#table-of-contents) java-processing projects
 ### [\[toc\]](#table-of-contents) [alphabet](https://github.com/goedel-gang/alphabet)
 Shading the screen using letters of the alphabet in Processing. All printable ascii keys on the keyboard are accessible from the keyboard. Some special keys (space, enter) are used for acceleration. ASCII value scales with the x value. Here are some screenshots:
