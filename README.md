@@ -11,9 +11,9 @@ A bit of a meta-project on creating a nicer index of my github repositories. Par
     - [autobiographical\_integers](#toc-autobiographical\_integers)
     - [factors\_multiples](#toc-factors\_multiples)
     - [tile\_encodings](#toc-tile\_encodings)
+    - [1r1l1e](#toc-1r1l1e)
 - [Miscellaneous other](#toc-miscellaneous-other)
     - [rc](#toc-rc)
-    - [dotfiles](#toc-dotfiles)
     - [physics](#toc-physics)
     - [maths](#toc-maths)
 - [Assignments](#toc-assignments)
@@ -290,6 +290,28 @@ spoilers so go [here][3] to see it.
 [1]: https://github.com/goedel-gang/tile_encoding/blob/master/src/magic_encode.py
 [2]: https://github.com/goedel-gang/tile_encoding/blob/master/SOLUTION.md
 [3]: https://github.com/goedel-gang/tile_encoding/blob/master/DOCUMENTATION.md
+### [\[toc\]](#table-of-contents) [1r1l1e](https://github.com/goedel-gang/1r1l1e)
+
+This is basically a Python script to do run-length encoding (RLE). Seeing as RLE
+itself provides such poor compression, I thought I would write the script in as
+few bytes as possible in order to save disk space.
+
+It works with a similar interface to `base64`. You use `python rle.py` to RLE
+encode stdin, and `python rle.py -d` to RLE decode stdin. It doesn't understand
+file arguments because that would take up too many LoC. Instead, you should just
+attach files to stdin and stdout as appropriate.
+
+The encoding it uses is quite simple - it writes alternating counts and bytes,
+where each byte of data is preceded by a count indicating how many times it
+occurs. The counts are themselves single bytes. If a count is greater than 255,
+it simple gets split into multiple count-byte pairs.
+
+It is unaware of Unicode, but not necessarily to its detriment. It just operates
+on stdin as a stream of bytes, and correctly restores this stream after
+decoding.
+
+There is also a script that generates some realistic real-world data,
+accompanied by a makefile that tests the whole things.
 # [\[toc\]](#table-of-contents) Miscellaneous other
 ### [\[toc\]](#table-of-contents) [rc](https://github.com/goedel-gang/rc)
 A collection of copies of my rc files for easier access. They're not particularly pretty - I haven't put much effort into them. Generally, I'm satisfied to use what works. I'm happy enough to introduce obscure aliases I'll forget though. `vimrc` contains a number of things specific to my terminal.
@@ -297,20 +319,24 @@ A collection of copies of my rc files for easier access. They're not particularl
 I use `izaak-zshrc` for my `rc` file for `zsh`, as to allow `oh-my-zsh`'s default file to be preserved/keep my file safe. It contains a preposterous volume of aliases, beware.
 
 I have two email accounts set up with `mutt`, with obscured passwords. `gmail` is aliases to load my `gmail` credentials, etc. I've emulated `muttrc` syntax with a `sh` shebang.
-### [\[toc\]](#table-of-contents) [dotfiles](https://github.com/goedel-gang/dotfiles)
+These are my dotfiles, maintained in Git using
 
-https://developer.atlassian.com/blog/2016/02/best-way-to-store-dotfiles-git-bare-repo/
+<https://developer.atlassian.com/blog/2016/02/best-way-to-store-dotfiles-git-bare-repo/>
 
-    git init --bare $HOME/.cfg
-    alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
-    config config --local status.showUntrackedFiles no
-    echo "alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'" >> $HOME/.bashrc
+    alias cfg='/usr/bin/git --git-dir="$HOME/.cfg/" --work-tree=$HOME'
+    cfg config --local status.showUntrackedFiles no
+    git clone --bare "https://github.com/goedel-gang/dotfiles" "$HOME/.cfg"
+    # cfg stash
+    cfg checkout
+    cfg submodule init
+    cfg submodule update
 
-    alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
-    echo ".cfg" >> .gitignore
-    git clone --bare <git-repo-url> $HOME/.cfg
-    alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
-    config checkout
+![screenshot](https://github.com/goedel-gang/dotfiles/blob/master/extra/README_GRUVBOX.png)
+
+How it has looked at some point in the past:
+
+![screenshot](https://github.com/goedel-gang/dotfiles/blob/master/extra/README_SOLARIZED.png)
+![screenshot](https://github.com/goedel-gang/dotfiles/blob/master/extra/README_SOLARIZED_OLD.png)
 ### [\[toc\]](#table-of-contents) [physics](https://github.com/goedel-gang/physics)
 All my physics stuff. Currently some experimenting with LaTeX and not much else.
 ### [\[toc\]](#table-of-contents) [maths](https://github.com/goedel-gang/maths)

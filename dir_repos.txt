@@ -8,10 +8,11 @@
 /home/izaak/programmeren/autobiographical_integers/	https://github.com/goedel-gang/autobiographical_integers
 /home/izaak/programmeren/factors_multiples/	https://github.com/goedel-gang/factors_multiples
 /home/izaak/programmeren/processing/tile_encoding/	https://github.com/goedel-gang/tile_encoding
+/home/izaak/programmeren/1r1l1e/	https://github.com/goedel-gang/1r1l1e
 
 # Miscellaneous other
 /home/izaak/programmeren/github_index/cache/rc/	https://github.com/goedel-gang/rc
-/home/izaak/extra/	https://github.com/goedel-gang/dotfiles
+/home/izaak/	https://github.com/goedel-gang/dotfiles
 /home/izaak/programmeren/github_index/cache/physics/	https://github.com/goedel-gang/physics
 /home/izaak/fun/academic/	https://github.com/goedel-gang/maths
 
