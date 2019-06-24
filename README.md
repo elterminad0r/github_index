@@ -1039,9 +1039,14 @@ A simpler implementation/demonstration of my UI elements in Processing, later to
 
 ![screenshot](https://github.com/goedel-gang/UI_demo/blob/master/screenshot.png)
 ### [\[toc\]](#table-of-contents) [turtles](https://github.com/goedel-gang/turtles)
-Custom turtle implementation in Processing, used to have multiple turtles follow the same instructions (from keyboard) for symmetric kinda pretty rainbow patterns. Here is what it looks like:
 
-![screenshot](https://github.com/goedel-gang/turtles/blob/master/screenshot.png)
+Custom turtle implementation in Processing, used to have multiple turtles follow
+the same instructions (from keyboard) for symmetric kinda pretty rainbow
+patterns. Here is what it looks like:
+
+![screenshot](https://github.com/goedel-gang/turtles/blob/master/win_screenshot_20190624_173407.png)
+![screenshot](https://github.com/goedel-gang/turtles/blob/master/win_screenshot_20190624_173340.png)
+![screenshot](https://github.com/goedel-gang/turtles/blob/master/win_screenshot_20190624_173315.png)
 ### [\[toc\]](#table-of-contents) [s\_zoom](https://github.com/goedel-gang/s_zoom)
 A kind of inefficient sketch that tries to emulate the effect of infinitely zooming in on the top part of a Sierpinski Triangle. It looks like this:
 
@@ -1325,12 +1330,20 @@ Visualisation of a modular multiplication table in processing. Generates slowly.
 and in higher resolution:
 ![screenshot](https://github.com/goedel-gang/mod_mult/blob/master/screenshots/higher.png)
 ### [\[toc\]](#table-of-contents) [lsystems](https://github.com/goedel-gang/lsystems)
-A general approach to L-systems in Python processing, using recursive generators, with a couple implemented. Due to the use of generators they also generate slowly, generating bit-by-bit rather than blocking for several frames. Here are a few:
 
-![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/hilprog.png)
-![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/hil.png)
-![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/drg.png)
-![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/lev.png)
+A general approach to L-systems in Python processing, using layered generators,
+with a couple implemented. Due to the use of generators they also generate
+gradually, giving a nice "drawing" effect, rather than blocking for several
+frames. Here are a few:
+
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/win_screenshot_20190624_223731.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/win_screenshot_20190624_223733.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/win_screenshot_20190624_223737.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/win_screenshot_20190624_223739.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/win_screenshot_20190624_223741.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/win_screenshot_20190624_223746.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/win_screenshot_20190624_223748.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/win_screenshot_20190624_223750.png)
 ### [\[toc\]](#table-of-contents) [pong](https://github.com/goedel-gang/pong)
 Pong game inspired by my teacher's warning not to write a Pong game. Has a neon
 aesthetic with a sprinkling of Perlin noise and lots of vector calculations.

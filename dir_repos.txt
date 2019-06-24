@@ -60,7 +60,7 @@
 /home/izaak/programmeren/github_index/cache/snowflakes/	https://github.com/goedel-gang/snowflakes
 /home/izaak/programmeren/github_index/cache/square_filling_circle/	https://github.com/goedel-gang/square_filling_circle
 /home/izaak/programmeren/github_index/cache/UI_demo/	https://github.com/goedel-gang/UI_demo
-/home/izaak/programmeren/github_index/cache/turtles/	https://github.com/goedel-gang/turtles
+/home/izaak/programmeren/processing/turtles/	https://github.com/goedel-gang/turtles
 /home/izaak/programmeren/github_index/cache/s_zoom/	https://github.com/goedel-gang/s_zoom
 /home/izaak/programmeren/github_index/cache/sandpiles/	https://github.com/goedel-gang/sandpiles
 /home/izaak/programmeren/github_index/cache/platformer/	https://github.com/goedel-gang/platformer
@@ -93,7 +93,7 @@
 /home/izaak/programmeren/github_index/cache/squiggles/	https://github.com/goedel-gang/squiggles
 /home/izaak/programmeren/github_index/cache/tenprint/	https://github.com/goedel-gang/tenprint
 /home/izaak/programmeren/github_index/cache/mod_mult/	https://github.com/goedel-gang/mod_mult
-/home/izaak/programmeren/github_index/cache/lsystems/	https://github.com/goedel-gang/lsystems
+/home/izaak/programmeren/processing/lsystems/	https://github.com/goedel-gang/lsystems
 /home/izaak/programmeren/github_index/cache/pong/	https://github.com/goedel-gang/pong
 /home/izaak/programmeren/github_index/cache/radial_oscillation/	https://github.com/goedel-gang/radial_oscillation
 /home/izaak/programmeren/github_index/cache/ascii_art/	https://github.com/goedel-gang/ascii_art
