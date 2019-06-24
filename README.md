@@ -342,13 +342,21 @@ typesetting. One day I might understand how to use TiKz, but for now
 `chi_t_notes/` is all you're getting.
 # [\[toc\]](#table-of-contents) Assignments
 ### [\[toc\]](#table-of-contents) [palindromes](https://github.com/goedel-gang/palindromes)
-Assignment on palindromes in Pascal
+
+Assignment on palindromes in Pascal. The version that I handed in can be found
+on the [hand-in tag](https://github.com/goedel-gang/palindromes/tree/hand-in).
 ### [\[toc\]](#table-of-contents) [assignment\_guessing](https://github.com/goedel-gang/assignment_guessing)
-The "guessing game" assignment.
+
+The "guessing game" assignment. The version I handed in can be viewed on the
+[hand-in tag](https://github.com/goedel-gang/assignment_guessing/tree/hand-in).
 ### [\[toc\]](#table-of-contents) [anagrams](https://github.com/goedel-gang/anagrams)
-Assignment on anagrams in Pascal.
+
+Assignment on anagrams in Pascal. The version that I handed in can be found at
+the [hand-in tag](https://github.com/goedel-gang/anagrams/tree/hand-in).
 ### [\[toc\]](#table-of-contents) [encryption](https://github.com/goedel-gang/encryption)
-Assignment on textfiles/encryption.
+
+Assignment on textfiles/encryption. Find what I handed in upon the
+[hand-in tag](https://github.com/goedel-gang/encryption/tree/hand-in).
 ### [\[toc\]](#table-of-contents) [noughtsandcrosses](https://github.com/goedel-gang/noughtsandcrosses)
 A CLI noughts and crosses framework in Python. It looks something like this:
 
@@ -367,15 +375,23 @@ A CLI noughts and crosses framework in Python. It looks something like this:
 	 ---+---+---
 	2   |   |   
 
-Minmax is also implemented - see `writeup.pdf`.
+Minmax is also implemented - see `writeup.pdf`. The version I handed in can be
+seen at the
+[hand-in tag](https://github.com/goedel-gang/noughtsandcrosses/tree/hand-in).
 
 ![screenshot](https://github.com/goedel-gang/noughtsandcrosses/blob/master/win_screenshot_20180712_110639.png)
 ### [\[toc\]](#table-of-contents) [GUIssing](https://github.com/goedel-gang/GUIssing)
 GUI for the
 [assignment\_guessing](https://github.com/goedel-gang/assignment_guessing)
 project, developed under duress.
+
+See the version I handed in at the
+[hand-in tag](https://github.com/goedel-gang/GUIssing/tree/hand-in)
 ### [\[toc\]](#table-of-contents) [pesten](https://github.com/goedel-gang/pesten)
-Programming assignment on OOP card games, namely "pesten".
+
+Programming assignment on OOP card games, namely "pesten". See the version I
+handed in within the
+[hand-in tag](https://github.com/goedel-gang/pesten/tree/hand-in).
 # [\[toc\]](#table-of-contents) Miscellaneous Python projects
 ### [\[toc\]](#table-of-contents) [Sudoku](https://github.com/goedel-gang/sudoku)
 A (brute-force) sudoku solver in Python. It models a Sudoku as a list (array under the hood) of length 81. It generates a further two-dimensional array (`[81][21]`), which maps cell locations to all other cell locations that that cell can "see". An empty cell takes the conveniently unused value of 0. Input sudoku is read from stdin, and should simply consist of 81 whitespace separated digits. The program comes with an option (`-e`) to print an "empty" sudoku for ease of entering a sudoku. With this as input (`ex.txt`)::
@@ -724,7 +740,9 @@ A CLI noughts and crosses framework in Python. It looks something like this:
 	 ---+---+---
 	2   |   |   
 
-Minmax is also implemented - see `writeup.pdf`.
+Minmax is also implemented - see `writeup.pdf`. The version I handed in can be
+seen at the
+[hand-in tag](https://github.com/goedel-gang/noughtsandcrosses/tree/hand-in).
 
 ![screenshot](https://github.com/goedel-gang/noughtsandcrosses/blob/master/win_screenshot_20180712_110639.png)
 ### [\[toc\]](#table-of-contents) [cipher\_tools](https://github.com/goedel-gang/cipher_tools)
