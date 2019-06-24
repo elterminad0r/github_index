@@ -37,7 +37,6 @@
 /home/izaak/programmeren/github_index/cache/hangman/	https://github.com/goedel-gang/hangman
 /home/izaak/programmeren/github_index/cache/points/	https://github.com/goedel-gang/points
 /home/izaak/programmeren/github_index/cache/DNA/	https://github.com/goedel-gang/DNA
-/home/izaak/programmeren/processing/noughtsandcrosses/	https://github.com/goedel-gang/noughtsandcrosses
 /home/izaak/programmeren/github_index/cache/cipher_tools/	https://github.com/goedel-gang/cipher_tools
 /home/izaak/programmeren/github_index/cache/sorting/	https://github.com/goedel-gang/sorting
 /home/izaak/programmeren/github_index/cache/elf_game/	https://github.com/goedel-gang/elf_game

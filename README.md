@@ -36,7 +36,6 @@ A bit of a meta-project on creating a nicer index of my github repositories. Par
     - [hangman](#toc-hangman)
     - [points](#toc-points)
     - [DNA](#toc-dna)
-    - [noughtsandcrosses](#toc-noughtsandcrosses)
     - [cipher\_tools](#toc-cipher\_tools)
     - [sorting](#toc-sorting)
     - [elf\_game](#toc-elf\_game)
@@ -722,29 +721,6 @@ It also has some simple Python CGI scripts implementing some of the found approa
 [Here](https://github.com/goedel-gang/DNA/blob/master/presentation.pdf) is the accompanying presentation I made for the end of my stay.
 
 It's somewhere around the middle of my well-populated to-do list to revisit this and clean it up.
-### [\[toc\]](#table-of-contents) [noughtsandcrosses](https://github.com/goedel-gang/noughtsandcrosses)
-A CLI noughts and crosses framework in Python. It looks something like this:
-
-	   0  1  2 
-	0   |   |   
-	 ---+---+---
-	1   |   |   
-	 ---+---+---
-	2   |   |   
-	You are playing as noughts
-	Enter the position you want to play in > 1 1
-	   0  1  2 
-	0   |   |   
-	 ---+---+---
-	1   | O |   
-	 ---+---+---
-	2   |   |   
-
-Minmax is also implemented - see `writeup.pdf`. The version I handed in can be
-seen at the
-[hand-in tag](https://github.com/goedel-gang/noughtsandcrosses/tree/hand-in).
-
-![screenshot](https://github.com/goedel-gang/noughtsandcrosses/blob/master/win_screenshot_20180712_110639.png)
 ### [\[toc\]](#table-of-contents) [cipher\_tools](https://github.com/goedel-gang/cipher_tools)
 A collection of programs to aid in cipher-cracking/cryptanalysis. If you use
 this and you're not a GW appreciator you're a disappointment and need to
