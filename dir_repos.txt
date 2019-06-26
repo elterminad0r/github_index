@@ -73,6 +73,7 @@
 /home/izaak/programmeren/github_index/cache/mandelbrot/	https://github.com/goedel-gang/mandelbrot
 /home/izaak/programmeren/processing/orbit_dynamic/	https://github.com/goedel-gang/mandemthot
 /home/izaak/programmeren/processing/whomping_fractal/	https://github.com/goedel-gang/whomping_fractal
+/home/izaak/programmeren/processing/koch_magnet/	https://github.com/goedel-gang/koch_magnet
 
 # Python-processing projects
 /home/izaak/programmeren/github_index/cache/asteroids/	https://github.com/goedel-gang/asteroids

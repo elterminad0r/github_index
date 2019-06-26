@@ -71,6 +71,7 @@ A bit of a meta-project on creating a nicer index of my github repositories. Par
     - [mandelbrot](#toc-mandelbrot)
     - [mandemthot](#toc-mandemthot)
     - [whomping\_fractal](#toc-whomping\_fractal)
+    - [koch\_magnet](#toc-koch\_magnet)
 - [Python-processing projects](#toc-python-processing-projects)
     - [asteroids](#toc-asteroids)
     - [collatz\_tree](#toc-collatz\_tree)
@@ -1154,6 +1155,16 @@ branches.
 ![screenshot](https://github.com/goedel-gang/whomping_fractal/blob/master/screenshots/win_screenshot_20190626_104647.png)
 ![screenshot](https://github.com/goedel-gang/whomping_fractal/blob/master/screenshots/win_screenshot_20190626_104659.png)
 ![screenshot](https://github.com/goedel-gang/whomping_fractal/blob/master/screenshots/win_screenshot_20190626_104705.png)
+### [\[toc\]](#table-of-contents) [koch\_magnet](https://github.com/goedel-gang/koch_magnet)
+
+Dynamic Koch-snowflake-like-fractal-drawer. You use the mouse to control the
+spike's point's coordinates, and the keys 1-9+0 to control the coordinates of
+the spike's base, modified with SHIFT if you want to move the left one.
+
+![screenshot](https://github.com/goedel-gang/koch_magnet/blob/master/screenshots/win_screenshot_20190626_172556.png)
+![screenshot](https://github.com/goedel-gang/koch_magnet/blob/master/screenshots/win_screenshot_20190626_172603.png)
+![screenshot](https://github.com/goedel-gang/koch_magnet/blob/master/screenshots/win_screenshot_20190626_172805.png)
+![screenshot](https://github.com/goedel-gang/koch_magnet/blob/master/screenshots/win_screenshot_20190626_172853.png)
 # [\[toc\]](#table-of-contents) Python-processing projects
 ### [\[toc\]](#table-of-contents) [asteroids](https://github.com/goedel-gang/asteroids)
 My attempt at Saturn - asteroids orbiting a planet in 3d processing. Again, familiarisation. The asteroids are, of course, rainbow-coloured. It looks like this:
@@ -1333,7 +1344,24 @@ and in higher resolution:
 A general approach to L-systems in Python processing, using layered generators,
 with a couple implemented. Due to the use of generators they also generate
 gradually, giving a nice "drawing" effect, rather than blocking for several
-frames.
+frames. Basically the beauty of it is that having written all the "library"
+code, I can define fractals as simply as
+
+```Python
+sierpinski = LSystemFractal(
+    "Sierpinski's Gasket",
+    "F-G-G",
+    lambda d: 2 ** d,
+    {"F": "F-G+F+G-F",
+     "G": "GG"},
+    lambda t, d: {"F": lambda: draw(t.forward(1)),
+                  "G": lambda: draw(t.forward(1)),
+                  "-": lambda: nodraw(t.turn_degrees(+120)),
+                  "+": lambda: nodraw(t.turn_degrees(-120))},
+    10)
+```
+
+As you can see, it's currently also very easy to read.
 
 Even though I say so myself, the colouring effects are really cool. Not only are
 they all rainbow coloured, but the rainbow is extrapolated from the reproduction
