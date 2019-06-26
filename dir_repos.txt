@@ -71,6 +71,8 @@
 /home/izaak/programmeren/github_index/cache/moire_draggable/	https://github.com/goedel-gang/moire_draggable
 /home/izaak/programmeren/github_index/cache/julia/	https://github.com/goedel-gang/julia
 /home/izaak/programmeren/github_index/cache/mandelbrot/	https://github.com/goedel-gang/mandelbrot
+/home/izaak/programmeren/processing/orbit_dynamic/	https://github.com/goedel-gang/mandemthot
+/home/izaak/programmeren/processing/whomping_fractal/	https://github.com/goedel-gang/whomping_fractal
 
 # Python-processing projects
 /home/izaak/programmeren/github_index/cache/asteroids/	https://github.com/goedel-gang/asteroids
@@ -98,6 +100,5 @@
 /home/izaak/programmeren/github_index/cache/ascii_art/	https://github.com/goedel-gang/ascii_art
 /home/izaak/programmeren/processing/hanoi/	https://github.com/goedel-gang/hanoi
 /home/izaak/programmeren/processing/mandeldot/	https://github.com/goedel-gang/mandeldot
-/home/izaak/programmeren/processing/orbit_dynamic/	https://github.com/goedel-gang/mandemthot
 /home/izaak/programmeren/processing/gcd_plot/	https://github.com/goedel-gang/gcd_plot
 /home/izaak/programmeren/processing/bifurcation_logistic_map/	https://github.com/goedel-gang/bifurcation_logistic_map

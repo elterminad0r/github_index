@@ -69,6 +69,8 @@ A bit of a meta-project on creating a nicer index of my github repositories. Par
     - [moire\_draggable](#toc-moire\_draggable)
     - [julia](#toc-julia)
     - [mandelbrot](#toc-mandelbrot)
+    - [mandemthot](#toc-mandemthot)
+    - [whomping\_fractal](#toc-whomping\_fractal)
 - [Python-processing projects](#toc-python-processing-projects)
     - [asteroids](#toc-asteroids)
     - [collatz\_tree](#toc-collatz\_tree)
@@ -95,7 +97,6 @@ A bit of a meta-project on creating a nicer index of my github repositories. Par
     - [ascii\_art](#toc-ascii\_art)
     - [hanoi](#toc-hanoi)
     - [mandeldot](#toc-mandeldot)
-    - [mandemthot](#toc-mandemthot)
     - [gcd\_plot](#toc-gcd\_plot)
     - [bifurcation\_logistic\_map](#toc-bifurcation\_logistic\_map)
 # [\[toc\]](#table-of-contents) Miscellaneous programming
@@ -1130,6 +1131,29 @@ Here are three randomly chosen screenshots from my travels:
 ![screenshot](https://github.com/goedel-gang/mandelbrot/blob/master/screenshots/mandel3.png)
 
 [Here](https://drive.google.com/drive/folders/0B3EHq-o9udUMQ2pyZlJKQWZlcDA?usp=sharing) is my full collection of higher quality serialisations for ayone interested.
+### [\[toc\]](#table-of-contents) [mandemthot](https://github.com/goedel-gang/mandemthot)
+A much faster mandelbrot orbit plotter. This is due to Java/using a compiled
+implementation of a language, really. This absolutely destroys the Python
+mandeldot. It does about 10k points every frame without too much trouble, if you
+ignore the screams coming from your [CG]PU.
+
+It can also overlay orbits, and delete previously stored orbits. It does this by
+making a cutesy little stack of PGraphics objects, which is quite cool.
+
+![screenshot](https://github.com/goedel-gang/mandemthot/blob/master/win_screenshot_20190518_164727.png)
+![screenshot](https://github.com/goedel-gang/mandemthot/blob/master/win_screenshot_20190518_164743.png)
+### [\[toc\]](#table-of-contents) [whomping\_fractal](https://github.com/goedel-gang/whomping_fractal)
+
+This is a tiny little sketch to draw a fractal binary tree, and let you adjust
+its parameters by clicking and moving the mouse near either of the first two
+branches.
+
+![screenshot](https://github.com/goedel-gang/whomping_fractal/blob/master/screenshots/win_screenshot_20190626_104612.png)
+![screenshot](https://github.com/goedel-gang/whomping_fractal/blob/master/screenshots/win_screenshot_20190626_104621.png)
+![screenshot](https://github.com/goedel-gang/whomping_fractal/blob/master/screenshots/win_screenshot_20190626_104632.png)
+![screenshot](https://github.com/goedel-gang/whomping_fractal/blob/master/screenshots/win_screenshot_20190626_104647.png)
+![screenshot](https://github.com/goedel-gang/whomping_fractal/blob/master/screenshots/win_screenshot_20190626_104659.png)
+![screenshot](https://github.com/goedel-gang/whomping_fractal/blob/master/screenshots/win_screenshot_20190626_104705.png)
 # [\[toc\]](#table-of-contents) Python-processing projects
 ### [\[toc\]](#table-of-contents) [asteroids](https://github.com/goedel-gang/asteroids)
 My attempt at Saturn - asteroids orbiting a planet in 3d processing. Again, familiarisation. The asteroids are, of course, rainbow-coloured. It looks like this:
@@ -1381,17 +1405,6 @@ A mandelbrot orbit plotter.
 ![screenshot](https://github.com/goedel-gang/mandeldot/blob/master/win_screenshot_20190326_183150.png)
 ![screenshot](https://github.com/goedel-gang/mandeldot/blob/master/win_screenshot_20190326_182523.png)
 ![screenshot](https://github.com/goedel-gang/mandeldot/blob/master/win_screenshot_20190326_182803.png)
-### [\[toc\]](#table-of-contents) [mandemthot](https://github.com/goedel-gang/mandemthot)
-A much faster mandelbrot orbit plotter. This is due to Java/using a compiled
-implementation of a language, really. This absolutely destroys the Python
-mandeldot. It does about 10k points every frame without too much trouble, if you
-ignore the screams coming from your [CG]PU.
-
-It can also overlay orbits, and delete previously stored orbits. It does this by
-making a cutesy little stack of PGraphics objects, which is quite cool.
-
-![screenshot](https://github.com/goedel-gang/mandemthot/blob/master/win_screenshot_20190518_164727.png)
-![screenshot](https://github.com/goedel-gang/mandemthot/blob/master/win_screenshot_20190518_164743.png)
 ### [\[toc\]](#table-of-contents) [gcd\_plot](https://github.com/goedel-gang/gcd_plot)
 
 Plotting GCD(x, y) by hue. Despite it being a discrete plot, you get some funky
