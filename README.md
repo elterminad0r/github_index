@@ -295,15 +295,16 @@ This is basically a Python script to do run-length encoding (RLE). Seeing as RLE
 itself provides such poor compression, I thought I would write the script in as
 few bytes as possible in order to save disk space.
 
-It works with a similar interface to `base64`. You use `python rle.py` to RLE
-encode stdin, and `python rle.py -d` to RLE decode stdin. It doesn't understand
-file arguments because that would take up too many LoC. Instead, you should just
+You use `python rle.py` to RLE encode stdin, and `python elr.py` to RLE decode
+stdin. The use of separate programs avoids branching and parsing of argv in
+the scripts, which is a huge savings on bytes. It doesn't understand file
+arguments because that would take up too many LoC. Instead, you should just
 attach files to stdin and stdout as appropriate.
 
 The encoding it uses is quite simple - it writes alternating counts and bytes,
 where each byte of data is preceded by a count indicating how many times it
 occurs. The counts are themselves single bytes. If a count is greater than 255,
-it simple gets split into multiple count-byte pairs.
+it simply gets split into multiple count-byte pairs.
 
 It is unaware of Unicode, but not necessarily to its detriment. It just operates
 on stdin as a stream of bytes, and correctly restores this stream after
@@ -1350,15 +1351,12 @@ code, I can define fractals as simply as
 ```Python
 sierpinski = LSystemFractal(
     "Sierpinski's Gasket",
-    "F-G-G",
-    lambda d: 2 ** d,
-    {"F": "F-G+F+G-F",
+    "F+G+G",
+    {"F": "F+G-F-G+F",
      "G": "GG"},
-    lambda t, d: {"F": lambda: draw(t.forward(1)),
-                  "G": lambda: draw(t.forward(1)),
-                  "-": lambda: nodraw(t.turn_degrees(+120)),
-                  "+": lambda: nodraw(t.turn_degrees(-120))},
-    10)
+    lambda t, d: standard_rules(t, 120),
+    lambda d: 2 ** d,
+    9)
 ```
 
 As you can see, it's currently also very easy to read.
@@ -1376,15 +1374,37 @@ the [video tag](https://github.com/goedel-gang/lsystems/tree/video).
 
 Here are some screenshots:
 
-![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/sierpinski.png)
-![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/dragon.png)
-![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/fern.png)
-![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/levyC.png)
-![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/hilbert.png)
-![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/sierp_hex.png)
-![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/koch_snowflake.png)
-![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/koch_square.png)
-![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/binary_tree.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/00_sierpinskis_gasket.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/01_the_dragon_curve.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/02_a_lindenmayer_fern.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/03_the_levy_c_curve.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/04_hilberts_spacefilling_curve.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/05_sierpinskis_gasket_hexagonal_variant.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/06_koch_snowflake.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/07_square_koch_curve.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/08_binary_tree.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/09_crystal.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/10_peano_curve.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/11_krishna_anklets.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/12_mango.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/13_board.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/14_square_sierpinski.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/15_hexagonal_gosper.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/16_quadratic_gosper.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/17_bourke_triangle.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/18_bourkes_first_bush.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/19_bourkes_second_bush.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/20_bourkes_third_bush.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/21_saupes_bush.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/22_bourke_stick.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/23_bourke_weed.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/24_koch_island_1.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/25_koch_island_2.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/26_koch_island_3.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/27_koch_island_4.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/28_pentaplexity.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/29_bourke_rings.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/30_bourke_2.png)
 ### [\[toc\]](#table-of-contents) [pong](https://github.com/goedel-gang/pong)
 Pong game inspired by my teacher's warning not to write a Pong game. Has a neon
 aesthetic with a sprinkling of Perlin noise and lots of vector calculations.
