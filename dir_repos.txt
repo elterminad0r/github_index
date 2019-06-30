@@ -11,7 +11,7 @@
 /home/izaak/programmeren/1r1l1e/	https://github.com/goedel-gang/1r1l1e
 
 # Miscellaneous other
-/home/izaak/	https://github.com/goedel-gang/dotfiles
+/home/izaak/.github/	https://github.com/goedel-gang/dotfiles
 /home/izaak/programmeren/github_index/cache/physics/	https://github.com/goedel-gang/physics
 /home/izaak/fun/academic/	https://github.com/goedel-gang/maths
 

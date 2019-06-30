@@ -322,15 +322,14 @@ These are my dotfiles, maintained in Git using
     git clone --bare "https://github.com/goedel-gang/dotfiles" "$HOME/.cfg"
     # cfg stash
     cfg checkout
-    cfg submodule init
-    cfg submodule update
+    cfg submodule update --init
 
-![screenshot](https://github.com/goedel-gang/dotfiles/blob/master/extra/README_GRUVBOX.png)
+![screenshot](https://github.com/goedel-gang/dotfiles/blob/master/.github/README_GRUVBOX.png)
 
 How it has looked at some point in the past:
 
-![screenshot](https://github.com/goedel-gang/dotfiles/blob/master/extra/README_SOLARIZED.png)
-![screenshot](https://github.com/goedel-gang/dotfiles/blob/master/extra/README_SOLARIZED_OLD.png)
+![screenshot](https://github.com/goedel-gang/dotfiles/blob/master/.github/README_SOLARIZED.png)
+![screenshot](https://github.com/goedel-gang/dotfiles/blob/master/.github/README_SOLARIZED_OLD.png)
 ### [\[toc\]](#table-of-contents) [physics](https://github.com/goedel-gang/physics)
 All my physics stuff. Currently some experimenting with LaTeX and not much else.
 ### [\[toc\]](#table-of-contents) [maths](https://github.com/goedel-gang/maths)
@@ -1383,28 +1382,30 @@ Here are some screenshots:
 ![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/06_koch_snowflake.png)
 ![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/07_square_koch_curve.png)
 ![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/08_binary_tree.png)
-![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/09_crystal.png)
-![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/10_peano_curve.png)
-![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/11_krishna_anklets.png)
-![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/12_mango.png)
-![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/13_board.png)
-![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/14_square_sierpinski.png)
-![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/15_hexagonal_gosper.png)
-![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/16_quadratic_gosper.png)
-![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/17_bourke_triangle.png)
-![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/18_bourkes_first_bush.png)
-![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/19_bourkes_second_bush.png)
-![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/20_bourkes_third_bush.png)
-![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/21_saupes_bush.png)
-![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/22_bourke_stick.png)
-![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/23_bourke_weed.png)
-![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/24_koch_island_1.png)
-![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/25_koch_island_2.png)
-![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/26_koch_island_3.png)
-![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/27_koch_island_4.png)
-![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/28_pentaplexity.png)
-![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/29_bourke_rings.png)
-![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/30_bourke_2.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/09_fibonacci_word_fractal.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/10_crystal.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/11_peano_curve.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/12_krishna_anklets.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/13_mango.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/14_board.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/15_square_sierpinski.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/16_penrose_tiling.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/17_hexagonal_gosper.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/18_quadratic_gosper.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/19_bourke_triangle.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/20_bourkes_first_bush.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/21_bourkes_second_bush.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/22_bourkes_third_bush.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/23_saupes_bush.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/24_bourke_stick.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/25_bourke_weed.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/26_koch_island_1.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/27_koch_island_2.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/28_koch_island_3.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/29_koch_island_4.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/30_pentaplexity.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/31_bourke_rings.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/32_bourke_2.png)
 ### [\[toc\]](#table-of-contents) [pong](https://github.com/goedel-gang/pong)
 Pong game inspired by my teacher's warning not to write a Pong game. Has a neon
 aesthetic with a sprinkling of Perlin noise and lots of vector calculations.
