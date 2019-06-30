@@ -13,6 +13,7 @@ A bit of a meta-project on creating a nicer index of my github repositories. Par
     - [tile\_encodings](#toc-tile\_encodings)
     - [1r1l1e](#toc-1r1l1e)
 - [Miscellaneous other](#toc-miscellaneous-other)
+    - [dotfiles](#toc-dotfiles)
     - [physics](#toc-physics)
     - [maths](#toc-maths)
 - [Assignments](#toc-assignments)
@@ -313,6 +314,8 @@ decoding.
 There is also a script that generates some realistic real-world data,
 accompanied by a makefile that tests the whole things.
 # [\[toc\]](#table-of-contents) Miscellaneous other
+### [\[toc\]](#table-of-contents) [dotfiles](https://github.com/goedel-gang/dotfiles)
+
 These are my dotfiles, maintained in Git using
 
 <https://developer.atlassian.com/blog/2016/02/best-way-to-store-dotfiles-git-bare-repo/>
