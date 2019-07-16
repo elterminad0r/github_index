@@ -23,7 +23,6 @@ alone.
     - [autobiographical\_integers](#toc-autobiographical\_integers)
     - [factors\_multiples](#toc-factors\_multiples)
     - [tile\_encodings](#toc-tile\_encodings)
-    - [1r1l1e](#toc-1r1l1e)
 - [Miscellaneous other](#toc-miscellaneous-other)
     - [dotfiles](#toc-dotfiles)
     - [physics](#toc-physics)
@@ -54,6 +53,8 @@ alone.
     - [elf\_game](#toc-elf\_game)
     - [double\_pendulum](#toc-double\_pendulum)
     - [flippy\_bot](#toc-flippy\_bot)
+    - [fizzbuzz](#toc-fizzbuzz)
+    - [1r1l1e](#toc-1r1l1e)
     - [nctfe](#toc-nctfe)
 - [java-processing projects](#toc-java-processing-projects)
     - [alphabet](#toc-alphabet)
@@ -303,29 +304,6 @@ spoilers so go [here][3] to see it.
 [1]: https://github.com/goedel-gang/tile_encoding/blob/master/src/magic_encode.py
 [2]: https://github.com/goedel-gang/tile_encoding/blob/master/SOLUTION.md
 [3]: https://github.com/goedel-gang/tile_encoding/blob/master/DOCUMENTATION.md
-### [\[toc\]](#table-of-contents) [1r1l1e](https://github.com/goedel-gang/1r1l1e)
-
-This is basically a Python script to do run-length encoding (RLE). Seeing as RLE
-itself provides such poor compression, I thought I would write the script in as
-few bytes as possible in order to save disk space.
-
-You use `python rle.py` to RLE encode stdin, and `python elr.py` to RLE decode
-stdin. The use of separate programs avoids branching and parsing of argv in
-the scripts, which is a huge savings on bytes. It doesn't understand file
-arguments because that would take up too many LoC. Instead, you should just
-attach files to stdin and stdout as appropriate.
-
-The encoding it uses is quite simple - it writes alternating counts and bytes,
-where each byte of data is preceded by a count indicating how many times it
-occurs. The counts are themselves single bytes. If a count is greater than 255,
-it simply gets split into multiple count-byte pairs.
-
-It is unaware of Unicode, but not necessarily to its detriment. It just operates
-on stdin as a stream of bytes, and correctly restores this stream after
-decoding.
-
-There is also a script that generates some realistic real-world data,
-accompanied by a makefile that tests the whole things.
 # [\[toc\]](#table-of-contents) Miscellaneous other
 ### [\[toc\]](#table-of-contents) [dotfiles](https://github.com/goedel-gang/dotfiles)
 
@@ -943,6 +921,39 @@ because almost everything is on screen at once.
 Here is the resulting apocalypse:
 
 ![screenshot](https://github.com/goedel-gang/flippy_bot/blob/master/screenshots/apocalypse.png)
+### [\[toc\]](#table-of-contents) [fizzbuzz](https://github.com/goedel-gang/fizzbuzz)
+
+My crack at an over-engineered fizzbuzz, from about a year ago, as of
+
+    Tue 16 Jul 15:40:02 BST 2019
+
+Supports adding arbitrarily many fizzbuzz "rules" with the `--fb` command line
+argument. The classic ruleset would be achieved by
+
+    python fizzbuzz.py --fb 3 fizz --fb 5 buzz
+### [\[toc\]](#table-of-contents) [1r1l1e](https://github.com/goedel-gang/1r1l1e)
+
+This is basically a Python script to do run-length encoding (RLE). Seeing as RLE
+itself provides such poor compression, I thought I would write the script in as
+few bytes as possible in order to save disk space.
+
+You use `python rle.py` to RLE encode stdin, and `python elr.py` to RLE decode
+stdin. The use of separate programs avoids branching and parsing of argv in
+the scripts, which is a huge savings on bytes. It doesn't understand file
+arguments because that would take up too many LoC. Instead, you should just
+attach files to stdin and stdout as appropriate.
+
+The encoding it uses is quite simple - it writes alternating counts and bytes,
+where each byte of data is preceded by a count indicating how many times it
+occurs. The counts are themselves single bytes. If a count is greater than 255,
+it simply gets split into multiple count-byte pairs.
+
+It is unaware of Unicode, but not necessarily to its detriment. It just operates
+on stdin as a stream of bytes, and correctly restores this stream after
+decoding.
+
+There is also a script that generates some realistic real-world data,
+accompanied by a makefile that tests the whole things.
 ### [\[toc\]](#table-of-contents) [nctfe](https://github.com/goedel-gang/nctfe)
 
 This is an implementation of the 2048 game in Python, building up to a Python

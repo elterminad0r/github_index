@@ -8,7 +8,6 @@
 /home/izaak/programmeren/autobiographical_integers/	https://github.com/goedel-gang/autobiographical_integers
 /home/izaak/programmeren/factors_multiples/	https://github.com/goedel-gang/factors_multiples
 /home/izaak/programmeren/processing/tile_encoding/	https://github.com/goedel-gang/tile_encoding
-/home/izaak/programmeren/1r1l1e/	https://github.com/goedel-gang/1r1l1e
 
 # Miscellaneous other
 /home/izaak/.github/	https://github.com/goedel-gang/dotfiles
@@ -42,6 +41,8 @@
 /home/izaak/programmeren/github_index/cache/elf_game/	https://github.com/goedel-gang/elf_game
 /home/izaak/programmeren/github_index/cache/double_pendulum/	https://github.com/goedel-gang/double_pendulum
 /home/izaak/programmeren/flippy_bot/	https://github.com/goedel-gang/flippy_bot
+/home/izaak/programmeren/fizzbuzz/	https://github.com/goedel-gang/fizzbuzz
+/home/izaak/programmeren/1r1l1e/	https://github.com/goedel-gang/1r1l1e
 /home/izaak/programmeren/nctfe/	https://github.com/goedel-gang/nctfe
 
 # java-processing projects
