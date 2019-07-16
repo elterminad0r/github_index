@@ -42,6 +42,7 @@
 /home/izaak/programmeren/github_index/cache/elf_game/	https://github.com/goedel-gang/elf_game
 /home/izaak/programmeren/github_index/cache/double_pendulum/	https://github.com/goedel-gang/double_pendulum
 /home/izaak/programmeren/flippy_bot/	https://github.com/goedel-gang/flippy_bot
+/home/izaak/programmeren/nctfe/	https://github.com/goedel-gang/nctfe
 
 # java-processing projects
 /home/izaak/programmeren/github_index/cache/alphabet/	https://github.com/goedel-gang/alphabet

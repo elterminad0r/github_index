@@ -54,6 +54,7 @@ alone.
     - [elf\_game](#toc-elf\_game)
     - [double\_pendulum](#toc-double\_pendulum)
     - [flippy\_bot](#toc-flippy\_bot)
+    - [nctfe](#toc-nctfe)
 - [java-processing projects](#toc-java-processing-projects)
     - [alphabet](#toc-alphabet)
     - [balls](#toc-balls)
@@ -338,6 +339,9 @@ These are my dotfiles, maintained in Git using
     # cfg stash
     cfg checkout
     cfg submodule update --init
+
+Of course they should be considered an entirely volatile, possibly hostile work
+in progress.
 
 ![screenshot](https://github.com/goedel-gang/dotfiles/blob/master/.github/README_GRUVBOX.png)
 
@@ -939,6 +943,15 @@ because almost everything is on screen at once.
 Here is the resulting apocalypse:
 
 ![screenshot](https://github.com/goedel-gang/flippy_bot/blob/master/screenshots/apocalypse.png)
+### [\[toc\]](#table-of-contents) [nctfe](https://github.com/goedel-gang/nctfe)
+
+This is an implementation of the 2048 game in Python, building up to a Python
+`curses` interface. Named `nctfe` in the spirit of `ncdu` and `ncmpc` and so on.
+
+Doesn't do anything so clever as tracking high scores or saving games yet,
+regrettably.
+
+![screenshot](https://github.com/goedel-gang/nctfe/blob/master/win_screenshot_20190716_144759.png)
 # [\[toc\]](#table-of-contents) java-processing projects
 ### [\[toc\]](#table-of-contents) [alphabet](https://github.com/goedel-gang/alphabet)
 Shading the screen using letters of the alphabet in Processing. All printable ascii keys on the keyboard are accessible from the keyboard. Some special keys (space, enter) are used for acceleration. ASCII value scales with the x value. Here are some screenshots:
@@ -1417,7 +1430,7 @@ Here are some screenshots:
 ![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/26_koch_island_1.png)
 ![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/27_koch_island_2.png)
 ![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/28_koch_island_3.png)
-![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/29_koch_island_4.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/29_minkowski_islandsausage.png)
 ![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/30_pentaplexity.png)
 ![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/31_bourke_rings.png)
 ![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/32_bourke_2.png)
