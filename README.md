@@ -355,6 +355,7 @@ the [hand-in tag](https://github.com/goedel-gang/anagrams/tree/hand-in).
 Assignment on textfiles/encryption. Find what I handed in upon the
 [hand-in tag](https://github.com/goedel-gang/encryption/tree/hand-in).
 ### [\[toc\]](#table-of-contents) [noughtsandcrosses](https://github.com/goedel-gang/noughtsandcrosses)
+
 A CLI noughts and crosses framework in Python. It looks something like this:
 
 	   0  1  2 
@@ -372,9 +373,15 @@ A CLI noughts and crosses framework in Python. It looks something like this:
 	 ---+---+---
 	2   |   |   
 
-Minmax is also implemented - see `writeup.pdf`. The version I handed in can be
+Minmax is also implemented - see `writeup`. The version I handed in can be
 seen at the
 [hand-in tag](https://github.com/goedel-gang/noughtsandcrosses/tree/hand-in).
+
+The serious source code is in `src`. Use `python3 src/play.py -c` to play
+against a computer. I also tacked on a ""minimalist"" UI in Processing. The
+source code for this is at the top level because of the way Processing like
+folders to be. It's generally a little botched because I had to translate things
+to Python 2.
 
 ![screenshot](https://github.com/goedel-gang/noughtsandcrosses/blob/master/win_screenshot_20180712_110639.png)
 ### [\[toc\]](#table-of-contents) [GUIssing](https://github.com/goedel-gang/GUIssing)
@@ -963,6 +970,13 @@ Doesn't do anything so clever as tracking high scores or saving games yet,
 regrettably.
 
 ![screenshot](https://github.com/goedel-gang/nctfe/blob/master/win_screenshot_20190716_144759.png)
+
+Also features preposterously large boards and autoplay mode so you can make
+impressive screenshots like this:
+
+![screenshot](https://github.com/goedel-gang/nctfe/blob/master/win_screenshot_20190716_162511.png)
+
+This mode is best leveraged with PyPy.
 # [\[toc\]](#table-of-contents) java-processing projects
 ### [\[toc\]](#table-of-contents) [alphabet](https://github.com/goedel-gang/alphabet)
 Shading the screen using letters of the alphabet in Processing. All printable ascii keys on the keyboard are accessible from the keyboard. Some special keys (space, enter) are used for acceleration. ASCII value scales with the x value. Here are some screenshots:
@@ -1428,23 +1442,24 @@ Here are some screenshots:
 ![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/13_mango.png)
 ![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/14_board.png)
 ![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/15_square_sierpinski.png)
-![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/16_penrose_tiling.png)
-![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/17_hexagonal_gosper.png)
-![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/18_quadratic_gosper.png)
-![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/19_bourke_triangle.png)
-![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/20_bourkes_first_bush.png)
-![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/21_bourkes_second_bush.png)
-![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/22_bourkes_third_bush.png)
-![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/23_saupes_bush.png)
-![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/24_bourke_stick.png)
-![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/25_bourke_weed.png)
-![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/26_koch_island_1.png)
-![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/27_koch_island_2.png)
-![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/28_koch_island_3.png)
-![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/29_minkowski_islandsausage.png)
-![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/30_pentaplexity.png)
-![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/31_bourke_rings.png)
-![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/32_bourke_2.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/16_cantor_set.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/17_penrose_tiling.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/18_hexagonal_gosper.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/19_quadratic_gosper.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/20_bourke_triangle.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/21_bourkes_first_bush.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/22_bourkes_second_bush.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/23_bourkes_third_bush.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/24_saupes_bush.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/25_bourke_stick.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/26_bourke_weed.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/27_koch_island_1.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/28_koch_island_2.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/29_koch_island_3.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/30_minkowski_islandsausage.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/31_pentaplexity.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/32_bourke_rings.png)
+![screenshot](https://github.com/goedel-gang/lsystems/blob/master/screenshots/33_bourke_2.png)
 ### [\[toc\]](#table-of-contents) [pong](https://github.com/goedel-gang/pong)
 Pong game inspired by my teacher's warning not to write a Pong game. Has a neon
 aesthetic with a sprinkling of Perlin noise and lots of vector calculations.
