@@ -311,12 +311,13 @@ These are my dotfiles, maintained in Git using
 
 <https://developer.atlassian.com/blog/2016/02/best-way-to-store-dotfiles-git-bare-repo/>
 
+	cd
     alias cfg='/usr/bin/git --git-dir="$HOME/.cfg/" --work-tree=$HOME'
-    cfg config --local status.showUntrackedFiles no
     git clone --bare "https://github.com/goedel-gang/dotfiles" "$HOME/.cfg"
-    # cfg stash
-    cfg checkout
+    cfg config --local status.showUntrackedFiles no
+    cfg checkout || { cfg stash; cfg checkout }
     cfg submodule update --init
+	exec zsh
 
 Of course they should be considered an entirely volatile, possibly hostile work
 in progress.
@@ -331,12 +332,7 @@ How it has looked at some point in the past:
 All my physics stuff. Currently some experimenting with LaTeX and not much else.
 ### [\[toc\]](#table-of-contents) [maths](https://github.com/goedel-gang/maths)
 
-A document of some description of sorts, with some maths in. Mostly for fun and
-learning LaTeX.
-
-Features some dangerously nice typesetting, and some atrociously bad
-typesetting. One day I might understand how to use TiKz, but for now
-`chi_t_notes/` is all you're getting.
+Repository/dumping ground for maths
 # [\[toc\]](#table-of-contents) Assignments
 ### [\[toc\]](#table-of-contents) [palindromes](https://github.com/goedel-gang/palindromes)
 
